@@ -97,4 +97,4 @@ close$_}%p;wait until$?;map{/^r/&&<$_>}%p;$_=$d[$q];sleep rand(2)if/\S/;print
                            #liverpole                                  @@@@@@@
                         #@@@@@@@@@@@
         -- Just Another Perl hacker
- %
+%
