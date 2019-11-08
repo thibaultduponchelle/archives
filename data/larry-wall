@@ -153,7 +153,6 @@ What about WRITING it first and rationalizing it afterwards?
 You want it in one line? Does it have to fit in 80 columns?
         -- Larry Wall
 %
-1991
 All language designers are arrogant. Goes with the territory...
         -- Larry Wall
 %
@@ -173,9 +172,11 @@ In general, if you think something isn't in Perl, try it out, because it usually
         -- Larry Wall
 %
 I think it's a new feature. Don't tell anyone it was an accident.
-On s/foo/bar/eieio Usenet article <10911@jpl-devvax.JPL.NASA.GOV> (1991)
+        -- Larry Wall
+%
 It's there as a sop to former Ada programmers.
-Regarding 10_000_000 Usenet article <11556@jpl-devvax.JPL.NASA.GOV> (1991)
+        -- Larry Wall
+%
 I won't mention any names, because I don't want to get sun4's into trouble...
         -- Larry Wall
 %
@@ -201,58 +202,12 @@ There are many times when you want it to ignore the rest of the string just like
 We all agree on the necessity of compromise. We just can't agree on when it's necessary to compromise.
         -- Larry Wall
 %
-1992
 ... an initial underscore already conveys strong feelings of magicalness to a C programmer.
         -- Larry Wall
 %
 And I don't like doing silly things (except on purpose).
         -- Larry Wall
 %
- : And it goes against the grain of building small tools.
-Innocent, Your Honor. Perl users build small tools all day long.
-        -- Larry Wall
-%
-But you have to allow a little for the desire to evangelize when you think you have good news.
-        -- Larry Wall
-%
-Down that path lies madness. On the other hand, the road to hell is paved with melting snowballs.
-        -- Larry Wall
-%
-If I don't document something, it's usually either for a good reason, or a bad reason. In this case it's a good reason.
-        -- Larry Wall
-%
-If you want to see useful Perl examples, we can certainly arrange to have comp.lang.misc flooded with them, but I don't think that would help the advance of civilization.
-        -- Larry Wall
-%
-> (It's sorta like sed, but not. It's sorta like awk, but not. etc.)
-Guilty as charged. Perl is happily ugly, and happily derivative.
-        -- Larry Wall
-%
-Just don't compare it with a real language, or you'll be unhappy...
-        -- Larry Wall
-%
-Lispers are among the best grads of the Sweep-It-Under-Someone-Else's-Carpet School of Simulated Simplicity. [Was that sufficiently incendiary?]
-        -- Larry Wall
-%
-There ain't nothin' in this world that's worth being a snot over.
-        -- Larry Wall
-%
-...this does not mean that some of us should not want, in a rather dispassionate sort of way, to put a bullet through csh's head.
-        -- Larry Wall
-%
-Unix is like a toll road on which you have to stop every 50 feet to pay another nickel. But hey! You only feel 5 cents poorer each time.
-        -- Larry Wall
-%
-What is the sound of Perl? Is it not the sound of a wall that people have stopped banging their heads against?
-        -- Larry Wall
-%
-You have to admit that it's difficult to misplace the Perl sources.
-        -- Larry Wall
-%
-Doing linear scans over an associative array is like trying to club someone to death with a loaded Uzi.
-        -- Larry Wall
-%
-1994
 Well, enough clowning around. Perl is, in intent, a cleaned up and summarized version of that wonderful semi-natural language known as
 'Unix'.
         -- Larry Wall
@@ -269,7 +224,6 @@ Lisp has all the visual appeal of oatmeal with fingernail clippings mixed in.
 I don't like your I-can-use-anything-as-an-adjective attitude.
         -- Larry Wall
 %
-1997
 I want to see people using Perl to glue things together creatively, not just technically but also socially.
         -- Larry Wall
 %
@@ -632,7 +586,6 @@ There's some entertainment value in watching people juggle nitroglycerin.
 Reserve your abuse for your true friends.
         -- Larry Wall
 %
-1998
 Er, Tom, I hate to be the one to point this out, but your fix list is starting to resemble a feature list. You must be human or something.
         -- Larry Wall
 %
