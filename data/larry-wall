@@ -852,3 +852,270 @@ Is LISP a candidate for a scripting language? While you can certainly write thin
 As a linguist, I don't think of Ada as a big language. Now, English and Japanese, those are big languages. Ada is just a medium-sized language.
         -- Larry Wall
 %
+Making BEGIN execute as soon as it's parsed gives BEGIN a Meaningful
+Existence.  Previously it was redundant with ordinary package init
+code, and its only purpose in life was the awk BEGIN {} emulation.
+It now has a higher purpose in life (or lower, depending on your moral
+orientation).
+        -- Larry Wall
+%
+No, you're sane, just misguided...  :-)
+        -- Larry Wall
+%
+Obviously, the next step in evolution is to shed symmetry altogether.
+I'd give my right arm for that.
+        -- Larry Wall
+%
+Interestingly (you will appreciate this as an Italian, or at least
+a resident of Italy), I was reading Umberto Eco's _The Search for a
+Perfect Language_, and he makes the point that, over the centuries,
+many of the designers of "perfect" languages have fallen into the trap
+of trying to make similar things look similar.  He goes on to argue
+that similar things should look different, because when you don't,
+you end up with too little redundancy for effective communication.
+        -- Larry Wall
+%
+On the other hand, I don't hesitate to break undocumented misfeatures.
+Anyone who depends on undocumented behavior is just asking for a life
+of misery, in my arrogant opinion.
+        -- Larry Wall
+%
+Fortunately, it's easier to keep an old interpreter around than an
+old computer.
+        -- Larry Wall
+%
+Fortunately, most of the baroque complexity of Perl is the spirit (ghost?
+ghoul?) of Unix shining through, so a lot of that effort will apply elsewhere.
+        -- Larry Wall
+%
+Considering the alternative, I'll go for that.  :-)
+        -- Larry Wall
+%
+And what's so amazing about me being better than other people with Perl?
+I bet you're better than me with auth.  You push auth a little, I push
+Perl a little, and the world becomes a better place.  If you consistently
+take an antagonististic approach, however, people are going to start
+thinking you're from New York.   :-)
+        -- Larry Wall
+%
+Oh, gimme a break.  Perl semantics are a regularization of Unix semantics.
+Perl was never intended to be an ivory tower language.  It's more like
+a tank than a mine field.  It may be ugly, but it shoots straight and
+gets you where you're going, if you don't mind a few squashed daisies.
+        -- Larry Wall
+%
+Lispers are among the best grads of the Sweep-It-Under-Someone-Else's-Carpet
+School of Simulated Simplicity.
+[Was that sufficiently incendiary?  :-)]
+        -- Larry Wall
+%
+If I allowed "next $label" then I'd also have to allow "goto $label", and
+I don't think you really want that...  :-)
+        -- Larry Wall
+%
+I do quarrel with logic that says, "Stupid people are associated with X,
+therefore X is stupid."  Stupid people are associated with everything.
+        -- Larry Wall
+%
+Actually, I'd rather be a future legend than a past legend.
+        -- Larry Wall
+%
+Just to take one example, many of the decisions in a business are made
+for, um, business reasons.  The most successful products are compromises
+between engineering and marketeering.  Companies with too much marketeering
+put out crap.  Companies with too much engineering never put out anything.
+The most successful products are about 90% crap.
+        -- Larry Wall
+%
+away, but by now I'm in the habit.  Besides, I still harbor the deep-down
+suspicion that nobody would pay money for what I write, since most of it
+just helps you do something better that you could already do some other way.
+How much money would you personally pay to upgrade from readnews to rn?
+        -- Larry Wall
+%
+Life teaches us that there's no correlation between simple questions
+and simple answers.
+        -- Larry Wall
+%
+last|perl -pe '$_ x=/(..:..)...(.*)/&&"'$1'"ge$1&&"'$1'"lt$2'
+That's gonna be tough for Randal to beat...  :-)
+        -- Larry Wall
+%
+Hmm.  I wonder if the ii option should make it twice as case insensitive...
+        -- Larry Wall
+%
+While I usually come down on the side of intuition, I must point out
+that every novice programmer has a multitude of bad habits that must be
+beat out of him or her.  Our abhorrence of violence (which was beat
+into us by our culture) should not deter us from beating civility into
+those who need it.
+        -- Larry Wall
+%
+Experts are purposefully ambiguous; novices only accidentally so.
+        -- Larry Wall
+Simpler?  Less clutter?  In some sense, maybe.  Would you consider your
+life simpler and less cluttered if we removed all the stop signs from
+our streets?
+        -- Larry Wall
+%
+What is the sound of Perl?  Is it not the sound of a wall that
+people have stopped banging their heads against?
+        -- Larry Wall
+%
+No quarrel with that.  But you have to allow a little for the desire to
+evangelize when you think you have good news.  Now, it's expected when
+you evangelize that some seed will fall on the pathway, some on rocky
+ground, some among weeds, and some into good soil.  Sometimes you put
+seed into inappropriate places because, as an evangelist, either you
+don't have a very discriminating broadcast medium, or you don't know
+offhand whether a place is appropriate or not.  Not your responsibility.
+Like it says, "He that hath ears, let him hear."
+        -- Larry Wall
+%
+Well, that depends on how you define "better".  :-)
+        -- Larry Wall
+%
+Many Perl routines expect to be run in the context of "the current
+interpreter".  If you don't supply one, you'll have an interesting life.
+        -- Larry Wall
+%
+Myself, I never cared much about my chance of dying as expressed either
+per mile, or per boarding.  I'd rather know what chance I have of dying
+per minute.  THAT'S the curve whose integral I try to keep low, in the
+absence of higher goals...
+        -- Larry Wall
+%
+It's a never-ending battle.  Configure is a lieutenant with good
+tactics trying to cover for the generals' bad strategy...
+        -- Larry Wall
+%
+No, I'm not going to explain it.  If you can't figure it out, you didn't
+want to know anyway...  :-)
+        -- Larry Wall
+%
+$[ is moribund and quarantined.  Pretend it doesn't exist, and go about
+your life.
+        -- Larry Wall
+%
+Down that path lies madness.
+On the other hand, the road to hell is paved with melting snowballs.
+        -- Larry Wall
+%
+On one level, yes, it's a bad example.  But on another level, it's a
+reasonable test of how good a language is at making contextually
+sensitive changes.  If you want to see useful Perl examples, we can
+certainly arrange to have comp.lang.misc flooded with them, but I don't
+think that would help the advance of civilization.  :-)
+        -- Larry Wall
+%
+Please don't paint me stupid, Central North American that I am.
+        -- Larry Wall
+%
+Seriously, things have just been incredibly hectic for me lately.  Sigh.
+They say life begins at 40, but they never say what kind of life.
+        -- Larry Wall
+%
+I'm not smart enough to be happy about thinking that hard.
+        -- Larry Wall
+%
+Perl isn't about nested data structures.  It prefers flat data structures.
+Perl is more like a chainsaw than a jig saw.  Or think of Perl as a bigger
+hammer.  It lets you treat everything like a nail, and get away with it most
+of the time.  But sometimes not.
+        -- Larry Wall
+%
+If you want to program in C, program in C.  It's a nice language.  I use
+it occasionally...   :-)
+        -- Larry Wall
+%
+I know it's weird, but it does make it easier to write poetry in perl.    :-)
+        -- Larry Wall
+%
+Symmetry is overrated.  Overrated is symmetry.
+        -- Larry Wall
+%
+King and Ghandi were once gnats on the body politic too.  I hope my sense
+of reality is as severely defective as theirs.
+        -- Larry Wall
+%
+Just don't create a file called -rf.  :-)
+        -- Larry Wall
+%
+Let's state it mathematically.  For any sized flea, there exists some
+number N, for which N or more fleas will make one's life miserable.
+And the number N can be made to vary exponentially, given sufficiently
+warm weather and a suitable carpet.
+        -- Larry Wall
+%
+You're not supposed to enjoy being a martyr.
+        -- Larry Wall
+%
+Er, don't use a toy language for a real problem...  :-)
+        -- Larry Wall
+%
+The only disadvantage I see is that it would force everyone to get Perl.
+Horrors.  :-)
+        -- Larry Wall
+%
+It won't be covered in the book.  The source code has to be useful for
+something, after all...  :-)
+        -- Larry Wall
+%
+On the other hand, I think that Randal and I would agree that being
+"nice" is not necessarily the highest goal in life.  Someone has to
+report the bad news as well as the good.  A good messenger has to
+ignore the fact that he might get shot.
+        -- Larry Wall
+%
+harder to write portable code since all these new standards came out.
+For each new standard, there are those that haven't implemented it, those
+        -- Larry Wall
+%
+The difficulties of 4.010 stem from two sources.  First, I've thrown a
+few long-desired optimizations in that busted things.  Optimizations always
+bust things, because all optimizations are, in the long haul, a form of
+cheating, and cheaters eventually get caught.
+        -- Larry Wall
+%
+All language designers are arrogant.  Goes with the territory... :-)
+        -- Larry Wall
+%
+Sorry.  My testing organization is either too small, or too large, depending
+on how you look at it.  :-)
+        -- Larry Wall
+%
+Orthogonality is for the birds.  And even the birds don't want it.
+        -- Larry Wall
+%
+Now, to drag this back to the realm of computer science, 90% of the
+programs I write are mostly doing text processing.  You tell me whether
+my language should specialize in text processing.  Yeah, sure, a good
+miminalist can decompose the concept of strings into the concepts of
+arrays and integers.  In fact, that's just what C does.  Computers love
+it.  People who think like computers love it.  But is that what most
+people really want most of the time?  I suspect you know my answer.
+        -- Larry Wall
+%
+We already have a zillion miminalistic languages.  CS departments are
+full of 'em.  Sometimes you have to go around stomping the little
+beggars just to keep their population in check.
+        -- Larry Wall
+%
+Seriously, it's durn near impossible for one language to be better than
+another language at absolutely everything.  My favorite language is
+call STAR.  It's extremely concise.  It has exactly one verb '*', which
+does exactly what I want at the moment.  You know, kinda like the
+control box for Gigantor.
+        -- Larry Wall
+%
+Hey, I had to let awk be better at *something*...  :-)
+        -- Larry Wall
+%
+Doing linear scans over an associative array is like trying to club someone
+to death with a loaded Uzi.
+        -- Larry Wall
+%
+If I don't document something, it's usually either for a good reason,
+or a bad reason.  In this case it's a good reason.  :-)
+        -- Larry Wall
+%
