@@ -1,4 +1,4 @@
-# :speech: perl-fortunes
+# :speech_balloon: perl-fortunes
 A Perl collection of quotes to be used by crazy people as a fortune database 
 
 ## :hammer: Setup
