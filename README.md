@@ -1,4 +1,4 @@
-# perl-fortunes
+# :cookie: perl-fortunes
 A Perl collection of quotes to be used by crazy people as a fortune database 
 
 ## :hammer: Setup
