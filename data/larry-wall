@@ -67,3 +67,760 @@ and how Perl was used to massage the data into a cohesive whole."
 "The problem with being consistent is that there are lots of ways to be consistent, and they’re all inconsistent with each other"
         -- Larry Wall
 %
+Although the Perl Slogan is There's More Than One Way to Do It, I hesitate to make 10 ways to do something.
+        -- Larry Wall
+%
+And don't tell me there isn't one bit of difference between null and space, because that's exactly how much difference there is.
+        -- Larry Wall
+%
+Because . doesn't match \n. [\0-\377] is the most efficient way to match everything currently. Maybe \e should match everything. And \E would of course match nothing.
+        -- Larry Wall
+%
+Besides, REAL computers have a rename() system call.
+        -- Larry Wall
+%
+Chip Salzenberg sent me a complete patch to add System V IPC (msg, sem and shm calls), so I added them. If that bothers you, you can always undefine them in config.sh.
+        -- Larry Wall
+%
+I don't know if it's what you want, but it's what you get.
+        -- Larry Wall
+%
+I dunno, I dream in Perl sometimes...
+        -- Larry Wall
+%
+Piet van Oostrum: I find this a nice feature but it is not according to the documentation. Or is it a BUG?
+Larry Wall: Let's call it an accidental feature.
+        -- Larry Wall
+%
+(To someone at New York University) If you consistently take an antagonistic approach, however, people are going to start thinking you're from New York.
+        -- Larry Wall
+%
+If you want to program in C, program in C. It's a nice language. I use it occasionally...
+        -- Larry Wall
+%
+I know it's weird, but it does make it easier to write poetry in perl.
+        -- Larry Wall
+%
+I'm sure that that could be indented more readably, but I'm scared of the awk parser.
+        -- Larry Wall
+%
+It is, of course, written in Perl. Translation to C is left as an exercise for the reader.
+        -- Larry Wall
+%
+It's all magic.
+        -- Larry Wall
+%
+It's documented in The Book, somewhere...
+        -- Larry Wall
+%
+It won't be covered in the book. The source code has to be useful for something, after all...
+        -- Larry Wall
+%
+Dan Smith: I've tried (in vi) 'g/[a-z]\n[a-z]/s//_/'...but that doesn't cut it. Any ideas? (I take it that it may be a two-pass sort of solution).
+Larry Wall: In the first pass, install perl.
+        -- Larry Wall
+%
+Let's say the docs present a simplified view of reality...
+        -- Larry Wall
+%
+Let us be charitable, and call it a misleading feature
+        -- Larry Wall
+%
+Perl programming is an *empirical* science!
+        -- Larry Wall
+%
+Randal said it would be tough to do in sed. He didn't say he didn't understand sed. Randal understands sed quite well. Which is why he uses Perl.
+        -- Larry Wall
+%
+Real programmers can write assembly code in any language.
+        -- Larry Wall
+%
+The only disadvantage I see is that it would force everyone to get Perl. Horrors.
+        -- Larry Wall
+%
+There are probably better ways to do that, but it would make the parser more complex. I do, occasionally, struggle feebly against complexity...
+        -- Larry Wall
+%
+There are still some other things to do, so don't think if I didn't fix your favorite bug that your bug report is in the bit bucket. (It may be, but don't think it.
+        -- Larry Wall
+%
+Though I'll admit readability suffers slightly...
+        -- Larry Wall
+%
+What about WRITING it first and rationalizing it afterwards?
+        -- Larry Wall
+%
+You want it in one line? Does it have to fit in 80 columns?
+        -- Larry Wall
+%
+1991
+All language designers are arrogant. Goes with the territory...
+        -- Larry Wall
+%
+Besides, including <std_ice_cubes.h> is a fatal error on machines that don't have it yet. Bad language design, there...
+        -- Larry Wall
+%
+Besides, it's good to force C programmers to use the toolbox occasionally.
+        -- Larry Wall
+%
+Hey, I had to let awk be better at *something*...
+        -- Larry Wall
+%
+If I allowed 'next $label' then I'd also have to allow 'goto $label', and I don't think you really want that...
+        -- Larry Wall
+%
+In general, if you think something isn't in Perl, try it out, because it usually is.
+        -- Larry Wall
+%
+I think it's a new feature. Don't tell anyone it was an accident.
+On s/foo/bar/eieio Usenet article <10911@jpl-devvax.JPL.NASA.GOV> (1991)
+It's there as a sop to former Ada programmers.
+Regarding 10_000_000 Usenet article <11556@jpl-devvax.JPL.NASA.GOV> (1991)
+I won't mention any names, because I don't want to get sun4's into trouble...
+        -- Larry Wall
+%
+Just don't create a file called -rf.
+        -- Larry Wall
+%
+last|perl -pe '$_ x=/(..:.)...(.*)/&&"'$1'"ge$1&&"'$1'"lt$2'
+That's gonna be tough for Randal to beat...
+        -- Larry Wall
+%
+No, I'm not going to explain it. If you can't figure it out, you didn't want to know anyway...
+        -- Larry Wall
+%
+Perl itself is usually pretty good about telling you what you shouldn't do.
+        -- Larry Wall
+%
+Sorry. My testing organization is either too small, or too large, depending on how you look at it.
+        -- Larry Wall
+%
+There are many times when you want it to ignore the rest of the string just like atof() does. Oddly enough, Perl calls atof(). How convenient.
+        -- Larry Wall
+%
+We all agree on the necessity of compromise. We just can't agree on when it's necessary to compromise.
+        -- Larry Wall
+%
+1992
+... an initial underscore already conveys strong feelings of magicalness to a C programmer.
+        -- Larry Wall
+%
+And I don't like doing silly things (except on purpose).
+        -- Larry Wall
+%
+ : And it goes against the grain of building small tools.
+Innocent, Your Honor. Perl users build small tools all day long.
+        -- Larry Wall
+%
+But you have to allow a little for the desire to evangelize when you think you have good news.
+        -- Larry Wall
+%
+Down that path lies madness. On the other hand, the road to hell is paved with melting snowballs.
+        -- Larry Wall
+%
+If I don't document something, it's usually either for a good reason, or a bad reason. In this case it's a good reason.
+        -- Larry Wall
+%
+If you want to see useful Perl examples, we can certainly arrange to have comp.lang.misc flooded with them, but I don't think that would help the advance of civilization.
+        -- Larry Wall
+%
+> (It's sorta like sed, but not. It's sorta like awk, but not. etc.)
+Guilty as charged. Perl is happily ugly, and happily derivative.
+        -- Larry Wall
+%
+Just don't compare it with a real language, or you'll be unhappy...
+        -- Larry Wall
+%
+Lispers are among the best grads of the Sweep-It-Under-Someone-Else's-Carpet School of Simulated Simplicity. [Was that sufficiently incendiary?]
+        -- Larry Wall
+%
+There ain't nothin' in this world that's worth being a snot over.
+        -- Larry Wall
+%
+...this does not mean that some of us should not want, in a rather dispassionate sort of way, to put a bullet through csh's head.
+        -- Larry Wall
+%
+Unix is like a toll road on which you have to stop every 50 feet to pay another nickel. But hey! You only feel 5 cents poorer each time.
+        -- Larry Wall
+%
+What is the sound of Perl? Is it not the sound of a wall that people have stopped banging their heads against?
+        -- Larry Wall
+%
+You have to admit that it's difficult to misplace the Perl sources.
+        -- Larry Wall
+%
+Doing linear scans over an associative array is like trying to club someone to death with a loaded Uzi.
+        -- Larry Wall
+%
+1994
+Well, enough clowning around. Perl is, in intent, a cleaned up and summarized version of that wonderful semi-natural language known as
+'Unix'.
+        -- Larry Wall
+%
+Anyway, there's plenty of room for doubt. It might seem easy enough, but computer language design is just like a stroll in the park.
+        -- Larry Wall
+%
+Jurassic Park, that is.
+        -- Larry Wall
+%
+Lisp has all the visual appeal of oatmeal with fingernail clippings mixed in.
+        -- Larry Wall
+%
+I don't like your I-can-use-anything-as-an-adjective attitude.
+        -- Larry Wall
+%
+1997
+I want to see people using Perl to glue things together creatively, not just technically but also socially.
+        -- Larry Wall
+%
+The whole history of computers is rampant with cheerleading at best and bigotry at worst.
+        -- Larry Wall
+%
+If someone stinks, view it as a reason to help them, not a reason to avoid them.
+        -- Larry Wall
+%
+As usual, I'm overstating the case to knock a few neurons loose, but the truth is usually somewhere in the muddle, uh, middle.
+        -- Larry Wall
+%
+Odd that we think definitions are definitive.
+        -- Larry Wall
+%
+ : But for some things, Perl just isn't the optimal choice.
+        -- Larry Wall
+%
+(yet)
+        -- Larry Wall
+%
+I don't like this official/unofficial distinction. It sound, er, officious.
+        -- Larry Wall
+%
+If you write something wrong enough, I'll be glad to make up a new witticism just for you.
+        -- Larry Wall
+%
+So far we've managed to avoid turning Perl into APL.
+        -- Larry Wall
+%
+Not that I have anything much against redundancy. But I said that already.
+        -- Larry Wall
+%
+They can always run stderr through uniq.
+        -- Larry Wall
+%
+I'd put my money where my mouth is, but my mouth keeps moving.
+        -- Larry Wall
+%
+Of course, I reserve the right to make wholly stupid changes to Perl if I think they improve the language.
+        -- Larry Wall
+%
+Call me bored, but don't call me boring.
+        -- Larry Wall
+%
+I think $[ is more like a coelacanth than a mastadon.
+        -- Larry Wall
+%
+We question most of the mantras around here periodically, in case you hadn't noticed.
+        -- Larry Wall
+%
+That could certainly be done, but I don't want to fall into the Forth trap, where every running Forth implementation is really a different language.
+        -- Larry Wall
+%
+Tcl long ago fell into the Forth trap, and is now trying desperately to extricate itself (with some help from Sun's marketing department).
+        -- Larry Wall
+%
+The whole intent of Perl 5's module system was to encourage the growth of Perl culture rather than the Perl core.
+        -- Larry Wall
+%
+Randal can write one-liners again. Everyone is happy, and peace spreads over the whole Earth.
+        -- Larry Wall
+%
+Life gets boring, someone invents another necessity, and once again we turn the crank on the screwjack of progress hoping that nobody gets screwed.
+        -- Larry Wall
+%
+No prisoner's dilemma here. Over the long term, symbiosis is more useful than parasitism. More fun, too. Ask any mitochondria.
+        -- Larry Wall
+%
+P.S. Perl's master plan (or what passes for one) is to take over the world like English did. Er, *as* English did...
+        -- Larry Wall
+%
+You can prove anything by mentioning another computer language.
+        -- Larry Wall
+%
+I think you didn't get a reply because you used the terms 'correct' and 'proper', neither of which has much meaning in Perl culture.
+        -- Larry Wall
+%
+I'm sure a mathematician would claim that 0 and 1 are both very interesting numbers.
+        -- Larry Wall
+%
+True, it returns ' ' for false, but ' ' is an even more interesting number than 0.
+        -- Larry Wall
+%
+Any false value is gonna be fairly boring in Perl, mathematicians notwithstanding.
+        -- Larry Wall
+%
+We didn't put in ^^ because then we'd have to keep telling people what it means, and then we'd have to keep telling them why it doesn't short circuit. :-/
+        -- Larry Wall
+%
+Anybody want a binary telemetry frame editor written in Perl?
+        -- Larry Wall
+%
+Perhaps I'm missing the gene for making enemies.
+        -- Larry Wall
+%
+Perl has a long tradition of working around compilers.
+        -- Larry Wall
+%
+Personally, I like to defiantly split my infinitives.
+        -- Larry Wall
+%
+Real theology is always rather shocking to people who already think they know what they think. I'm still shocked myself.
+        -- Larry Wall
+%
+The computer should be doing the hard work. That's what it's paid to do, after all.
+        -- Larry Wall
+%
+The following two statements are usually both true:
+There's not enough documentation.
+There's too much documentation.
+        -- Larry Wall
+%
+Of course, this being Perl, we could always take both approaches.
+        -- Larry Wall
+%
+The random quantum fluctuations of my brain are historical accidents that happen to have decided that the concepts of dynamic scoping and lexical scoping are orthogonal and should remain that way.
+        -- Larry Wall
+%
+At many levels, Perl is a 'diagonal' language.
+        -- Larry Wall
+%
+I'm serious about thinking through all the possibilities before we settle on anything. All things have the advantages of their disadvantages, and vice versa.
+        -- Larry Wall
+%
+Part of language design is perturbing the proposed feature in various directions to see how it might generalize in the future.
+        -- Larry Wall
+%
+Sometimes we choose the generalization. Sometimes we don't.
+        -- Larry Wall
+%
+I wouldn't ever write the full sentence myself, but then, I never use goto either.
+        -- Larry Wall
+%
+It's appositival, if it's there. And it doesn't have to be there. And it's really obvious that it's there when it's there.
+        -- Larry Wall
+%
+Oh, get ahold of yourself. Nobody's proposing that we parse English.
+        -- Larry Wall
+%
+As with all the other proposals, it's basically just a list of words. You can deal with that...
+        -- Larry Wall
+%
+I hope I'm not getting so famous that I can't think out load [sic] anymore.
+        -- Larry Wall
+%
+It would be possible to optimize some forms of goto, but I haven't bothered.
+        -- Larry Wall
+%
+A 'goto' in Perl falls into the category of hard things that should be possible, not easy things that should be easy.
+        -- Larry Wall
+%
+How do Crays and Alphas handle the POSIX problem?
+        -- Larry Wall
+%
+Well, that's more-or-less what I was saying, though obviously addition is a little more cosmic than the bitwise operators.
+        -- Larry Wall
+%
+You tell it that it's indicative by appending $!. That's why we made $! such a short variable name, after all.
+        -- Larry Wall
+%
+The choice of approaches could be made the responsibility of the programmer.
+        -- Larry Wall
+%
+As someone pointed out, you could have an attribute that says 'optimize the heck out of this routine', and your definition of heck would be a parameter to the optimizer.
+        -- Larry Wall
+%
+If you're going to define a shortcut, then make it the base [sic] darn shortcut you can.
+        -- Larry Wall
+%
+It is my job in life to travel all roads, so that some may take the road less travelled, and others the road more travelled, and all have a pleasant day.
+        -- Larry Wall
+%
+It's getting harder and harder to think out loud. One of these days someone's gonna go off and kill Thomas a'Becket for me...
+        -- Larry Wall
+%
+I was about to say, 'Avoid fame like the plague,' but you know, they can cure the plague with penicillin these days.
+        -- Larry Wall
+%
+But the possibility of abuse may be a good reason for leaving capabilities out of other computer languages, it's not a good reason for leaving capabilities out of Perl.
+        -- Larry Wall
+%
+Oh, wait, that was Randal...nevermind...
+        -- Larry Wall
+%
+P.S. I suppose I really should be nicer to people today, considering I'll be singing in Billy Graham's choir tonight...
+        -- Larry Wall
+%
+Magically turning people's old scalar contexts into list contexts is a recipe for several kinds of disaster.
+        -- Larry Wall
+%
+And we can always supply them with a program that makes identical files into links to a single file.
+        -- Larry Wall
+%
+I wasn't recommending that we make the links for them, only provide them with the tools to do so if they want to take the gamble (or the gambol).
+        -- Larry Wall
+%
+This has been planned for some time. I guess we'll just have to find someone with an exceptionally round tuit.
+        -- Larry Wall
+%
+    switch (ref $@) {
+    OverflowError =>
+warn 'Dam needs to be drained';
+    DomainError =>
+warn 'King needs to be trained';
+    NuclearWarError =>
+die;
+    }
+        -- Larry Wall
+%
+I surely do hope that's a syntax error.
+        -- Larry Wall
+%
+Anyway, my money is still on use strict vars . . .
+        -- Larry Wall
+%
+If you remove stricture from a large Perl program currently, you're just installing delayed bugs, whereas with this feature, you're installing an instant bug that's easily fixed. Whoopee.
+        -- Larry Wall
+%
+I don't think it's worth washing hogs over.
+        -- Larry Wall
+%
+It's certainly easy to calculate the average attendance for Perl conferences.
+        -- Larry Wall
+%
+Tcl tends to get ported to weird places like routers.
+        -- Larry Wall
+%
+Historically Tcl has always stored all intermediate results as strings. (With 8.0 they're rethinking that. Of course, Perl rethought that from the start.)
+        -- Larry Wall
+%
+Just don't make the '9' format pack/unpack numbers...
+        -- Larry Wall
+%
+I think that's easier to read. Pardon me. Less difficult to read.
+        -- Larry Wall
+%
+To ordinary folks, conversion is not always automatic. It's something that may or may not require explicit assistance. See Billy Graham.
+        -- Larry Wall
+%
+Well, you can implement a Perl peek() with unpack('P',..). Once you have that, there's only security through obscurity.
+        -- Larry Wall
+%
+It may be possible to get this condition from within Perl if a signal handler runs at just the wrong moment. Another point for Chip...
+        -- Larry Wall
+%
+As pointed out in a followup, Real Perl Programmers prefer things to be visually distinct.
+        -- Larry Wall
+%
+The Harvard Law states: Under controlled conditions of light, temperature, humidity, and nutrition, the organism will do as it damn well pleases.
+        -- Larry Wall
+%
+That should probably be written:
+    no !@#$%^&*:@!semicolon
+        -- Larry Wall
+%
+That gets us out of deciding how to spell Reg[eE]xp?|RE . . . Of course, then we have to decide what ref $re returns...
+        -- Larry Wall
+%
+'Course, that doesn't work when 'a' contains parentheses.
+        -- Larry Wall
+%
+I was trying not to mention backtracking. Which, of course, means that yours is 'righter' than mine, in a theoretical sense.
+        -- Larry Wall
+%
+Not that I'm against sneaking some notions into people's heads upon occasion. (Or blasting them in outright.)
+        -- Larry Wall
+%
+(To the extent that anyone but a Prolog programmer can understand \X totally. (And to the extent that a Prolog programmer can understand 'cut'.)
+        -- Larry Wall
+%
+Wow, I'm being shot at from both sides. That means I *must* be right.
+        -- Larry Wall
+%
+You don't have to wait--you can have it in 5.004_54 or so.
+        -- Larry Wall
+%
+There's something to be said for returning the whole syntax tree.
+        -- Larry Wall
+%
+It's not really a rule--it's more like a trend.
+        -- Larry Wall
+%
+Double *sigh*. _04 is going onto thousands of CDs even as we speak, so to speak.
+        -- Larry Wall
+%
+The code also assumes that it's difficult to misspell 'a' or 'b'.
+        -- Larry Wall
+%
+Well, hey, let's just make everything into a closure, and then we'll have our general garbage collector, installed by 'use less memory'.
+        -- Larry Wall
+%
+People who understand context would be steamed to have someone else dictating how they can call it.
+        -- Larry Wall
+%
+For the sake of argument I'll ignore all your fighting words.
+        -- Larry Wall
+%
+Think of prototypes as a funny markup language--the interpretation is left up to the rendering engine.
+        -- Larry Wall
+%
+The way these things go, there are probably 6 or 8 kludgey ways to do it, and a better way that involves rethinking something that hasn't been rethunk yet.
+        -- Larry Wall
+%
+Beauty? What's that?
+        -- Larry Wall
+%
+I'm afraid my gut level reaction is basically, proceed is cute, but cute doesn't cut it in the emergency room.
+        -- Larry Wall
+%
+I suppose one could claim that an undocumented feature has no semantics. :-(
+        -- Larry Wall
+%
+Yes, we have consensus that we need 64 bit support.
+        -- Larry Wall
+%
+ : - cut in regexps
+        -- Larry Wall
+%
+I don't think we reached consensus on that. We're still backtracking...
+        -- Larry Wall
+%
+Boss: You forgot to assign the result of your map!
+Hacker: Dang, I'm always forgetting my assignations...
+Boss: And what's that 'goto' doing there?!?
+Hacker: Er, I guess my finger slipped when I was typing 'getservbyport'...
+Boss: Ah well, accidents will happen. Maybe we should have picked APL.
+        -- Larry Wall
+%
+Perhaps they will have to outlaw sending random lists of words. fee fie foe foo
+        -- Larry Wall
+%
+Hey, if pi == 3, and three == 0, does that make pi == 0?
+        -- Larry Wall
+%
+(Never thought I'd be telling Malcolm and Ilya the same thing...
+        -- Larry Wall
+%
+And other operators aren't so special syntactically, but weird in other ways, like 'scalar', and 'goto'.
+        -- Larry Wall
+%
+Portability should be the default.
+        -- Larry Wall
+%
+If this were Ada, I suppose we'd just constant fold 1/0 into
+        -- Larry Wall
+%
+    die 'Illegal division by zero
+        -- Larry Wall
+%
+Are you perchance running on a 64-bit machine?
+        -- Larry Wall
+%
+Almost nothing in Perl serves a single purpose.
+        -- Larry Wall
+%
+There's some entertainment value in watching people juggle nitroglycerin.
+        -- Larry Wall
+%
+Reserve your abuse for your true friends.
+        -- Larry Wall
+%
+1998
+Er, Tom, I hate to be the one to point this out, but your fix list is starting to resemble a feature list. You must be human or something.
+        -- Larry Wall
+%
+It's hard to tune heavily tuned code.
+        -- Larry Wall
+%
+Perl will always provide the null.
+        -- Larry Wall
+%
+It's easy to solve the halting problem with a shotgun.
+        -- Larry Wall
+%
+Well, I think Perl should run faster than C.
+        -- Larry Wall
+%
+To Perl, or not to Perl, that is the kvetching.
+        -- Larry Wall
+%
+I suppose you could switch grammars once you've seen 'use strict subs'.
+        -- Larry Wall
+%
+Well, you know, Hubbard had a bunch of people sworn to commit suicide when he died. So of course he never officially died...
+        -- Larry Wall
+%
+Even the White House has a press agent.
+        -- Larry Wall
+%
+That's a valid argument. I just don't think it's valid enough.
+        -- Larry Wall
+%
+Perl should remain fast and intuitive (to the extent that it is :-)
+        -- Larry Wall
+%
+I would estimate that the number of programs it breaks in the world will be less than 10. As long as one of those 10 isn't CGI.pm, we're probably okay.
+        -- Larry Wall
+%
+Just put in another goto, and then it'll be readable.
+        -- Larry Wall
+%
+I'm reminded of the day my daughter came in, looked over my shoulder at some Perl 4 code, and said, 'What is that, swearing?
+        -- Larry Wall
+%
+Y'know, there are other possibilities if we assume that filenames are UTF-8...yikes...wait, put down that meat cleaver! Aieeee!!!
+        -- Larry Wall
+%
+    print rand rand rand 1, '\n'; # interesting distribution
+        -- Larry Wall
+%
+ : I could understand principles of Perl source in 2-3 days [. . .]
+        -- Larry Wall
+%
+Gee, it took me about eleven years.
+        -- Larry Wall
+%
+There's often more than one correct thing.
+There's often more than one right thing.
+There's often more than one obvious thing.
+        -- Larry Wall
+%
+I don't believe I've ever cuddled my elses.
+        -- Larry Wall
+%
+I've always maintained a cordial dislike for indent, because it's usually
+right.
+        -- Larry Wall
+%
+I'd make people say 'use Fork;' if I thought I could get away with it.
+        -- Larry Wall
+%
+The way I see it, if you declare something portable, you'll always be wrong, and if you declare it non-portable, you'll always be right.
+        -- Larry Wall
+%
+Perhaps you should compile your Perl with long doubles one of these megaseconds.
+        -- Larry Wall
+%
+ : Why Bible quotes exclusively? What happened to the Eastern religions?<BR>
+I'm still working on the Unicode mods.
+        -- Larry Wall
+%
+Maybe we should take a clue from FTP and put in an option like 'print hash marks on every 1024 iterations'.
+        -- Larry Wall
+%
+And besides, if Perl really takes off in the Windows space, I think the rest of us would just as soon have a double-agent within ActiveState.
+        -- Larry Wall
+%
+The court finds everyone to be in contempt (including himself :-), and orders everyone sentenced to five years hard labor. (Working on Perl, of course.)
+        -- Larry Wall
+%
+I note that the Python folks still think they like JPython. I wonder how long that will last?
+        -- Larry Wall
+%
+I view the JVM as just another architecture that Perl ought to be ported to. (That, and the Underwood typewriter...)
+        -- Larry Wall
+%
+So please don't think I have a 'down' on the MVS people. I'm just pulling off their arms to beat other people over the head with.
+        -- Larry Wall
+%
+It's, uh, pseudo code. Yeah, that's the ticket...
+[...]
+And 'unicode' is pseudo code for $encoding.
+        -- Larry Wall
+%
+ : What do people think?
+What, do people think?
+        -- Larry Wall
+%
+Well, sure, I explicitly mentioned 'vtables' last time I brought this up. But a single pointer is fairly paltry, as tables go.
+        -- Larry Wall
+%
+I dunno. Perhaps you should be happy that I have a policy of refraining from grumbling about handicapped operating systems.
+        -- Larry Wall
+%
+Perl did not get where it is by ignoring psychological factors.
+        -- Larry Wall
+%
+On the plus side, it's a lot easier in general to find /usr/include than cpp.
+        -- Larry Wall
+%
+Psychotics are consistently inconsistent. The essence of sanity is to be inconsistently inconsistent.
+        -- Larry Wall
+%
+That which hits the fan tends to get flung in all directions.
+        -- Larry Wall
+%
+If this were Ada, we'd simply doc it as 'erroneous'.
+        -- Larry Wall
+%
+So I'm thinking about ??, or !!, or //, or \\, or whatever. But I think I like ?? the best so far. Or the least worst.
+        -- Larry Wall
+%
+One operator is no big deal. That can be fixed in a jiffy.
+        -- Larry Wall
+%
+In Clintonese, that would be 'You are free to infer that I was saying that.'
+        -- Larry Wall
+%
+Would you trust the linguistic intuitions of someone who has been studying Latin or Greek for three days?
+        -- Larry Wall
+%
+But I know what's important to me, and what isn't. And I think I know what people can get used to, and what they can even learn to like. (It just takes some people longer than others. :-)
+        -- Larry Wall
+%
+My arthritic pinkies are already starting to ache just thinking about ||||=.
+        -- Larry Wall
+%
+Orthogonality for orthogonality's sake is not something I'm keen on.
+        -- Larry Wall
+%
+Must be a different Larry Wall. There are at least 137 of us in the U.S.
+        -- Larry Wall
+%
+Symmetry is overrated. Overrated is symmetry.
+        -- Larry Wall
+%
+That is a known bug in 5.00550. Either an upgrade or a downgrade will fix it.
+        -- Larry Wall
+%
+That being said, I think we should immediately deprecate any string concatenation that combines '19' with '99'.
+        -- Larry Wall
+%
+The Golden Gate wasn't our fault either, but we still put a bridge across it.
+        -- Larry Wall
+%
+It should be illegal to yell 'Y2K' in a crowded economy.
+        -- Larry Wall
+%
+2003
+One thing I do understand is that people get scared when I start thinking out loud.
+        -- Larry Wall
+%
+ : No comment, since this is still hovering (see Larry's reply).
+        -- Larry Wall
+%
+Flutter, flutter.
+        -- Larry Wall
+%
+We don't have enough parallel universes to allow all uses of all junction types--in the absence of quantum computing the combinatorics are not in our favor...
+        -- Larry Wall
+%
+Accidental stacks considered harmful.
+        -- Larry Wall
+%
+I try not to confuse roles and traits in my own life. Being the Perl god is a role. Being a stubborn cuss is a trait.
+        -- Larry Wall
+%
+And in the limiting case where the optimizer is completely broken because it's not implemented yet, we get to work around that too. Optionally...
+        -- Larry Wall
+%
+I think I'm happier with that. $rubyometer += 0.3 or so.
+        -- Larry Wall
+%
