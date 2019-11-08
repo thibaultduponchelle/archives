@@ -777,3 +777,78 @@ And in the limiting case where the optimizer is completely broken because it's n
 I think I'm happier with that. $rubyometer += 0.3 or so.
         -- Larry Wall
 %
+"The only reason I've managed to run this open source project, is that I have learned to delegate even the delegation to other people."
+        -- Larry Wall
+%
+The problem with being consistent is that there are lots of ways to be consistent, and they're all inconsistent with each other.
+        -- Larry Wall
+%
+There's really no way to fix this and still keep Perl pathologically eclectic.
+        -- Larry Wall
+%
+Larry's first Law of Language Redesign: Everyone wants the colon.
+Larry's second Law of Language Redesign: Larry gets the colon.
+%
+When's the last time you used duct tape on a duct?
+        -- Larry Wall
+%
+As for whether Perl 6 will replace Perl 5, yeah, probably, in about 40 years or so.
+        -- Larry Wall
+%
+Be consistent.
+        -- Larry Wall
+%
+Even if you aren't in doubt, consider the mental welfare of the person who has to maintain the code after you, and who will probably put parens in the wrong place.
+        -- Larry Wall
+%
+Help save the world!
+        -- Larry Wall
+%
+Perl is designed to give you several ways to do anything, so consider picking the most readable one.
+        -- Larry Wall
+%
+The autodecrement is not magical.
+        -- Larry Wall
+%
+Remember though that THERE IS NO GENERAL RULE FOR CONVERTING A LIST INTO A SCALAR.
+        -- Larry Wall
+%
+When in doubt, parenthesize. At the very least it will let some poor schmuck bounce on the % key in vi.
+        -- Larry Wall
+%
+People understand instinctively that the best way for computer programs to communicate with each other is for each of the them to be strict in what they emit, and liberal in what they accept. The odd thing is that people themselves are not willing to be strict in how they speak, and liberal in how they listen. You'd think that would also be obvious. Instead, we're taught to express ourselves.
+        -- Larry Wall
+%
+But I'm not here to talk about postmodernism. I tried to do that last spring, and afterwards I was thoroughly deconstructed by the deconstructionists for attempting to deconstruct deconstructionism. At least, that's the construction I put on their construction of it. I was talking about postmodern culture, and they thought I was talking about postmodern literature. Not at all the same thing!
+        -- Larry Wall
+%
+C was good at something I like to call manipulexity, that is the manipulation of complex things. While shell was good at something else which I call whipuptitude, the aptitude for whipping things up.
+        -- Larry Wall
+%
+Perhaps the Perl 6 slogan should be "All Your Paradigms Are Belong To Us". We'll get to that.
+        -- Larry Wall
+%
+How do you type it? With your keyboard.
+        -- Larry Wall
+%
+If there's a particular problem that Perl is trying to solve, it's the basic fact that all programming languages suck. Sort of the concept of original sin, applied to programming languages.
+        -- Larry Wall
+%
+There are a lotta computer languages out there doing drugs.
+        -- Larry Wall
+%
+Suppose you went back to Ada Lovelace and asked her the difference between a script and a program. She'd probably look at you funny, then say something like: Well, a script is what you give the actors, but a program is what you give the audience. That Ada was one sharp lady...
+        -- Larry Wall
+%
+I started out as a BASIC programmer. Some people would say that I'm permanently damaged. Some people are undoubtedly right... But I'm not going to apologize for that. All language designers have their occasional idiosyncracies. I'm just better at it than most.
+        -- Larry Wall
+%
+But you could do extreme programming. In fact, I had a college buddy I did pair programming with. We took a compiler writing class together and studied all that fancy stuff from the dragon book. Then of course the professor announced we would be implementing our own language, called PL/0. After thinking about it a while, we announced that we were going to do our project in BASIC. The professor looked at us like we were insane. Nobody else in the class was using BASIC. And you know what? Nobody else in the class finished their compiler either. We not only finished but added I/O extensions, and called it PL 0.5. That's rapid prototyping.
+        -- Larry Wall
+%
+Is LISP a candidate for a scripting language? While you can certainly write things rapidly in it, I cannot in good conscience call LISP a scripting language. By policy, LISP has never really catered to mere mortals... And, of course, mere mortals have never really forgiven LISP for not catering to them.
+        -- Larry Wall
+%
+As a linguist, I don't think of Ada as a big language. Now, English and Japanese, those are big languages. Ada is just a medium-sized language.
+        -- Larry Wall
+%
