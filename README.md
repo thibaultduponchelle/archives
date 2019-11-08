@@ -7,7 +7,7 @@ make
 sudo cp data/* /usr/share/games/fortunes
 ```
 
-...if your fortunes are located in `/usr/share/games/fortunes`, you can get this place from `fortune` like this : 
+... if your fortunes are located in `/usr/share/games/fortunes`, you can get this place from `fortune` like this : 
 ```
 fortune -f 2>&1 | head -n 1 | cut -f2 -d" "
 ```
