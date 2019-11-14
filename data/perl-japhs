@@ -98,3 +98,98 @@ close$_}%p;wait until$?;map{/^r/&&<$_>}%p;$_=$d[$q];sleep rand(2)if/\S/;print
                         #@@@@@@@@@@@
         -- Just Another Perl hacker
 %
+print "Just another Perl hacker," if "you can't think of anything better..."
+        -- Randal Schwartz
+%
+printf "%s %s %s %s%c", 'Just', 'another', 'Perl', 'hacker', 44
+        -- Randal Schwartz
+%
+$,=" "; print +("hacker,","Just","Perl","another")[1,3,2,0];
+        -- Randal Schwartz
+%
+print grep(s/^\d+(.*)/$1 /, sort(split(/ /,"8hacker, 4Perl 1Just 2another")));
+        -- Randal Schwartz
+%
+$_='x"Not ";"x\"another \";\'x\\"perl \\";x\\"hacker,\\"\'"';s/x/print/g;eval eval eval;
+        -- Raymond Chen
+%
+$_ = "\x3C\x3C\x45\x4F\x54"; s/<<EOT/<<EOT/e; print;
+Just another Perl Hacker
+EOT
+        -- Abigail
+%
+perl -wle 'sub _ "Just another Perl Hacker"; print prototype \&_'
+        -- Abigail (broken)
+%
+#Kickstart from http://www.perlmonks.com/
+#note: a slight valentine variation :)
+
+      $LOVE=               AMOUR.
+    true.cards.        ecstacy.crush 
+  .hon.promise.de    .votion.partners.
+ tender.truelovers. treasure.affection.
+devotion.care.woo.baby.ardor.romancing.
+enthusiasm.fealty.fondness.turtledoves.
+lovers.sentiment.worship.sweetling.pure
+attachment.flowers.roses.promise.poem;
+ $LOVE=~ s/AMOUR/adore/g; @a=split(//,
+  $LOVE); $o.= chr (ord($a[1])+6). chr
+   (ord($a[3])+3). $a[16]. $a[5]. chr
+    (32). $a[0]. $a[(26+2)]. $a[27].
+      $a[5].$a[25]. $a[8].$a[3].chr
+        (32).$a[29]. $a[8].$a[3].
+          $a[62].chr(32).$a[62].
+           $a[2].$a[38].$a[4].
+               $a[3].'.';
+                 print
+                  $o; 
+        -- Perlmonks (broken)
+%
+use Data::Dumper;
+
+      $LOVE=               AMOUR.
+    true.cards.        ecstacy.crush 
+  .hon.promise.de    .votion.partners.
+ tender.truelovers. treasure.affection.
+devotion.care.woo.baby.ardor.romancing.
+enthusiasm.fealty.fondness.turtledoves.
+lovers.sentiment.worship.sweetling.pure
+attachment.flowers.roses.promise.poem;
+
+print Dumper $LOVE;
+
+ $LOVE=~ s/AMOUR/adore/g; @a=split(//,
+  $LOVE); $o.= chr (ord($a[1])+6). chr
+   (ord($a[3])+3). $a[16]. $a[5]. chr
+    (32). $a[0]. $a[(26+2)]. $a[27].
+      $a[5].$a[25]. $a[8].$a[3].chr
+        (32).$a[29]. $a[8].$a[3].
+          $a[62].chr(32).$a[62].
+           $a[2].$a[38].$a[4].
+               $a[3].'.';
+                 print
+                  $o; 
+        -- Perlmonks (broken)
+%
+$LOVE = "AMOURtruecardsecstacycrushhonpromisedevotionpartners".
+        "tendertrueloverstreasureaffectiondevotioncarewoobaby".
+        "ardorromancingenthusiasmfealtyfondnessturtledoveslovers".
+        "sentimentworshipsweetlingpureattachmentflowersroses".
+        "promisepoem";
+
+$LOVE=~ s/AMOUR/adore/g;
+
+@a=split(//, $LOVE);
+
+$o.= chr (ord($a[1])+6). chr (ord($a[3])+3). $a[16]. $a[5] .
+#           j                   u              s       t
+ chr (32). $a[0]. $a[(26+2)]. $a[27]. $a[5].$a[25]. $a[8].
+# space     a          n        o        t    h       e
+ $a[3].chr (32).$a[29]. $a[8].$a[3]. $a[62].chr(32).$a[62].
+#  r   space      p       e     r      l    space     l
+ $a[2].$a[38].$a[4]. $a[3].'.';
+#  o     v      e      r
+
+print $o; 
+%
+
