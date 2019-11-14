@@ -265,4 +265,6 @@ My thanks to all the people that have put time and effort into crafting the JAPH
 
 
 ## About the author
-Author photoTeodor Zlatanov graduated with an M.S. in computer engineering from Boston University in 1999. He has worked as a programmer since 1992, using Perl, Java, C, and C++. His interests are in open source work on text parsing, 3-tier client-server database architectures, UNIX system administration, CORBA, and project management. Suggestions and corrections are welcome over e-mail. Contact Teodor at [tzz@iglou.com](tzz@iglou.com). 
+*Teodor Zlatanov* graduated with an M.S. in computer engineering from Boston University in 1999. He has worked as a programmer since 1992, using Perl, Java, C, and C++. His interests are in open source work on text parsing, 3-tier client-server database architectures, UNIX system administration, CORBA, and project management. Suggestions and corrections are welcome over e-mail. 
+
+Contact Teodor at [tzz@iglou.com](tzz@iglou.com). 

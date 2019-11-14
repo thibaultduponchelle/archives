@@ -1,8 +1,12 @@
 # JAPHs and other obscure signatures
 Abigail
+
 Philadelphia	27 March 2000
+
 New York	18 April 2000
+
 Pittsburg	22 June 2000
+
 Amsterdam	6 February 2001
 
 ## History
@@ -73,11 +77,11 @@ perl -wle 'print "Prime" if (1 x shift) !~ /^1?$|^(11+?)\1+$/'
 
 ## Making a Japh
 
-What you need is an idea (&%%hole)
+What you need is an idea (`&%%hole`)
 
 
 * Start with a hash and a sub that prints "Just another Perl Hacker".
-* Nothing obscure yet, except for the unusual name %_ 
+* Nothing obscure yet, except for the unusual name `%_` 
 
 ```
 %_ = (Just => another => Perl => Hacker);
