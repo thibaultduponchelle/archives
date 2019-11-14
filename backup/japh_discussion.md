@@ -1,7 +1,6 @@
-JAPH - Just Another Perl Hacker
--------------------------------
+# JAPH - Just Another Perl Hacker
 
-What is a JAPH?
+## What is a JAPH?
     A JAPH is a little Perl script that prints out the phrase "Just
     another perl hacker".  Yes, it's pretty useless, but the goal is
     to figure out the most obfuscated and clever way to do this, and
@@ -9,13 +8,13 @@ What is a JAPH?
     use their JAPH as part of their .signature file.  Because of this,
     the creation of a JAPH is almost like a rite of passage.
 
-Criteria
+## Criteria
     Unlike most other programs, the goal of a JAPH is to be clever,
     hard to figure out, and as round about as possible in reaching
     the goal.  The more time it takes to figure out what it's doing,
     the cooler it is.
 
-My Goals
+## My Goals
     My goals in designing my JAPH were:
     -. It had to look nice, being delimited with a line on top and a
        line on the bottom
@@ -29,7 +28,7 @@ My Goals
     nicely, and wound up producing what I think is an interesting
     peice of code.
 
-Concept
+## Concept
     The concept behind the program is this:  The string "Just another
     Perl hacker" contains characters that have corresponding ordinal
     values.  By then creating a string of each ordinal value, and
@@ -37,17 +36,20 @@ Concept
     construct a "pretty" line of characters that, when decoded, will
     contain the message that will be printed.
 
-======================================
-My JAPH:
+-------------------------------------
 
+## My JAPH:
+```
 $_=",.,,,.,,.,,.,,,,..,,,,,,,,.,,,,,,,,,,,,,.,,,,,,,,,.,,,,,,,..,..,,.,,,,,
    ,,,,";s/\s//gs;tr/,./05/;@a=split(//);$_=<DATA>;tr/~`'"^/0-4/;map{$o
    .=$a[$i]+$_;$i++}split(//);@a=$o=~m!...!g;map{print chr}@a; __DATA__
 ~'^``'``~```~"'~^'``~```````~^`~```^~"'~"~`~```^`~"~"'`~^~^'~^^`~'`~```^~`~
+```
 
-======================================
-JAPH Encoder:
+-------------------------------------
 
+## JAPH Encoder:
+```
 #!/usr/local/bin/perl
 
 # encode the string so that the decoder program will be able to read it.
@@ -114,11 +116,13 @@ s/\s//gs;tr/,./05/;@a=split(//);$_=<DATA>;tr/~`'"^/0-4/;map{$o
 .=$a[$i]+$_;$i++}split(//);@a=$o=~m!...!g;map{print chr}@a; __DATA__
 EOC
 print $m, "\n";
+```
 
+-------------------------------------
 
-======================================
-My JAPH, with comments:
+## My JAPH, with comments:
 
+```
 # japh_details.txt
 
 	# this is top half of the data.  This string tracks which of
@@ -176,3 +180,4 @@ $_=",.,,,.,,.,,.,,,,..,,,,,,,,.,,,,,,,,,,,,,.,,,,,,,,,.,,,,,,,..,..,,.,,,,,,,,,"
 	# above
    __DATA__
 ~'^``'``~```~"'~^'``~```````~^`~```^~"'~"~`~```^`~"~"'`~^~^'~^^`~'`~```^~`~
+```
