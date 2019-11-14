@@ -45,12 +45,6 @@ $_ = "wftedskaebjgdpjgidbsmnjgc";
 tr/a-z/oh, turtleneck Phrase Jar!/; print;
         -- Just another Perl hacker,
 %
-@P=split//,".URRUU\c8R";@d=split//,"\nrekcah xinU / lreP rehtona tsuJ";sub p{
-@p{"r$p","u$p"}=(P,P);pipe"r$p","u$p";++$p;($q*=2)+=$f=!fork;map{$P=$P[$f^ord
-($p{$_})&6];$p{$_}=/ ^$P/ix?$P:close$_}keys%p}p;p;p;p;p;map{$p{$_}=~/^[P.]/&&
-close$_}%p;wait until$?;map{/^r/&&<$_>}%p;$_=$d[$q];sleep rand(2)if/\S/;print
-        -- Just another Perl / Unix hacker
-%
                                                        #
                                                    sub j(\$){($
                      P,$V)=                      @_;while($$P=~s:^
@@ -192,8 +186,6 @@ $o.= chr (ord($a[1])+6). chr (ord($a[3])+3). $a[16]. $a[5] .
 
 print $o; 
 %
-%
-#JoeCamel on http://www.perlmonks.com/
 #note: requires Perl5.6.0 or better
 #!/usr/bin/perl -w
 use strict;
@@ -236,6 +228,7 @@ my(%primate, $monolith, $evolution, $contact);
             ;print uc$starChild
 
 }
+        -- JoeCamel perlmonks
 %
 #!/usr/local/bin/perl
   
@@ -306,8 +299,6 @@ _=<DATA>)){@camel1hum        p=split(//);}while(@dromeda
                 \163\163                                \151\1
               57\156\056
 %
-#MeowChow from http://www.perlmonks.com/ 
-
 $ _=
  qq
 .CG
@@ -469,9 +460,8 @@ G----C
   3   +$
  4 ;gex
 ; eval
-
+        -- MeowChow from http://www.perlmonks.com/ 
 %
-#Clinton Pierce
 #note: Requires 5.6.0 or better
 
                     '% * % % * % %<>
@@ -511,9 +501,8 @@ G----C
                      '|',map "\Q$_\E"
                    ,keys %e).qq{)};s/$y
               /$e{$1}/gex;print pack"B*",$_;
-
+        -- Clinton Pierce
 %
-#Kickstart from http://www.perlmonks.com/
 #note: a slight valentine variation :)
 
       $LOVE=               AMOUR.
@@ -535,18 +524,18 @@ lovers.sentiment.worship.sweetling.pure
                $a[3].'.';
                  print
                   $o; 
-                  
+        -- Kickstart perlmonks                  
 %                  
-# chipmunk (aka Ronald J Kimball) <rjk@linguist.dartmouth.edu> 
 #!perl -l
 $_={1..28};$/=[$_,P,a..z,J,$"];print+map{$_&1?$/->{$_}:$/->[$_|1]}
 (27,21,19,20,28,1,14,15,20,8,5,18,28,0,5,18,12,28,8,1,3,11,5,18)
+        -- Ronald J Kimball
 %
-#Ronald J Kimball  <rjk@linguist.dartmouth.edu>
 $~='`';$_=$:=$~|'%';$;=$^='/'|$~;$;++;$\=$~|"'";$;++;$:.=++$;;$/=++$;;+$\++;$_.=
 '#'|$~;$,=++$/;$_.="$\$^$\"";++$,;$_.='@'|'*'&~'!';$_.="$,$;$/$\"";$_.+='!.'|$~.
 $~;$_.="$^$/$\$:$\"";$_.='@'|':'&~'*';$_.=$:;$_.=$^&'|';$_.=$".$\;$_.=+"$~$~$~"|
 '!#+';++$.;$.++;`$_$:,>&$.`;
+        -- Ronald J Kimball
 %                           
 perl -wle 'print "Prime" if (1 x shift) !~ /^1?$|^(11+?)\1+$/'
         -- Abigail
@@ -683,10 +672,9 @@ f(110,f(111,f(116,f(104,f(0x65,f(114,f(32,f(80,f(101,f(114,f(0x6c,f(32,
 f(0x48,f(97,f(99,f(107,f(101,f(114,f(10,q ff)))))))))))))))))))))))))
         -- Abigail
 %
-# Perl 5.6.0 broke this.
 %0=map{reverse+chop,$_}ABC,ACB,BAC,BCA,CAB,CBA;$_=shift().AC;1while+s/(\d+)((.)
 (.))/($0=$1-1)?"$0$3$0{$2}1$2$0$0{$2}$4":"$3 => $4\n"/xeg;print#Towers of Hanoi
-        -- Abigail
+        -- Abigail (broken)
 %
 perl -wlpe '}{$_=$.' file  # Count the number of lines.
         -- Abigail
@@ -1229,45 +1217,41 @@ s/\n//g;s/Q/`KI``E?/g;s/X/IZZZ/g;s/Z/``Es/g;
    :($15,"",$bind{$17},"")[$q-6]
     }ex;
 %
-Author:  Mark-Jason Dominus
 @P=split//,".URRUU\c8R";@d=split//,"\nrekcah xinU / lreP rehtona tsuJ";sub p{
 @p{"r$p","u$p"}=(P,P);pipe"r$p","u$p";++$p;($q*=2)+=$f=!fork;map{$P=$P[$f|ord
 ($p{$_})&6];$p{$_}=/ ^$P/ix?$P:close$_}keys%p}p;p;p;p;p;map{$p{$_}=~/^[P.]/&&
 close$_}%p;wait until$?;map{/^r/&&<$_>}%p;$_=$d[$q];sleep rand(2)if/\S/;print
-
-[note: Won 2nd place in the 5th annual obfuscated Perl contest. 
- see http://perl.plover.com/obfuscated/ for more info. ]
+        -- Mark-Jason Dominus (OPC 5)
 % 
-#Yanick Champoux
-#http://www.iro.umontreal.ca/~champoux/sigs/
 print map chr$_[0]-ord$_,@_='200ocT¨gZYT`cV¨xcV\¨`ge]cV'=~m;(\d+|.);g;
+        -- Yanick Champoux
 %
-#Richard Proctor <Richard@waveney.org>
 @{$_}=(@{$_-1},1)for(1..9);
 map{s/./sprintf"%02d",ord$&/eg}($h,$l)
 =("0X\cFMWD\cDDF.CD","\cY\"\cEY*\\\cH\\<\cEK\\");
 print chr((@{substr($h,$_,1)}.@{substr($l,$_,1)})+32)for(0..23)
+        -- Richard Proctor
 %
-#Richard Proctor <Richard@waveney.org>
 sub x{for(split'',"Abigail!"x3){print chr(shift()+ord)}}
 x(9,19,10,13,-65,-8,2,78,51,6,-4,11,-65,-25,-7,81,43,-66,-33,-6,2,2,-7,81)
+        -- Richard Proctor
 %
-#Gaal Yahas <gaal@forum2.org>
-perl -le
-   '@Just_another_Perl_hacker=map{/^[^*].*hack/&&s,_, ,g&s,$,\,,&print}%::'
+@Just_another_Perl_hacker=map{/^[^*].*hack/&&s,_, ,g&s,$,\,,&print}%::
+        -- Gaal Yahas
 %
-From merlyn@iwarp.intel.com (Randal Schwartz) 1 Feb 90 22:28:58 GMT
 @a=split(/(\d)/,"4Hacker,2another3Perl1Just");shift(@a);%a=@a;print "@a{1..4}";
+        -- Randal Schwartz
 %
-From Andrew.Vignaux@comp.vuw.ac.nz (Andrew Vignaux) 22 Aug 90 11:10:18 GMT
 $s=(localtime(time))[0]; sub n { ($a - $b) * $s; }
 print grep(s/.*\t//,sort n grep($_=++$i/-50."\t$_",split(/\n*/,<<JAPH)));
 ,rekcah lreP rehtona tsuJ
 JAPH
+        -- Andrew Vignaux
 %
 From merlyn@iwarp.intel.com (Randal Schwartz) 29 Aug 90 19:14:54 GMT
 print pack("c*",(32..127)[42,85,83,84,0,65,78,79,84,72,69,82,0,48,69,82,76,0,72
 ,65,67,75,69,82,12])
+        -- Randal Schwartz
 %
 print grep(s/^\d+(.*)/$1 /, sort(split(/ /,"8hacker, 4Perl 1Just 2another")));
         -- Randal Schwartz
@@ -1704,4 +1688,36 @@ $_=",.,,,.,,.,,.,,,,..,,,,,,,,.,,,,,,,,,,,,,.,,,,,,,,,.,,,,,,,..,..,,.,,,,,
    .=$a[$i]+$_;$i++}split(//);@a=$o=~m!...!g;map{print chr}@a; __DATA__
 ~'^``'``~```~"'~^'``~```````~^`~```^~"'~"~`~```^`~"~"'`~^~^'~^^`~'`~```^~`~
         -- Rochester.pm.org
+%
+@a=split(/(\d)/,"4Hacker,2another3Perl1Just");shift(@a);%a=@a;print "@a{1..4}";
+        -- Abigail
+%
+use Math::BigInt;
+$^V=Math::BigInt->new(qq]$^F$^W783$[$%9889$^F47]
+.qq]$|88768$^W596577669$%$^W5$^F3364$[$^W$^F$|838747$[8889739$%$|$^F673$%$^W]
+.qq]98$^F76777$=56]);$^U=substr($]=>$|=>5)*(q.25..($^W=@^V))=>do{print+chr$^V  
+%$^U;$^V/=$^U}while$^V!=$^W
+        -- Abigail (broken)
+%
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+         / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
+         % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %;
+         BEGIN {% % = ($ _ = " " => print "Just Another Perl Hacker\n")}
+        -- Abigail 
+%
+#!/usr/bin/perl -- Russ Allbery, Just Another Perl Hacker
+$^=q;@!>~|{>krw>yn{u<$$<[~||<Juukn{=,<S~|}<Jwx}qn{<Yn{u<Qjltn{ > 0gFzD gD,
+ 00Fz, 0,,( 0hF 0g)F/=, 0> "L$/GEIFewe{,$/ 0C$~> "@=,m,|,(e 0.), 01,pnn,y{
+rw} >;,$0=q,$,,($_=$^)=~y,$/ C-~><@=\n\r,-~$:-u/ #y,d,s,(\$.),$1,gee,print
+        -- Abigail
+%
+print "Prime" if (1 x shift) !~ /^1?$|^(11+?)\1+$/
+        -- Abigail (broken)
+$
+%_ = (Just => another => Perl => Hacker);
+sub {foreach (sort keys %_) {print "$_ $_{$_} "}};
+        -- Abigail (broken)
+$
+$_ = "goto F.print chop;\n=rekcaH lreP rehtona tsuJ";F1:eval
+        -- Abigail
 %
