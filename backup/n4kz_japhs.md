@@ -1,4 +1,4 @@
-# Some JAPHs from [Alexander Nasarov](https://github.com/n4kz) :
+# Some JAPHs from [Alexander Nasarov](https://github.com/n4kz)
 
 Taken from [n4kz japh repo](https://github.com/n4kz/japh)
 
