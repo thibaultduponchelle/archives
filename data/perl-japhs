@@ -1887,3 +1887,18 @@ say chr($_) foreach qw/
 114/;
         -- gnebbia
 %
+s3:n(q{Just });s5:n("another ");s17:n(q{Perl });s257:n("hacker");
+s65537:n("\n");$p=1;sub n{$p++; $w=2**(2**$p)+1;print@_;goto"s$w"
+unless grep/^1$/,map{1 if $w%$_==0}(2..int(sqrt($w)));exit;};n;1;
+        -- Daniil Baturin
+%
+@a=split(//, "daniil @ baturin  . org" ); # Daniil Baturin
+@b=split(//,q/Px%!+o0Q6lh*7dp$.@8#t!nr/);while($i<24){$_.=
+chr((ord(@b[$i])-ord(@a[$i])+62)%94+32);$i++};print"$_\n"#
+        -- Daniil Baturin
+%
+use bigint;$i=
+8311 * 11506699 * 5456897772732206286791603681159406921396401
+;while($i){$_.=chr($i&0x7f);$i>>=7;}print
+        -- Daniil Baturin
+% 
