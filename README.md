@@ -12,7 +12,7 @@ sudo cp data/* /usr/share/games/fortunes
 fortune -f 2>&1 | head -n 1 | cut -f2 -d" "
 ```
 
-## :warning: Warning :warning: 
+## :warning: Warning
 Could contains Perl code and Larry Wall quotes ! :joy:
 
 ## :monkey: Conclusion
