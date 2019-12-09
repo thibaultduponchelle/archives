@@ -13,7 +13,7 @@ fortune -f 2>&1 | head -n 1 | cut -f2 -d" "
 ```
 
 ## :warning: Warning
-Could contains Perl code and Larry Wall quotes ! :joy:
+Could contains Perl code :scream: and Larry Wall quotes ! :joy:
 
 ## :monkey: Conclusion
 Happy Perl hacking ! :kissing_closed_eyes:
