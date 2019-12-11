@@ -15,5 +15,9 @@ fortune -f 2>&1 | head -n 1 | cut -f2 -d" "
 ## :warning: Warning
 Could contains Perl code :scream: and Larry Wall quotes :joy:
 
+## :snowman: TODO
+
+* Check if we can pick some new JAPHs from here : https://github.com/Perl/perl5/blob/blead/t/japh/abigail.t
+
 ## :monkey: Conclusion
 Happy Perl hacking ! :kissing_closed_eyes:
