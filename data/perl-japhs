@@ -115,6 +115,12 @@ EOT
 perl -wle 'sub _ "Just another Perl Hacker"; print prototype \&_'
         -- Abigail (broken)
 %
+$l="l10";sub l{print;goto$l++}l;l35:exit;l34:;$_="\n";l;l15:;l29:$_="a";l;l14:;
+l22:;l27:$_=" ";l;l30:;$_="c";l;l20:;l24:;l32:;$_="e";l;l10:;$_="J";l;l19:;l28:
+;$_="h";l;l31:;$_="k";l;l26:;$_="l";l;l16:;$_="n";l;l17:;$_="o";l;l23:;$_="P";l
+;l21:;l25:;l33:;$_="r";l;l12:;$_="s";l;l13:;l18:$_= "t";l;l11:;$_="u";l;die;die
+        -- Abigail
+%
 #Kickstart from http://www.perlmonks.com/
 #note: a slight valentine variation :)
 
@@ -2129,11 +2135,14 @@ our=>tied=>hex=>each=>recv=>$"=>pipe=>exit=>redo=>lock=>$"=>
 hex=>accept=>connect=>keys=>eof=>rewinddir=>chr length time;
         -- Daniel Suteu
 %
-print qr/\J\ u\s\t \a\n\ o\t\h\e\r \ P\e\r\ l \h\a\c\k\e\r/=~s/\W*(\w\s?)/$1/girls=~s\.$\,$/\r
+print qr/\J\�u\s\t \a\n\�o\t\h\e\r \�P\e\r\�l \h\a\c\k\e\r/=~s/\W*(\w\s?)/$1/girls=~s\.$\,$/\r
         -- Daniel Suteu
 %
 'J 	 
-o	  P 	'=~($_=qr/^J\u\s\t \a\no\t\h\e\r P\e\r\l \h\a\ck\e\r$/)&&
+o	 
+ P
+ 	
+'=~($_=qr/^J\u\s\t \a\no\t\h\e\r P\e\r\l \h\a\ck\e\r$/)&&
 print s/(?(?{$-[0]==$=\/2})(?{'l'})|(?{$!}))|^\W+(.)(?{$1
 .($1^'?')})|[\\^](?=\w)(?{$@})|\W+\z(?{",$\/"})/$^R/girls
         -- Daniel Suteu
