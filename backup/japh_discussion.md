@@ -3,40 +3,38 @@
 From [rochester.pm.org](https://web.archive.org/web/20130516074850/http://rochester.pm.org/talks/japh_discussion.txt) 
 
 ## What is a JAPH?
-    A JAPH is a little Perl script that prints out the phrase "Just
-    another perl hacker".  Yes, it's pretty useless, but the goal is
-    to figure out the most obfuscated and clever way to do this, and
-    fit it all into about 4 lines (or less) of code.  Many Perl gurus
-    use their JAPH as part of their .signature file.  Because of this,
-    the creation of a JAPH is almost like a rite of passage.
+A JAPH is a little Perl script that prints out the phrase "Just
+another perl hacker".  Yes, it's pretty useless, but the goal is
+to figure out the most obfuscated and clever way to do this, and
+fit it all into about 4 lines (or less) of code.  Many Perl gurus
+use their JAPH as part of their .signature file.  Because of this,
+the creation of a JAPH is almost like a rite of passage.
 
 ## Criteria
-    Unlike most other programs, the goal of a JAPH is to be clever,
-    hard to figure out, and as round about as possible in reaching
-    the goal.  The more time it takes to figure out what it's doing,
-    the cooler it is.
+Unlike most other programs, the goal of a JAPH is to be clever,
+hard to figure out, and as round about as possible in reaching
+the goal.  The more time it takes to figure out what it's doing,
+the cooler it is.
 
 ## My Goals
-    My goals in designing my JAPH were:
-    -. It had to look nice, being delimited with a line on top and a
-       line on the bottom
-    -. It would not be more than 4 lines, as I wanted to use it as my
-       signature, and a .sig over 4 lines is considered rude.
-    -. It of course had to print out "Just another Perl hacker"
+My goals in designing my JAPH were:
+- It had to look nice, being delimited with a line on top and a line on the bottom
+- It would not be more than 4 lines, as I wanted to use it as my signature, and a .sig over 4 lines is considered rude.
+- It of course had to print out "Just another Perl hacker"
 
-    That's really it.  As I tackled these goals, I realized that I
-    could make the top and bottom lines part of my data, so I wouldn't
-    have to squeeze it all in to 2 lines.  This worked out very
-    nicely, and wound up producing what I think is an interesting
-    peice of code.
+That's really it.  As I tackled these goals, I realized that I
+could make the top and bottom lines part of my data, so I wouldn't
+have to squeeze it all in to 2 lines.  This worked out very
+nicely, and wound up producing what I think is an interesting
+piece of code.
 
 ## Concept
-    The concept behind the program is this:  The string "Just another
-    Perl hacker" contains characters that have corresponding ordinal
-    values.  By then creating a string of each ordinal value, and
-    substituting a special character for each of those values, you can
-    construct a "pretty" line of characters that, when decoded, will
-    contain the message that will be printed.
+The concept behind the program is this:  The string "Just another
+Perl hacker" contains characters that have corresponding ordinal
+values.  By then creating a string of each ordinal value, and
+substituting a special character for each of those values, you can
+construct a "pretty" line of characters that, when decoded, will
+contain the message that will be printed.
 
 -------------------------------------
 
