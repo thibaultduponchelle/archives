@@ -2326,3 +2326,4 @@ $_ = [
 %
 print map+chr 63+oct reverse,reverse+sort+0xbbddcb=~m 0..0g
         -- JAPH Haukex 
+%
