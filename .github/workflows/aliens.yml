@@ -10,11 +10,11 @@ on:
   schedule:
     - cron: 0 0 * * *
 
-jobs:    
-  strategy:
-    matrix:
-      platforms: [ubuntu-latest, macos]
+jobs:   
   perl:
+    strategy:
+      matrix:
+        platforms: [ubuntu-latest, macos]
 
     runs-on: ubuntu-latest
 
