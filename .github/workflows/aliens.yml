@@ -1,0 +1,27 @@
+name: plack
+
+on:
+  push:
+    branches:
+      - '*'
+    tags-ignore:
+      - '*'
+  pull_request:
+  schedule:
+    - cron: 0 0 * * *
+    
+strategy:
+  matrix:
+    platforms: [ubuntu-latest, macos]
+
+jobs:
+  perl:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: perl -V
+        run: perl -V
+      - name: Install Dependencies
+        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure Acme::LSD
