@@ -9,12 +9,11 @@ on:
   pull_request:
   schedule:
     - cron: 0 0 * * *
-    
-strategy:
-  matrix:
-    platforms: [ubuntu-latest, macos]
 
-jobs:
+jobs:    
+  strategy:
+    matrix:
+      platforms: [ubuntu-latest, macos]
   perl:
 
     runs-on: ubuntu-latest
