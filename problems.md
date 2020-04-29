@@ -1,7 +1,7 @@
 # Aliens problems
 
 ## Can't locate Alien/Base/ModuleBuild.pm
-- Alien::Sodium -> PR + waiting adoption from genios
+- Alien::Sodium -> PR + waiting adoption from genio
 - Alien::Lua
 - Alien::SFML
 
