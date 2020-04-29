@@ -6,12 +6,6 @@
 
 my $yml = << "END";
 on:
-  push:
-    branches:
-      - '*'
-    tags-ignore:
-      - '*'
-  pull_request:
   schedule:
     - cron: 0 0 * * *
 
