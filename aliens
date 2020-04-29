@@ -155,7 +155,7 @@ Alien::SNMP
 Alien::SFML
 Alien::WFDB
 Alien::qd
-Alien::TACO
+Alien::Taco
 Alien::LibJIT
 Alien::HIDAPI
 Alien::LibANN

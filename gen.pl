@@ -35,7 +35,8 @@ my @badges = ();
 while(<>) {
 	my $full_alien = $_;
 	chomp $full_alien;
-	my ($trash, $alien) = split("::", $full_alien);
+	my ($trash, @all) = split("::", $full_alien);
+	my $alien = join("-", @all);
 	#print "Alien::$alien is $full_alien\n";
 	
 	chomp $alien;
