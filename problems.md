@@ -1,7 +1,7 @@
 # Aliens problems
 
 ## Can't locate Alien/Base/ModuleBuild.pm
-- Alien::Sodium -> PR + waiting adoption from genio
+- Alien::Sodium -> PR from plicease + waiting adoption from genio
 - Alien::Lua
 - Alien::SFML
 
@@ -10,7 +10,7 @@
 - Alien::GEOS  -> PR from plicease already merged -> need only 0.02 release I guess
 
 ### Getty
-- Alien::mpg123 -> PR
+- Alien::mpg123 -> PR from me
 - Alien::ffmpeg
 - Alien::sismpctl
 - Alien::gettext
