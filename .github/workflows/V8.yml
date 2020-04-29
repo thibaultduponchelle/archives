@@ -1,4 +1,4 @@
-name: aliens
+name : V8
 
 on:
   push:
@@ -10,11 +10,8 @@ on:
   schedule:
     - cron: 0 0 * * *
 
-jobs:   
+jobs:
   perl:
-    strategy:
-      matrix:
-        platforms: [ubuntu-latest, macos]
 
     runs-on: ubuntu-latest
 
@@ -23,4 +20,4 @@ jobs:
       - name: perl -V
         run: perl -V
       - name: Install Dependencies
-        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure Acme::LSD
+        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure Alien::V8
