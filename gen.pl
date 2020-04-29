@@ -52,6 +52,17 @@ while(<>) {
 	close $fh;
 }
 
+print "| :alien: | :alien: | :alien: | :alien: | :alien: |\n";
+print "|  :---:  |  :---:  |  :---:  |  :---:  |  :---:  |\n";
+
+my $cells = 0;
 foreach my $b (@badges) {
-	print "[![$b](https://github.com/thibaultduponchelle/aliens-ci/workflows/$b/badge.svg)](https://github.com/thibaultduponchelle/aliens-ci/actions?query=workflow%3A$b)\n"
+	$cells ++;
+	print "| [![$b](https://github.com/thibaultduponchelle/aliens-ci/workflows/$b/badge.svg)](https://github.com/thibaultduponchelle/aliens-ci/actions?query=workflow%3A$b) ";
+	if($cells > 5) { 
+		$cells = 0;
+		print "\n";
+	}
 }
+
+print " |\n"
