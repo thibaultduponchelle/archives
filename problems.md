@@ -20,7 +20,7 @@
 - Alien::SNMP -> [PR](https://github.com/ollyg/Alien-SNMP/pull/3) from me - ABMB was added but not in the correct phase
 
 ### GUGOD 
-- Alien::CImg
+- Alien::CImg -> [PR](https://github.com/gugod/Alien-CImg/pull/1) from me
 - Alien::libsndfile
 
 
