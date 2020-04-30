@@ -6,8 +6,8 @@
 - Alien::SFML -> [PR](https://github.com/jakeanq/perl-alien-sfml/pull/2) MERGED from plicease -> need cpan release ([issue](https://github.com/jakeanq/perl-alien-sfml/issues))
 
 ### Alranel 
-- Alien::qd -> PR from plicease already merged -> need only 0.02 release I guess
-- Alien::GEOS  -> PR from plicease already merged -> need only 0.02 release I guess
+- Alien::qd -> [PR](https://github.com/alranel/Alien-qd/pull/2) from plicease already merged -> need only 0.02 release I guess
+- Alien::GEOS  -> [PR](https://github.com/alranel/Alien-GEOS/pull/1) from plicease already merged -> need only 0.02 release I guess
 
 ### Getty
 - Alien::mpg123 -> [PR](https://github.com/Getty/p5-alien-mpg123/pull/2) from me
