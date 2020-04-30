@@ -19,7 +19,5 @@ jobs:
       - uses: actions/checkout@v2
       - name: perl -V
         run: perl -V
-      - name: Install firt Alien::libuuid
-        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure Alien::libuuid
-      - name: Install Dependencies
-        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure Alien::KentSrc
+      - name: Install first Alien::libuuid
+        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure Alien::libuuid Alien::KentSrc
