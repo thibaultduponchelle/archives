@@ -3,7 +3,7 @@
 ## Can't locate Alien/Base/ModuleBuild.pm
 - Alien::Sodium -> [PR](https://github.com/ajgb/alien-sodium/pull/4) from plicease + waiting adoption from genio
 - Alien::Lua -> [PR](https://github.com/tsee/p5-Alien-Lua/pull/1) from plicease
-- Alien::SFML
+- Alien::SFML -> [PR](https://github.com/jakeanq/perl-alien-sfml/pull/2) MERGED from plicease -> need cpan release ([issue](https://github.com/jakeanq/perl-alien-sfml/issues))
 
 ### Alranel 
 - Alien::qd -> PR from plicease already merged -> need only 0.02 release I guess
