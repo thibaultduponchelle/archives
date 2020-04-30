@@ -12,8 +12,8 @@
 ### Getty
 - Alien::mpg123 -> [PR](https://github.com/Getty/p5-alien-mpg123/pull/2) from me
 - Alien::ffmpeg -> [PR](https://github.com/Getty/p5-alien-ffmpeg/pull/5) from me
-- Alien::sispmctl
-- Alien::gettext
+- Alien::sispmctl 
+- Alien::gettext -> [PR](https://github.com/Getty/p5-alien-gettext/pull/2) from me
 
 ### OLIVER
 - Alien::SNMP::MAXTC
