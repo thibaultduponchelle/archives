@@ -20,6 +20,6 @@ jobs:
       - name: perl -V
         run: perl -V
       - name: list dpkg
-        run: dpkg -l
+        run: dpkg -l | grep uuid
       - name: Install first Alien::libuuid
         run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure Alien::libuuid Alien::KentSrc
