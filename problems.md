@@ -1,7 +1,7 @@
 # Aliens problems
 
 ## Can't locate Alien/Base/ModuleBuild.pm
-- Alien::Sodium -> PR + waiting adoption from genios
+- Alien::Sodium -> PR from plicease + waiting adoption from genio
 - Alien::Lua
 - Alien::SFML
 
@@ -10,7 +10,7 @@
 - Alien::GEOS  -> PR from plicease already merged -> need only 0.02 release I guess
 
 ### Getty
-- Alien::mpg123 -> PR
+- Alien::mpg123 -> PR from me
 - Alien::ffmpeg
 - Alien::sismpctl
 - Alien::gettext
@@ -25,7 +25,7 @@
 
 
 ## Something else
-- Alien::GSL
+- Alien::GSL -> Could not find any matching files at /usr/local/share/perl/5.26.1/Alien/Base/ModuleBuild.pm line 442.
 - Alien::Plotly::Orca prereq Fil::Copy::Recursive not reproducible locally
 - Alien::Hush Failed to change directory to 'src/': No such file or directory at /usr/local/share/perl/5.26.1/Alien/Base/ModuleBuild/Repository/Local.pm line 20.
 - Alien::DBD::SQLite::BundledExtensions Can't locate File/ShareDir.pm in @INC not reproduced locally
@@ -58,7 +58,7 @@
 - Alien::SmokeQt -> Found unsuitable Qt version "" from NOTFOUND, this code requires Qt 4.x
 
 ### ZMUGHAL
-- Alien::pdf2htmlEX -> depends on ALien::FontForge Alien::Poppler
+- Alien::pdf2htmlEX -> depends on Alien::FontForge Alien::Poppler
 - Alien::Poppler -> Could NOT find Freetype (missing: FREETYPE_LIBRARY FREETYPE_INCLUDE_DIRS)
 - Alien::FontForge -> tarball content changed ? -> sh: 0: Can't open ./bootstrap
 - Alien::LibMagic -> Could not find any matching files at /usr/local/share/perl/5.26.1/Alien/Base/ModuleBuild.pm line 442.
