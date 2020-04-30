@@ -22,6 +22,6 @@ jobs:
       - name: list dpkg
         run: dpkg -l | grep uuid
       - name: install uuid dev
-        run: apt-get install uuid-dev 
+        run: sudo apt-get install uuid-dev 
       - name: Install first Alien::libuuid
         run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure Alien::libuuid Alien::KentSrc
