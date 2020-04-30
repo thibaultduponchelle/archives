@@ -16,8 +16,8 @@
 - Alien::gettext -> [PR](https://github.com/Getty/p5-alien-gettext/pull/2) from me
 
 ### OLIVER
-- Alien::SNMP::MAXTC
-- Alien::SNMP -> [PR](https://github.com/ollyg/Alien-SNMP/pull/3) - ABMB was added but not in the correct phase
+- Alien::SNMP::MAXTC -> [PR](https://github.com/ollyg/Alien-SNMP-MAXTC/pull/2) from me
+- Alien::SNMP -> [PR](https://github.com/ollyg/Alien-SNMP/pull/3) from me - ABMB was added but not in the correct phase
 
 ### GUGOD 
 - Alien::CImg
