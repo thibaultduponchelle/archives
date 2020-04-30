@@ -1,0 +1,27 @@
+name : KentSrc
+
+on:
+  push:
+    branches:
+      - '*'
+    tags-ignore:
+      - '*'
+  pull_request:
+  schedule:
+    - cron: 0 0 * * *
+
+jobs:
+  perl:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: perl -V
+        run: perl -V
+      - name: list dpkg
+        run: dpkg -l | grep uuid
+      - name: remove libuuid1
+        run: sudo apt-get remove libuuid1 --force
+      - name: Install first Alien::libuuid
+        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure Alien::libuuid Alien::KentSrc
