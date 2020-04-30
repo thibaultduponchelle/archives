@@ -127,7 +127,6 @@ Test::Alien::CPP
 Alien::GPG::Error
 Alien::ZMQ::latest
 Alien::Google::GRPC
-Alien::Plotly::Orca
 Alien::zlib::Static
 Alien::Web::ExtJS::V3
 Acme::Alien::DontPanic
@@ -139,8 +138,11 @@ Alien::VideoLAN::LibVLC
 Alien::Base::ModuleBuild
 Alien::Prototype::Carousel
 Dist::Zilla::Plugin::Alien
-Alien::DBD::SQLite::BundledExtensions
 AI::PredictionClient::Alien::TensorFlowServingProtos
+Alien::Taco
+Alien::TALib
+Alien::DBD::SQLite::BundledExtensions
+Alien::Plotly::Orca
 Alien::CImg
 Alien::GEOS
 Alien::GSL
@@ -155,11 +157,9 @@ Alien::SNMP
 Alien::SFML
 Alien::WFDB
 Alien::qd
-Alien::Taco
 Alien::LibJIT
 Alien::HIDAPI
 Alien::LibANN
-Alien::TALib
 Alien::LibUSB
 Alien::MeCab
 Alien::Gearman
