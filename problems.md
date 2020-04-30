@@ -10,8 +10,8 @@
 - Alien::GEOS  -> PR from plicease already merged -> need only 0.02 release I guess
 
 ### Getty
-- Alien::mpg123 -> PR from me
-- Alien::ffmpeg
+- Alien::mpg123 -> [PR](https://github.com/Getty/p5-alien-mpg123/pull/2) from me
+- Alien::ffmpeg -> [PR](https://github.com/Getty/p5-alien-ffmpeg/pull/5) from me
 - Alien::sismpctl
 - Alien::gettext
 
