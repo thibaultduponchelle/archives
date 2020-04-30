@@ -21,7 +21,7 @@
 
 ### GUGOD 
 - Alien::CImg -> [PR](https://github.com/gugod/Alien-CImg/pull/1) from me
-- Alien::libsndfile
+- Alien::libsndfile -> [PR](https://github.com/gugod/Alien-libsndfile/pull/1) from me
 
 
 ## Something else
