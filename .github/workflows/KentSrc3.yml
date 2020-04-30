@@ -22,6 +22,6 @@ jobs:
       - name: list dpkg
         run: dpkg -l | grep uuid
       - name: remove libuuid1
-        run: sudo dpkg -r --force-all libuuid1
+        run: sudo dpkg -r --force-all libuuid1 uuid-runtime
       - name: Install first Alien::libuuid
         run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure Alien::libuuid Alien::KentSrc
