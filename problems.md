@@ -1,8 +1,8 @@
 # Aliens problems
 
 ## Can't locate Alien/Base/ModuleBuild.pm
-- Alien::Sodium -> PR from plicease + waiting adoption from genio
-- Alien::Lua
+- Alien::Sodium -> [PR](https://github.com/ajgb/alien-sodium/pull/4) from plicease + waiting adoption from genio
+- Alien::Lua -> [PR](https://github.com/tsee/p5-Alien-Lua/pull/1) from plicease
 - Alien::SFML
 
 ### Alranel 
