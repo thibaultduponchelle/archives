@@ -1,38 +1,38 @@
 # Aliens problems
 
 ## Can't locate Alien/Base/ModuleBuild.pm
-- Alien::Sodium -> [PR](https://github.com/ajgb/alien-sodium/pull/4) from plicease + waiting adoption from genio
-- Alien::Lua -> [PR](https://github.com/tsee/p5-Alien-Lua/pull/1) from plicease
-- Alien::SFML -> [PR](https://github.com/jakeanq/perl-alien-sfml/pull/2) MERGED from plicease -> need cpan release ([issue](https://github.com/jakeanq/perl-alien-sfml/issues))
+- :construction: Alien::Sodium -> [PR](https://github.com/ajgb/alien-sodium/pull/4) from plicease + waiting adoption from genio
+- :construction: Alien::Lua -> [PR](https://github.com/tsee/p5-Alien-Lua/pull/1) from plicease
+- :construction: Alien::SFML -> [PR](https://github.com/jakeanq/perl-alien-sfml/pull/2) MERGED from plicease -> need cpan release ([issue](https://github.com/jakeanq/perl-alien-sfml/issues))
 
 ### Alranel 
-- Alien::qd -> [PR](https://github.com/alranel/Alien-qd/pull/2) from plicease already merged -> need only 0.02 release I guess
-- Alien::GEOS  -> [PR](https://github.com/alranel/Alien-GEOS/pull/1) from plicease already merged -> need only 0.02 release I guess
+- :construction: Alien::qd -> [PR](https://github.com/alranel/Alien-qd/pull/2) from plicease already merged -> need only 0.02 release I guess
+- :construction: Alien::GEOS  -> [PR](https://github.com/alranel/Alien-GEOS/pull/1) from plicease already merged -> need only 0.02 release I guess
 
 ### Getty
-- Alien::mpg123 -> [PR](https://github.com/Getty/p5-alien-mpg123/pull/2) from me
-- Alien::ffmpeg -> [PR](https://github.com/Getty/p5-alien-ffmpeg/pull/5) from me
-- Alien::sispmctl -> [PR](https://github.com/Getty/p5-alien-sispmctl/pull/2) from me
-- Alien::gettext -> [PR](https://github.com/Getty/p5-alien-gettext/pull/2) from me
+- :construction: Alien::mpg123 -> [PR](https://github.com/Getty/p5-alien-mpg123/pull/2) from me
+- :construction: Alien::ffmpeg -> [PR](https://github.com/Getty/p5-alien-ffmpeg/pull/5) from me
+- :construction: Alien::sispmctl -> [PR](https://github.com/Getty/p5-alien-sispmctl/pull/2) from me
+- :construction: Alien::gettext -> [PR](https://github.com/Getty/p5-alien-gettext/pull/2) from me
 
 ### OLIVER
-- Alien::SNMP::MAXTC -> [PR](https://github.com/ollyg/Alien-SNMP-MAXTC/pull/2) from me
-- Alien::SNMP -> [PR](https://github.com/ollyg/Alien-SNMP/pull/3) from me - ABMB was added but not in the correct phase
+- :construction: Alien::SNMP::MAXTC -> [PR](https://github.com/ollyg/Alien-SNMP-MAXTC/pull/2) from me
+- :construction: Alien::SNMP -> [PR](https://github.com/ollyg/Alien-SNMP/pull/3) from me - ABMB was added but not in the correct phase
 
 ### GUGOD 
-- Alien::CImg -> [PR](https://github.com/gugod/Alien-CImg/pull/1) from me
-- Alien::libsndfile -> [PR](https://github.com/gugod/Alien-libsndfile/pull/1) from me
+- :construction: Alien::CImg -> [PR](https://github.com/gugod/Alien-CImg/pull/1) from me
+- :construction: Alien::libsndfile -> [PR](https://github.com/gugod/Alien-libsndfile/pull/1) from me
 
 
 ## Something else
-- Alien::GSL -> Could not find any matching files at /usr/local/share/perl/5.26.1/Alien/Base/ModuleBuild.pm line 442. -> [PR](https://github.com/Perl5-Alien/Alien-GSL/pull/6) and [PR](https://github.com/Perl5-Alien/Alien-GSL/pull/7)
+- :construction: Alien::GSL -> Could not find any matching files at /usr/local/share/perl/5.26.1/Alien/Base/ModuleBuild.pm line 442. -> [PR](https://github.com/Perl5-Alien/Alien-GSL/pull/6) and [PR](https://github.com/Perl5-Alien/Alien-GSL/pull/7)
 - Alien::Plotly::Orca prereq Fil::Copy::Recursive not reproducible locally
 - Alien::Hush Failed to change directory to 'src/': No such file or directory at /usr/local/share/perl/5.26.1/Alien/Base/ModuleBuild/Repository/Local.pm line 20.
 - Alien::DBD::SQLite::BundledExtensions Can't locate File/ShareDir.pm in @INC not reproduced locally
 - Alien::Gnuplot -> tarball content changed I guess
 - Alien::raylib -> Makefile:1005: recipe for target '_alien/mm/build' failed
 - Alien::HDF4 -> tarball content changed ? Cannot find hdf library, libdf.a.
-- Alien::LibANN -> syntax error at inc/Devel/CheckLib.pm line 164, near "$mm_attr_key qw(LIBS INC)"
+- :construction: Alien::LibANN -> syntax error at inc/Devel/CheckLib.pm line 164, near "$mm_attr_key qw(LIBS INC)" -> [PR](https://github.com/rogersprint/Alien-LibANN/pull/1) from me
 - Alien::AntTweakBar -> Can't link/include C library 'X11/cursorfont.h', 'GL/glx.h', 'GL/gl.h', aborting.
 - Alien::LibBigWig -> fatal error: curl/curl.h: No such file or directory I do not reproduce locally
 - Alien::LibJIT -> You need to make sure you have a recent 'libtool' installed and that it can be found in your PATH at inc/Module/Build/AlienLibJIT.pm line 40
@@ -62,7 +62,7 @@
 - Alien::Poppler -> Could NOT find Freetype (missing: FREETYPE_LIBRARY FREETYPE_INCLUDE_DIRS)
 - Alien::FontForge -> tarball content changed ? -> sh: 0: Can't open ./bootstrap
 - Alien::LibMagic -> Could not find any matching files at /usr/local/share/perl/5.26.1/Alien/Base/ModuleBuild.pm line 442. -> [PR](https://github.com/zmughal/p5-Alien-LibMagic/pull/6)
-- Alien::UDUNITS2 -> Could not find any matching files at /usr/local/share/perl/5.26.1/Alien/Base/ModuleBuild.pm line 442. -> [PR](https://github.com/EntropyOrg/p5-Alien-UDUNITS2/pull/10) from me
+- :construction: Alien::UDUNITS2 -> Could not find any matching files at /usr/local/share/perl/5.26.1/Alien/Base/ModuleBuild.pm line 442. -> [PR](https://github.com/EntropyOrg/p5-Alien-UDUNITS2/pull/10) from me
 
 ### KMX
 - Alien::IUP ###FATAL### No supported GUI subsystem (GTK3, GTK2, X11/Motif) detected! (gonna exit)
