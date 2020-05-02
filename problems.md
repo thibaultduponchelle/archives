@@ -16,8 +16,8 @@
 - :construction: Alien::gettext -> [PR](https://github.com/Getty/p5-alien-gettext/pull/2) from me
 
 ### OLIVER
-- :construction: Alien::SNMP::MAXTC -> [PR](https://github.com/ollyg/Alien-SNMP-MAXTC/pull/2) from me
-- :construction: Alien::SNMP -> [PR](https://github.com/ollyg/Alien-SNMP/pull/3) from me - ABMB was added but not in the correct phase
+- :heavy_check_mark: ~Alien::SNMP::MAXTC -> [PR](https://github.com/ollyg/Alien-SNMP-MAXTC/pull/2) from me~
+- :heavy_check_mark: ~Alien::SNMP -> [PR](https://github.com/ollyg/Alien-SNMP/pull/3) from me - ABMB was added but not in the correct phase~
 
 ### GUGOD 
 - :construction: Alien::CImg -> [PR](https://github.com/gugod/Alien-CImg/pull/1) from me
@@ -44,6 +44,7 @@
 - Alien::ROOT -> configure: libX11 MUST be installed
 - Alien::SDL -> -> !  Archive::Zip is not installed + FAIL Timed out (> 60s).
 - Alien::MeCab -> Detected circular dependencies Alien-MeCab-0.97005 -> Alien-MeCab-0.97005
+- :construction: Alien::SNMP::MAXTC -> compilation error [PR](https://github.com/ollyg/Alien-SNMP-MAXTC/pull/3) from me to upgrade tarball
 
 ### PLU 
 - Alien::Gearman -> depends on Alien::Libevent that fails
