@@ -22,4 +22,4 @@ jobs:
       - name: Check file is here
         run: ls dirt
       - name: Install KentSrc
-        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure Alien::KentSrc dirt/Alien-KentSrc-0.5.tar.gz --verbose
+        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure dirt/Alien-KentSrc-0.5.tar.gz --verbose
