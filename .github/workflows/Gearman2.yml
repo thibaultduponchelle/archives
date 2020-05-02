@@ -1,0 +1,25 @@
+name : Libevent2
+
+on:
+  push:
+    branches:
+      - '*'
+    tags-ignore:
+      - '*'
+  pull_request:
+  schedule:
+    - cron: 0 0 * * *
+
+jobs:
+  perl:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: perl -V
+        run: perl -V
+      - name: Check file is here
+        run: ls dirt
+      - name: Install KentSrc
+        run: curl -sL https://git.io/cpm | sudo perl - install --show-build-log-on-failure dirt/Alien-Libevent-0.01004.tar.gz --verbose
