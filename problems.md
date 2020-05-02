@@ -48,7 +48,7 @@
 
 ### PLU 
 - Alien::Gearman -> depends on Alien::Libevent that fails
-- Alien::Libevent -> syntax error
+- :construction: Alien::Libevent -> syntax error -> removed inc/Devel/ChecLib and use cpan version, no github (removed) 
 
 ### ATHREEF
 - Alien::HIDAPI -> depends on LibUSB that failed
