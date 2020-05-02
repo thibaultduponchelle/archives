@@ -1,0 +1,25 @@
+name : KentSrcTestNewLibDeps
+
+on:
+  push:
+    branches:
+      - '*'
+    tags-ignore:
+      - '*'
+  pull_request:
+  schedule:
+    - cron: 0 0 * * *
+
+jobs:
+  perl:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: perl -V
+        run: perl -V
+      - name: Install cpanm
+        run: curl -L http://cpanmin.us | perl - --sudo App::cpanminus
+      - name: Install Dependencies
+        run: cpanm dirt/Alien-KentSrc-0.5.tar.gz
