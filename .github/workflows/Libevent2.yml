@@ -1,4 +1,4 @@
-name : KentSrcTestNewLibDeps
+name : Libevent2
 
 on:
   push:
