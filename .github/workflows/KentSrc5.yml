@@ -23,3 +23,5 @@ jobs:
         run: curl -L http://cpanmin.us | perl - --sudo App::cpanminus
       - name: Install Dependencies
         run: cpanm dirt/Alien-KentSrc-0.5.tar.gz
+      - name: Print logs
+        run: cat /home/runner/.cpanm/work/*/build.log
