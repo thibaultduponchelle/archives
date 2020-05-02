@@ -47,7 +47,7 @@
 - :construction: Alien::SNMP::MAXTC -> compilation error [PR](https://github.com/ollyg/Alien-SNMP-MAXTC/pull/3) from me to upgrade tarball
 
 ### PLU 
-- Alien::Gearman -> depends on Alien::Libevent that fails
+- Alien::Gearman -> depends on Alien::Libevent that fails -> removed inc/Devel/ChecLib and use cpan version, no github (removed) 
 - :construction: Alien::Libevent -> syntax error -> removed inc/Devel/ChecLib and use cpan version, no github (removed) 
 
 ### ATHREEF
