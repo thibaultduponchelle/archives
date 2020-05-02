@@ -22,5 +22,5 @@ jobs:
       - name: Check file is here
         run: ls dirt
       - name: Install KentSrc
-        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure dirt/Alien-Libevent-0.01004.tar.gz --verbose
+        run: curl -sL https://git.io/cpm | sudo perl - install --show-build-log-on-failure dirt/Alien-Libevent-0.01004.tar.gz --verbose
 
