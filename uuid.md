@@ -33,3 +33,19 @@ Requires:
 Cflags: -I${includedir}/uuid
 Libs: -L${libdir} -luuid
 ```
+
+## Test
+
+```
+#include <uuid/uuid.h>
+
+int main(int argc, char* argv[]) {
+	return 0;
+}
+
+```
+
+compiles OK : 
+```
+gcc -o test test.c
+```
