@@ -2,7 +2,6 @@ name : HushABMB114
 
 on:
   push:
-    branches: *
   schedule:
     - cron: 0 0 * * *
 
