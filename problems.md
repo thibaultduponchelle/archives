@@ -66,7 +66,7 @@
 - :construction: Alien::UDUNITS2 -> Could not find any matching files at /usr/local/share/perl/5.26.1/Alien/Base/ModuleBuild.pm line 442. -> [PR](https://github.com/EntropyOrg/p5-Alien-UDUNITS2/pull/10) from me
 
 ### KMX
-- :see_no_evil: Alien::IUP ###FATAL### No supported GUI subsystem (GTK3, GTK2, X11/Motif) detected! (gonna exit) -> Not KO, just need to install gtk2, gtk3 or x11 
+- :see_no_evil: ~Alien::IUP ###FATAL### No supported GUI subsystem (GTK3, GTK2, X11/Motif) detected! (gonna exit) -> Not KO, just need to install gtk2, gtk3 or x11~
 - :construction: Alien::FreeImage ->  error: call of overloaded ‘powf64(int, int)’ is ambiguous -> [PR}(https://github.com/kmx/alien-freeimage/pull/1) or [PR](https://github.com/kmx/alien-freeimage/pull/2)
 
 ### KIWIROY
