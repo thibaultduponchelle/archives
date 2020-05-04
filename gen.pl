@@ -21,7 +21,7 @@ jobs:
 END
 
 my $endyml = << "END";
-      - name: Install Dependencies
+      - name: Install alien
         run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure 
 END
 
