@@ -34,7 +34,7 @@
 - Alien::HDF4 -> tarball content changed ? Cannot find hdf library, libdf.a.
 - :construction: Alien::LibANN -> syntax error at inc/Devel/CheckLib.pm line 164, near "$mm_attr_key qw(LIBS INC)" -> [PR](https://github.com/rogersprint/Alien-LibANN/pull/1) from me
 - :construnction: Alien::AntTweakBar -> Can't link/include C library 'X11/cursorfont.h', 'GL/glx.h', 'GL/gl.h', aborting. -> insall non alienazed big deps
-- Alien::LibBigWig -> fatal error: curl/curl.h: No such file or directory I do not reproduce locally
+- :construction: Alien::LibBigWig -> fatal error: curl/curl.h: No such file or directory I do not reproduce locally -> [PR] from me
 - Alien::LibJIT -> You need to make sure you have a recent 'libtool' installed and that it can be found in your PATH at inc/Module/Build/AlienLibJIT.pm line 40
 - Alien::RRDtool -> configure: error: you need either glib with g_regex support or libpcre to compile rrdtool.
 - Alien::Protobuf -> ??
@@ -52,9 +52,9 @@
 - :construction: Alien::Libevent -> syntax error -> removed inc/Devel/ChecLib and use cpan version, no github (removed) ->> Fixed on my [REPO](https://github.com/thibaultduponchelle/Alien-Libevent)
 
 ### ATHREEF
-- Alien::HIDAPI -> depends on LibUSB that failed
-- Alien::LibUSB -> Can't locate Alien/libudev.pm in @INC (you may need to install the Alien::libudev module) prereq missing -> Alien::libudev is not a prereq because not available on all platforms, I need to investigate. Conditional use, very tricky 
-- Alien::libudev -> travis owner Duplication of element provides.Alien::libudev at /home/travis/perl5/perlbrew/perls/5.22.0/lib/site_perl/5.22.0/Dist/Zilla.pm line 595. 
+- :construction: Alien::HIDAPI -> depends on LibUSB that failed
+- :construction: Alien::LibUSB -> Can't locate Alien/libudev.pm in @INC (you may need to install the Alien::libudev module) prereq missing -> Alien::libudev is not a prereq because not available on all platforms, I need to investigate. Conditional use, very tricky 
+- :construction: Alien::libudev -> travis owner Duplication of element provides.Alien::libudev at /home/travis/perl5/perlbrew/perls/5.22.0/lib/site_perl/5.22.0/Dist/Zilla.pm line 595. 
 
 ### CBUREL 
 - Alien::QtSmoke -> Fetch problem Fetch failed! HTTP response: 500 Internal Server Error [500 Can't connect to ftp.gtlib.cc.gatech.edu:80 (Name or service not known)] at Makefile.PL line 43.
