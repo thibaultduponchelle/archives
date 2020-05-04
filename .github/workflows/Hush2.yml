@@ -16,5 +16,5 @@ jobs:
         run: perl -V
       - name: Check file is here
         run: ls dirt
-      - name: Install KentSrc
+      - name: Install Hush
         run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure dirt/Alien-Hush-0.9999.tar.gz --verbose
