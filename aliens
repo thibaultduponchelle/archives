@@ -151,7 +151,7 @@ Alien::GEOS
 Alien::Hush
 Alien::Lua
 Alien::NSS
-Alien::ROOT
+Alien::ROOT libx11-dev libxpm-dev
 Alien::SDL
 Alien::SDL2
 Alien::SFML
@@ -187,7 +187,7 @@ Alien::Libgcrypt
 Alien::UDUNITS2
 Alien::sispmctl
 Alien::ProtoBuf
-Alien::AntTweakBar
+Alien::AntTweakBar libgl1-mesa-dev libglu1-mesa-dev
 Alien::DDC::Concordance
 Alien::wxWidgets
 Alien::Gimp

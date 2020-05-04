@@ -15,5 +15,5 @@ jobs:
         run: perl -V
       - name: Install non alienazed dependencies
         run: sudo apt-get install libgtk2.0-dev
-      - name: Install Dependencies
+      - name: Install alien
         run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure Alien::IUP
