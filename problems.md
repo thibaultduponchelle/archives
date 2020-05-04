@@ -45,6 +45,7 @@
 - Alien::SDL -> -> !  Archive::Zip is not installed + FAIL Timed out (> 60s).
 - Alien::MeCab -> Detected circular dependencies Alien-MeCab-0.97005 -> Alien-MeCab-0.97005
 - :construction: Alien::SNMP::MAXTC -> compilation error [PR](https://github.com/ollyg/Alien-SNMP-MAXTC/pull/3) from me to upgrade tarball
+- Alien::TALib -> compilation/build problem
 
 ### PLU 
 - :construction: Alien::Gearman -> depends on Alien::Libevent that fails -> removed inc/Devel/ChecLib and use cpan version, no github (removed) -> Need ALien::libuuid -> fixed on my [REPO](https://github.com/thibaultduponchelle/Alien-Gearman) 
