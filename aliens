@@ -140,20 +140,20 @@ Alien::Prototype::Carousel
 Dist::Zilla::Plugin::Alien
 AI::PredictionClient::Alien::TensorFlowServingProtos
 Alien::Taco
+Alien::GSL
+Alien::SNMP
+Alien::IUP libgtk2.0-dev
 Alien::TALib
 Alien::DBD::SQLite::BundledExtensions
 Alien::Plotly::Orca
 Alien::CImg
 Alien::GEOS
-Alien::GSL
 Alien::Hush
-Alien::IUP
 Alien::Lua
 Alien::NSS
 Alien::ROOT
 Alien::SDL
 Alien::SDL2
-Alien::SNMP
 Alien::SFML
 Alien::WFDB
 Alien::qd

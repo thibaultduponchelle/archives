@@ -4,7 +4,7 @@
 # Use like this :
 # cat aliens | ./gen.pl > README.md
 
-my $yml = << "END";
+my $startyml = << "END";
 on:
   schedule:
     - cron: 0 0 * * *
@@ -18,6 +18,9 @@ jobs:
       - uses: actions/checkout\@v2
       - name: perl -V
         run: perl -V
+END
+
+my $endyml = << "END";
       - name: Install Dependencies
         run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure 
 END
@@ -27,8 +30,9 @@ my @badges = ();
 
 
 while(<>) {
-	my $full_alien = $_;
-	chomp $full_alien;
+	my $line = $_;
+	chomp $line;
+	my ($full_alien, @debs) = split(" ", $line);
 	my ($trash, @all) = split("::", $full_alien);
 	my $alien = join("-", @all);
 	#print "Alien::$alien is $full_alien\n";
@@ -41,8 +45,13 @@ while(<>) {
 	my $filename = ".github/workflows/$alien.yml";
 	open(my $fh, '>', $filename) or die "Could not open file '$filename' $!";
 	print $fh "name : $alien\n\n";
-	chomp $yml;
-	print $fh $yml;
+	print $fh $startyml;
+	if(@debs) {
+		print $fh "      - name: Install non alienazed dependencies\n";
+		print $fh "        run: sudo apt-get install @debs\n";
+	}
+	chomp $endyml;
+	print $fh $endyml;
 	print $fh "$full_alien\n";
 	close $fh;
 }
