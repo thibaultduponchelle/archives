@@ -53,7 +53,7 @@
 
 ### ATHREEF
 - Alien::HIDAPI -> depends on LibUSB that failed
-- Alien::LibUSB -> Can't locate Alien/libudev.pm in @INC (you may need to install the Alien::libudev module) prereq missing -> Alien::libudev is not a prereq because not available on all platforms, I need to investigate
+- Alien::LibUSB -> Can't locate Alien/libudev.pm in @INC (you may need to install the Alien::libudev module) prereq missing -> Alien::libudev is not a prereq because not available on all platforms, I need to investigate. Conditional use, very tricky 
 - Alien::libudev -> travis owner Duplication of element provides.Alien::libudev at /home/travis/perl5/perlbrew/perls/5.22.0/lib/site_perl/5.22.0/Dist/Zilla.pm line 595. 
 
 ### CBUREL 
