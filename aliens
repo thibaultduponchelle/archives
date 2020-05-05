@@ -143,6 +143,7 @@ Alien::Taco
 Alien::GSL
 Alien::SNMP
 Alien::IUP libgtk2.0-dev
+Alien::AntTweakBar libgl1-mesa-dev libglu1-mesa-dev
 Alien::TALib
 Alien::DBD::SQLite::BundledExtensions
 Alien::Plotly::Orca
@@ -187,7 +188,6 @@ Alien::Libgcrypt
 Alien::UDUNITS2
 Alien::sispmctl
 Alien::ProtoBuf
-Alien::AntTweakBar libgl1-mesa-dev libglu1-mesa-dev
 Alien::DDC::Concordance
 Alien::wxWidgets
 Alien::Gimp
