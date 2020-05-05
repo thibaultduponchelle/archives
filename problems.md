@@ -48,8 +48,8 @@
 - Alien::TALib -> compilation/build problem
 
 ### PLU 
-- :construction: Alien::Gearman -> depends on Alien::Libevent that fails -> removed inc/Devel/ChecLib and use cpan version, no github (removed) -> Need ALien::libuuid -> fixed on my [REPO](https://github.com/thibaultduponchelle/Alien-Gearman) 
-- :construction: Alien::Libevent -> syntax error -> removed inc/Devel/ChecLib and use cpan version, no github (removed) ->> Fixed on my [REPO](https://github.com/thibaultduponchelle/Alien-Libevent)
+- :construction: Alien::Gearman -> depends on Alien::Libevent that fails -> removed inc/Devel/ChecLib and use cpan version, no github (removed) -> Need ALien::libuuid -> fixed on my [REPO](https://github.com/thibaultduponchelle/Alien-Gearman)  -> [RT ticket](https://rt.cpan.org/Ticket/Display.html?id=132505) 5 may 2020
+- :construction: Alien::Libevent -> syntax error -> removed inc/Devel/ChecLib and use cpan version, no github (removed) -> Fixed on my [REPO](https://github.com/thibaultduponchelle/Alien-Libevent) -> [RT ticket](https://rt.cpan.org/Ticket/Display.html?id=98058#txn-1896610) 5 may 2020
 
 ### ATHREEF
 - :construction: Alien::HIDAPI -> depends on LibUSB that failed
