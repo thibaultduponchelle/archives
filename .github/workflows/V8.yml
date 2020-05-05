@@ -1,6 +1,7 @@
 name : V8
 
 on:
+  push:
   schedule:
     - cron: 0 0 * * *
 
