@@ -2,7 +2,7 @@
 
 ## Can't locate Alien/Base/ModuleBuild.pm
 - :construction: Alien::Sodium -> [PR](https://github.com/ajgb/alien-sodium/pull/4) from plicease + waiting adoption from genio
-- :construction: Alien::Lua -> [PR](https://github.com/tsee/p5-Alien-Lua/pull/1) from plicease
+- :construction: Alien::Lua -> [PR](https://github.com/tsee/p5-Alien-Lua/pull/1) from plicease -> [commented](https://github.com/tsee/p5-Alien-Lua/pull/1#issuecomment-623946352) 5 may 2020
 - :construction: Alien::SFML -> [PR](https://github.com/jakeanq/perl-alien-sfml/pull/2) MERGED from plicease -> need cpan release ([issue](https://github.com/jakeanq/perl-alien-sfml/issues))
 
 ### Alranel 
