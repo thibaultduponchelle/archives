@@ -6,8 +6,8 @@
 - :construction: Alien::SFML -> [PR](https://github.com/jakeanq/perl-alien-sfml/pull/2) MERGED from plicease -> need cpan release ([issue](https://github.com/jakeanq/perl-alien-sfml/issues) from me 30 april 2020)
 
 ### Alranel 
-- :construction: Alien::qd -> [PR](https://github.com/alranel/Alien-qd/pull/2) from plicease already merged -> need only 0.02 release I guess -> commented 30 april 2020 
-- :construction: Alien::GEOS  -> [PR](https://github.com/alranel/Alien-GEOS/pull/1) from plicease already merged -> need only 0.02 release I guess -> commented 5 may 2020
+- :construction: Alien::qd -> [PR](https://github.com/alranel/Alien-qd/pull/2) from plicease already merged 17 april 2016 -> need only 0.02 release I guess -> commented 30 april 2020 
+- :construction: Alien::GEOS  -> [PR](https://github.com/alranel/Alien-GEOS/pull/1) from plicease already merged 1 march 2016 -> need only 0.02 release I guess -> commented 5 may 2020
 
 ### Getty
 - :construction: Alien::mpg123 -> [PR](https://github.com/Getty/p5-alien-mpg123/pull/2) from me
