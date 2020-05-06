@@ -16,5 +16,5 @@ jobs:
         run: perl -V
       - name: Check file is here
         run: ls dirt
-      - name: Install LibUSB2
+      - name: Install DBD-SQLite-BundledExtensions
         run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure dirt/Alien-DBD-SQLite-BundledExtensions-0.001.tar.gz --verbose
