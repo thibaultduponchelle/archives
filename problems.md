@@ -42,7 +42,8 @@
 - Alien::OpenVcdiff -> compilation error src/vcdecoder_test.cc:33:3: error: narrowing conversion of ‘214’ from ‘int’ to ‘char’ inside { } [-Wnarrowing]
 - Alien::Gimp -> only a probe ?
 - Alien::ROOT -> configure: libX11 MUST be installed ([repo](https://github.com/tsee/SOOT/tree/master/Alien-ROOT))
-- Alien::SDL -> -> !  Archive::Zip is not installed + FAIL Timed out (> 60s).
+- Alien::SDL -> !  Archive::Zip is not installed + FAIL Timed out (> 60s).
+- :heavy_check_mark: ~Alien::SDL2 -> unstable timeout~
 - Alien::MeCab -> Detected circular dependencies Alien-MeCab-0.97005 -> Alien-MeCab-0.97005
 - :construction: Alien::SNMP::MAXTC -> compilation error [PR](https://github.com/ollyg/Alien-SNMP-MAXTC/pull/3) from me to upgrade tarball
 - Alien::TALib -> compilation/build problem
@@ -72,7 +73,7 @@
 - :construction: Alien::FreeImage ->  error: call of overloaded ‘powf64(int, int)’ is ambiguous -> [PR}(https://github.com/kmx/alien-freeimage/pull/1) or [PR](https://github.com/kmx/alien-freeimage/pull/2)
 
 ### KIWIROY
-- :construction: ALien::MUSCLE ExtUtils::CBuilder version 0.280226 required--this is only version 0.280225 at /home/tduponchelle/.cpanm/work/1588163506.974/Alien-MUSCLE-0.01/alienfile line 8.
+- :construction: ALien::MUSCLE ExtUtils::CBuilder version 0.280226 required--this is only version 0.280225 at /home/tduponchelle/.cpanm/work/1588163506.974/Alien-MUSCLE-0.01/alienfile line 8. -> Fixed with [PR](https://github.com/kiwiroy/p5-alien-muscle/pull/2) -> need cpan release
 - :construction: Alien::KentSrc pngwrite.c:7:10: fatal error: png.h: No such file or directory -> Alien::PNG not installed but if libpng is installed, Alien::PNG does not install devel ? -> Needs prereq Alien::libuuid ?
 
 ### PEVANS
