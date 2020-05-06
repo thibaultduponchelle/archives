@@ -1,0 +1,20 @@
+name : LibUSB2
+
+on:
+  push:
+  schedule:
+    - cron: 0 0 * * *
+
+jobs:
+  perl:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: perl -V
+        run: perl -V
+      - name: Check file is here
+        run: ls dirt
+      - name: Install KentSrc
+        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure dirt/Alien-LibUSB-0.4.tar.gz --verbose
