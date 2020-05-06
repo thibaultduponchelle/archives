@@ -28,7 +28,7 @@
 - :heavy_check_mark: ~Alien::GSL -> Could not find any matching files at /usr/local/share/perl/5.26.1/Alien/Base/ModuleBuild.pm line 442. -> [PR](https://github.com/Perl5-Alien/Alien-GSL/pull/6) and [PR](https://github.com/Perl5-Alien/Alien-GSL/pull/7)~
 - Alien::Plotly::Orca prereq Fil::Copy::Recursive not reproducible locally
 - Alien::Hush Failed to change directory to 'src/': No such file or directory at /usr/local/share/perl/5.26.1/Alien/Base/ModuleBuild/Repository/Local.pm line 20.
-- Alien::DBD::SQLite::BundledExtensions Can't locate File/ShareDir.pm in @INC not reproduced locally
+- :construction: Alien::DBD::SQLite::BundledExtensions Can't locate File/ShareDir.pm in @INC not reproduced locally -> Alien/Base/PkgConfig not in @INC -> fix on my [REPO](https://github.com/thibaultduponchelle/Alien-DBD-SQLite-BundledExtensions/commit/e4736bba119ab2ab1653a83670412c11b2515be2)
 - Alien::Gnuplot -> tarball content changed I guess
 - Alien::raylib -> Makefile:1005: recipe for target '_alien/mm/build' failed
 - Alien::HDF4 -> tarball content changed ? Cannot find hdf library, libdf.a.
