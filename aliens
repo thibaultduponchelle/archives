@@ -144,6 +144,8 @@ Alien::GSL
 Alien::SNMP
 Alien::IUP libgtk2.0-dev
 Alien::AntTweakBar libgl1-mesa-dev libglu1-mesa-dev
+Alien::SDL2
+Alien::libtiff
 Alien::TALib
 Alien::DBD::SQLite::BundledExtensions
 Alien::Plotly::Orca
@@ -154,7 +156,6 @@ Alien::Lua
 Alien::NSS
 Alien::ROOT libx11-dev libxpm-dev
 Alien::SDL
-Alien::SDL2
 Alien::SFML
 Alien::WFDB
 Alien::qd
