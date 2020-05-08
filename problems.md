@@ -49,6 +49,7 @@
 - :construction: Alien::SNMP::MAXTC -> compilation error [PR](https://github.com/ollyg/Alien-SNMP-MAXTC/pull/3) from me to upgrade tarball
 - Alien::TALib -> compilation/build problem
 - :construction: Alien::NSS -> 404 -> [PR](https://github.com/0xxon/alien-nss/pull/6) by me
+- Alien::LibUSBx -> download link issue Could not connect to 'aarnet.dl.sourceforge.net:80': Name or service not known
 
 ### PLU 
 - :construction: Alien::Gearman -> depends on Alien::Libevent that fails -> removed inc/Devel/ChecLib and use cpan version, no github (removed) -> Need ALien::libuuid -> fixed on my [REPO](https://github.com/thibaultduponchelle/Alien-Gearman)  -> [RT ticket](https://rt.cpan.org/Ticket/Display.html?id=132505) 5 may 2020 -> Johannes Plunien confirmed -> TO ADOPT -> I asked to adopt it
@@ -78,7 +79,7 @@
 - :construction: Alien::KentSrc pngwrite.c:7:10: fatal error: png.h: No such file or directory -> Alien::PNG not installed but if libpng is installed, Alien::PNG does not install devel ? -> Needs prereq Alien::libuuid ?
 
 ### PEVANS
-- Alien::libtickit looking for pkg-config termkey... OS unsupported - unable to find GNU libtool
-- Alien::libtermkey depends on Alien::unibilium + OS unsupported - unable to find GNU libtool
-- Alien::unibilium requires:    !  ExtUtils::PkgConfig is not installed + OS unsupported - unable to find GNU libtool
+- :heavy_check_mark: ~Alien::libtickit looking for pkg-config termkey... OS unsupported - unable to find GNU libtool -> require non alienazed libtool~
+- :heavy_check_mark: ~Alien::libtermkey depends on Alien::unibilium + OS unsupported - unable to find GNU libtool -> require non alienazed libtool~
+- :heavy_check_mark: ~Alien::unibilium requires:    !  ExtUtils::PkgConfig is not installed + OS unsupported - unable to find GNU libtool -> require non alienazed libtool~
 
