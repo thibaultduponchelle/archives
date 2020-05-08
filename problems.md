@@ -44,7 +44,7 @@
 - Alien::OpenVcdiff -> compilation error src/vcdecoder_test.cc:33:3: error: narrowing conversion of ‘214’ from ‘int’ to ‘char’ inside { } [-Wnarrowing]
 - Alien::Gimp -> only a probe ?
 - Alien::ROOT -> configure: libX11 MUST be installed ([repo](https://github.com/tsee/SOOT/tree/master/Alien-ROOT))
-- Alien::SDL -> !  Archive::Zip is not installed + FAIL Timed out (> 60s).
+- :heavy_check_mark: ~Alien::SDL -> !  Archive::Zip is not installed + FAIL Timed out (> 60s).~
 - :heavy_check_mark: ~Alien::SDL2 -> unstable timeout~
 - Alien::MeCab -> Detected circular dependencies Alien-MeCab-0.97005 -> Alien-MeCab-0.97005
 - :construction: Alien::SNMP::MAXTC -> compilation error [PR](https://github.com/ollyg/Alien-SNMP-MAXTC/pull/3) from me to upgrade tarball
