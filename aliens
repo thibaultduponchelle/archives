@@ -141,6 +141,9 @@ Dist::Zilla::Plugin::Alien
 AI::PredictionClient::Alien::TensorFlowServingProtos
 Alt::Alien::ZMQ::Alien::ZMQ::latest
 Alien::Editline libncurses5-dev
+Alien::libtermkey libtool-bin
+Alien::libtickit libtool-bin
+Alien::unibilium libtool-bin
 Alien::Taco
 Alien::GSL
 Alien::SNMP
@@ -199,7 +202,5 @@ Alien::OpenVcdiff
 Alien::SNMP::MAXTC
 Alien::XInputSimulator
 Alien::libsndfile
-Alien::libtermkey
-Alien::libtickit
 Alien::pdf2htmlEX
 Alien::spatialite

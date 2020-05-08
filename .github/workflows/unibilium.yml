@@ -1,4 +1,4 @@
-name : libtickit
+name : unibilium
 
 on:
   schedule:
@@ -16,4 +16,4 @@ jobs:
       - name: Install non alienazed dependencies
         run: sudo apt-get install libtool-bin
       - name: Install alien
-        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure Alien::libtickit
+        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure Alien::unibilium
