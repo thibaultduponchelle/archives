@@ -139,6 +139,7 @@ Alien::Base::ModuleBuild
 Alien::Prototype::Carousel
 Dist::Zilla::Plugin::Alien
 AI::PredictionClient::Alien::TensorFlowServingProtos
+Alt::Alien::ZMQ::Alien::ZMQ::latest
 Alien::Taco
 Alien::GSL
 Alien::SNMP
@@ -202,4 +203,3 @@ Alien::libtermkey
 Alien::libtickit
 Alien::pdf2htmlEX
 Alien::spatialite
-Alt::Alien::ZMQ::Alien::ZMQ::latest
