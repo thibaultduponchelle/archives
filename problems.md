@@ -79,7 +79,7 @@
 - :construction: Alien::KentSrc pngwrite.c:7:10: fatal error: png.h: No such file or directory -> Alien::PNG not installed but if libpng is installed, Alien::PNG does not install devel ? -> Needs prereq Alien::libuuid ?
 
 ### PEVANS
-- :heavy_check_mark: ~Alien::libtickit looking for pkg-config termkey... OS unsupported - unable to find GNU libtool -> require non alienazed libtool~ Alien::libtool exists
-- :heavy_check_mark: ~Alien::libtermkey depends on Alien::unibilium + OS unsupported - unable to find GNU libtool -> require non alienazed libtool~ Alien::libtool exists
-- :heavy_check_mark: ~Alien::unibilium requires:    !  ExtUtils::PkgConfig is not installed + OS unsupported - unable to find GNU libtool -> require non alienazed libtool~ Alien::libtool exists
+- :heavy_check_mark: ~Alien::libtickit looking for pkg-config termkey... OS unsupported - unable to find GNU libtool -> require libtool~ Alien::libtool exists
+- :heavy_check_mark: ~Alien::libtermkey depends on Alien::unibilium + OS unsupported - unable to find GNU libtool -> require libtool~ Alien::libtool exists
+- :heavy_check_mark: ~Alien::unibilium requires:    !  ExtUtils::PkgConfig is not installed + OS unsupported - unable to find GNU libtool -> require libtool~ Alien::libtool exists
 
