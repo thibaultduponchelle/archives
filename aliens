@@ -140,6 +140,7 @@ Alien::Prototype::Carousel
 Dist::Zilla::Plugin::Alien
 AI::PredictionClient::Alien::TensorFlowServingProtos
 Alt::Alien::ZMQ::Alien::ZMQ::latest
+Alien::Editline libncurses5-dev
 Alien::Taco
 Alien::GSL
 Alien::SNMP
@@ -180,7 +181,6 @@ Alien::gettext
 Alien::gputils
 Alien::mpg123
 Alien::raylib
-Alien::Editline
 Alien::FontForge
 Alien::FreeImage
 Alien::LibBigWig
