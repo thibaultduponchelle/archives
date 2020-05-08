@@ -1,7 +1,6 @@
 name : LibUSB2
 
 on:
-  push:
   schedule:
     - cron: 0 0 * * *
 
