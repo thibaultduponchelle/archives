@@ -164,7 +164,7 @@ Alien::SDL
 Alien::SFML
 Alien::WFDB
 Alien::qd
-Alien::LibJIT
+Alien::LibJIT libtool-bin flex bison texinfo
 Alien::HIDAPI
 Alien::LibANN
 Alien::LibUSB
