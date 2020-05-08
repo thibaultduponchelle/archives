@@ -76,7 +76,7 @@
 
 ### KIWIROY
 - :construction: ALien::MUSCLE ExtUtils::CBuilder version 0.280226 required--this is only version 0.280225 at /home/tduponchelle/.cpanm/work/1588163506.974/Alien-MUSCLE-0.01/alienfile line 8. -> Fixed with [PR](https://github.com/kiwiroy/p5-alien-muscle/pull/2) -> need cpan release
-- :construction: Alien::KentSrc pngwrite.c:7:10: fatal error: png.h: No such file or directory -> Alien::PNG not installed but if libpng is installed, Alien::PNG does not install devel ? -> Needs prereq Alien::libuuid ?
+- :construction: Alien::KentSrc pngwrite.c:7:10: fatal error: png.h: No such file or directory -> Alien::PNG not installed but if libpng is installed, Alien::PNG does not install devel ? -> Needs prereq Alien::libuuid ? -> Fixed on lib-deps branch of [kiwiroy repo](https://github.com/kiwiroy/alien-kentsrc/tree/lib-deps)
 
 ### PEVANS
 - :heavy_check_mark: ~Alien::libtickit looking for pkg-config termkey... OS unsupported - unable to find GNU libtool -> require libtool~ Alien::libtool exists
