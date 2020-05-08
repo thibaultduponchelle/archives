@@ -65,9 +65,10 @@ foreach my $b (@badges) {
 	print "| [![$b](https://github.com/thibaultduponchelle/aliens-ci/workflows/$b/badge.svg)](https://github.com/thibaultduponchelle/aliens-ci/actions?query=workflow%3A$b) ";
 	if($cells >= 5) { 
 		$cells = 0;
-		print "\n";
+		print "| \n";
 	}
 }
 
-print " |\n\n";
+print "|" if($cells);
+print "\n\n";
 print "You can find details about failing modules on the [problems page](https://github.com/thibaultduponchelle/aliens-ci/blob/master/problems.md)\n";

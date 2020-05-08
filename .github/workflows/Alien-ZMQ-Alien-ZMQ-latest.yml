@@ -1,7 +1,6 @@
 name : Alien-ZMQ-Alien-ZMQ-latest
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 
