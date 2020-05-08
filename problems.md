@@ -36,7 +36,7 @@
 - :construction: Alien::LibANN -> syntax error at inc/Devel/CheckLib.pm line 164, near "$mm_attr_key qw(LIBS INC)" -> [PR](https://github.com/rogersprint/Alien-LibANN/pull/1) from me
 - :construnction: Alien::AntTweakBar -> Can't link/include C library 'X11/cursorfont.h', 'GL/glx.h', 'GL/gl.h', aborting. -> insall non alienazed big deps
 - :construction: Alien::LibBigWig -> fatal error: curl/curl.h: No such file or directory I do not reproduce locally -> [PR] from me
-- Alien::LibJIT -> You need to make sure you have a recent 'libtool' installed and that it can be found in your PATH at inc/Module/Build/AlienLibJIT.pm line 40
+- :construction: Alien::LibJIT -> You need to make sure you have a recent 'libtool' installed and that it can be found in your PATH at inc/Module/Build/AlienLibJIT.pm line 40 -> add libtool-bin flex, bison, texinfo -> Alien::libtool and Alien::bison and Alien::flex and Alien::texinfo are available...
 - Alien::RRDtool -> configure: error: you need either glib with g_regex support or libpcre to compile rrdtool.
 - :construction: Alien::Protobuf -> Only a system install in upstream -> share is on kiwiroy branch, system seems broken here
 - Alien::DDC-Concordance -> configure: error: could not find pcre_compile(): ensure that LDFLAGS, LIBS are set to link to libpcre
@@ -49,6 +49,7 @@
 - :construction: Alien::SNMP::MAXTC -> compilation error [PR](https://github.com/ollyg/Alien-SNMP-MAXTC/pull/3) from me to upgrade tarball
 - Alien::TALib -> compilation/build problem
 - :construction: Alien::NSS -> 404 -> [PR](https://github.com/0xxon/alien-nss/pull/6) by me
+- Alien::LibUSBx -> download link issue Could not connect to 'aarnet.dl.sourceforge.net:80': Name or service not known
 
 ### PLU 
 - :construction: Alien::Gearman -> depends on Alien::Libevent that fails -> removed inc/Devel/ChecLib and use cpan version, no github (removed) -> Need ALien::libuuid -> fixed on my [REPO](https://github.com/thibaultduponchelle/Alien-Gearman)  -> [RT ticket](https://rt.cpan.org/Ticket/Display.html?id=132505) 5 may 2020 -> Johannes Plunien confirmed -> TO ADOPT -> I asked to adopt it
@@ -78,7 +79,7 @@
 - :construction: Alien::KentSrc pngwrite.c:7:10: fatal error: png.h: No such file or directory -> Alien::PNG not installed but if libpng is installed, Alien::PNG does not install devel ? -> Needs prereq Alien::libuuid ?
 
 ### PEVANS
-- Alien::libtickit looking for pkg-config termkey... OS unsupported - unable to find GNU libtool
-- Alien::libtermkey depends on Alien::unibilium + OS unsupported - unable to find GNU libtool
-- Alien::unibilium requires:    !  ExtUtils::PkgConfig is not installed + OS unsupported - unable to find GNU libtool
+- :heavy_check_mark: ~Alien::libtickit looking for pkg-config termkey... OS unsupported - unable to find GNU libtool -> require non alienazed libtool~ Alien::libtool exists
+- :heavy_check_mark: ~Alien::libtermkey depends on Alien::unibilium + OS unsupported - unable to find GNU libtool -> require non alienazed libtool~ Alien::libtool exists
+- :heavy_check_mark: ~Alien::unibilium requires:    !  ExtUtils::PkgConfig is not installed + OS unsupported - unable to find GNU libtool -> require non alienazed libtool~ Alien::libtool exists
 
