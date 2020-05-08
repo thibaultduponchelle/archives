@@ -144,6 +144,7 @@ Alien::Editline libncurses5-dev
 Alien::libtermkey libtool-bin
 Alien::libtickit libtool-bin
 Alien::unibilium libtool-bin
+Alien::LuaJIT
 Alien::Taco
 Alien::GSL
 Alien::SNMP
@@ -172,8 +173,7 @@ Alien::MeCab
 Alien::Gearman
 Alien::Gnuplot
 Alien::KentSrc
-Alien::LibUSBx
-Alien::LuaJIT
+Alien::LibUSBx libudev-dev
 Alien::MUSCLE
 Alien::RRDtool
 Alien::QtSmoke
