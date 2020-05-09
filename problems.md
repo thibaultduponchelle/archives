@@ -15,14 +15,14 @@
 - :construction: Alien::GEOS  -> [PR](https://github.com/alranel/Alien-GEOS/pull/1) from plicease already merged 1 march 2016 -> need only 0.02 release I guess -> commented 5 may 2020
 
 ### GETTY
-- :construction: Alien::mpg123 -> [PR](https://github.com/Getty/p5-alien-mpg123/pull/2) from me
-- :construction: Alien::ffmpeg -> [PR](https://github.com/Getty/p5-alien-ffmpeg/pull/5) from me
-- :construction: Alien::sispmctl -> [PR](https://github.com/Getty/p5-alien-sispmctl/pull/2) from me
-- :construction: Alien::gettext -> [PR](https://github.com/Getty/p5-alien-gettext/pull/2) from me
+- :construction: Alien::mpg123 -> [PR](https://github.com/Getty/p5-alien-mpg123/pull/2) from me 30 april 2020
+- :construction: Alien::ffmpeg -> [PR](https://github.com/Getty/p5-alien-ffmpeg/pull/5) from me 30 april 2020
+- :construction: Alien::sispmctl -> [PR](https://github.com/Getty/p5-alien-sispmctl/pull/2) from me 30 april 2020
+- :construction: Alien::gettext -> [PR](https://github.com/Getty/p5-alien-gettext/pull/2) from me 30 april 2020
 
 ### GUGOD 
-- :construction: Alien::CImg -> [PR](https://github.com/gugod/Alien-CImg/pull/1) from me
-- :construction: Alien::libsndfile -> [PR](https://github.com/gugod/Alien-libsndfile/pull/1) from me
+- :construction: Alien::CImg -> [PR](https://github.com/gugod/Alien-CImg/pull/1) from me 30 april 2020
+- :construction: Alien::libsndfile -> [PR](https://github.com/gugod/Alien-libsndfile/pull/1) from me 30 april 2020
 
 
 ## Something else
@@ -31,7 +31,6 @@
 - :construction: Alien::DBD::SQLite::BundledExtensions Can't locate File/ShareDir.pm in @INC not reproduced locally -> Alien/Base/PkgConfig not in @INC -> fix on my [REPO](https://github.com/thibaultduponchelle/Alien-DBD-SQLite-BundledExtensions/commit/e4736bba119ab2ab1653a83670412c11b2515be2)
 - Alien::Gnuplot -> tarball content changed I guess
 - Alien::raylib -> Makefile:1005: recipe for target '_alien/mm/build' failed
-- Alien::HDF4 -> tarball content changed ? Cannot find hdf library, libdf.a.
 - :construction: Alien::LibANN -> syntax error at inc/Devel/CheckLib.pm line 164, near "$mm_attr_key qw(LIBS INC)" -> [PR](https://github.com/rogersprint/Alien-LibANN/pull/1) from me
 - :construction: Alien::AntTweakBar -> Can't link/include C library 'X11/cursorfont.h', 'GL/glx.h', 'GL/gl.h', aborting. -> insall non alienazed big deps
 - :construction: Alien::LibBigWig -> fatal error: curl/curl.h: No such file or directory I do not reproduce locally -> [PR] from me
@@ -43,7 +42,7 @@
 - Alien::ROOT -> configure: libX11 MUST be installed ([repo](https://github.com/tsee/SOOT/tree/master/Alien-ROOT))
 - Alien::MeCab -> Detected circular dependencies Alien-MeCab-0.97005 -> Alien-MeCab-0.97005
 - :construction: Alien::SNMP::MAXTC -> compilation error [PR](https://github.com/ollyg/Alien-SNMP-MAXTC/pull/3) from me to upgrade tarball
-- Alien::TALib -> compilation/build problem
+- :construction: Alien::TALib -> compilation/build problem
 - :construction: Alien::NSS -> 404 -> [PR](https://github.com/0xxon/alien-nss/pull/6) by me
 - :construction: Alien::LibUSBx -> download link issue Could not connect to 'aarnet.dl.sourceforge.net:80': Name or service not known
 
@@ -63,6 +62,7 @@
 ### ZMUGHAL
 - :construction: Alien::pdf2htmlEX -> depends on Alien::FontForge -> Will be reworked soon by ZMUGHAL
 - :construction: Alien::FontForge -> tarball content changed ? -> sh: 0: Can't open ./bootstrap -> Will be reworked soon by ZMUGHAL
+- :construction: Alien::WFDB -> [PR](https://github.com/EntropyOrg/p5-Alien-WFDB/pull/8) from me
 
 ### KMX
 - :construction: Alien::FreeImage ->  error: call of overloaded ‘powf64(int, int)’ is ambiguous -> [PR](https://github.com/kmx/alien-freeimage/pull/1) or [PR](https://github.com/kmx/alien-freeimage/pull/2)
@@ -87,3 +87,4 @@
 - :heavy_check_mark: ~Alien::libtickit looking for pkg-config termkey... OS unsupported - unable to find GNU libtool -> require libtool~ Alien::libtool exists
 - :heavy_check_mark: ~Alien::libtermkey depends on Alien::unibilium + OS unsupported - unable to find GNU libtool -> require libtool~ Alien::libtool exists
 - :heavy_check_mark: ~Alien::unibilium requires:    !  ExtUtils::PkgConfig is not installed + OS unsupported - unable to find GNU libtool -> require libtool~ Alien::libtool exists
+- :heavy_check_mark: ~Alien::HDF4 -> tarball content changed ? Cannot find hdf library, libdf.a.~
