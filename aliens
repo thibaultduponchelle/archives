@@ -184,7 +184,7 @@ Alien::ffmpeg
 Alien::gettext
 Alien::gputils
 Alien::mpg123
-Alien::raylib
+Alien::raylib libglu1-mesa-dev
 Alien::FontForge
 Alien::FreeImage
 Alien::LibBigWig
