@@ -146,6 +146,7 @@ Alien::libtickit libtool-bin
 Alien::unibilium libtool-bin
 Alien::Taco
 Alien::GSL
+Alien::HDF4 libhdf4-dev
 Alien::SNMP
 Alien::IUP libgtk2.0-dev
 Alien::LibJIT libtool-bin flex bison texinfo
@@ -196,7 +197,6 @@ Alien::ProtoBuf
 Alien::DDC::Concordance
 Alien::wxWidgets
 Alien::Gimp
-Alien::HDF4
 Alien::Libgpg_error
 Alien::OpenVcdiff
 Alien::SNMP::MAXTC
