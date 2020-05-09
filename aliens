@@ -183,7 +183,7 @@ Alien::SmokeQt
 Alien::Sodium
 Alien::ffmpeg
 Alien::gettext
-Alien::gputils
+Alien::gputils flex
 Alien::mpg123
 Alien::raylib xorg-dev libglu1-mesa-dev libvulkan-dev
 Alien::FontForge
