@@ -34,7 +34,6 @@
 - :construction: Alien::AntTweakBar -> Can't link/include C library 'X11/cursorfont.h', 'GL/glx.h', 'GL/gl.h', aborting. -> insall non alienazed big deps
 - :construction: Alien::LibBigWig -> fatal error: curl/curl.h: No such file or directory I do not reproduce locally -> [PR] from me
 - :construction: Alien::Protobuf -> Only a system install in upstream -> share is on kiwiroy branch, system seems broken here
-- Alien::Gimp -> only a probe ?
 - Alien::ROOT -> configure: libX11 MUST be installed ([repo](https://github.com/tsee/SOOT/tree/master/Alien-ROOT))
 - :construction: Alien::SNMP::MAXTC -> compilation error [PR](https://github.com/ollyg/Alien-SNMP-MAXTC/pull/3) from me to upgrade tarball
 - :construction: Alien::TALib -> compilation/build problem
@@ -89,3 +88,4 @@
 - :heavy_check_mark: ~Alien::unibilium requires:    !  ExtUtils::PkgConfig is not installed + OS unsupported - unable to find GNU libtool -> require libtool~ Alien::libtool exists
 - :heavy_check_mark: ~Alien::HDF4 -> tarball content changed ? Cannot find hdf library, libdf.a.~
 - :heavy_check_mark: ~Alien::raylib -> Makefile:1005: recipe for target '_alien/mm/build' failed -> no problem locally -> need debs~
+- :heavy_check_mark: ~Alien::Gimp -> only a probe ? -> need libgimp dev~
