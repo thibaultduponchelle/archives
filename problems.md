@@ -61,8 +61,8 @@
 - Alien::SmokeQt -> Found unsuitable Qt version "" from NOTFOUND, this code requires Qt 4.x
 
 ### ZMUGHAL
-- Alien::pdf2htmlEX -> depends on Alien::FontForge Alien::Poppler
-- Alien::FontForge -> tarball content changed ? -> sh: 0: Can't open ./bootstrap
+- :construction: Alien::pdf2htmlEX -> depends on Alien::FontForge -> Will be reworked soon by ZMUGHAL
+- :construction: Alien::FontForge -> tarball content changed ? -> sh: 0: Can't open ./bootstrap -> Will be reworked soon by ZMUGHAL
 
 ### KMX
 - :construction: Alien::FreeImage ->  error: call of overloaded ‘powf64(int, int)’ is ambiguous -> [PR](https://github.com/kmx/alien-freeimage/pull/1) or [PR](https://github.com/kmx/alien-freeimage/pull/2)
