@@ -151,6 +151,7 @@ Alien::SNMP
 Alien::IUP libgtk2.0-dev
 Alien::LibJIT libtool-bin flex bison texinfo
 Alien::AntTweakBar libgl1-mesa-dev libglu1-mesa-dev
+Alien::Gimp libgimp2.0-dev
 Alien::libtiff
 Alien::TALib
 Alien::SDL2
@@ -196,7 +197,6 @@ Alien::sispmctl
 Alien::ProtoBuf
 Alien::DDC::Concordance
 Alien::wxWidgets
-Alien::Gimp
 Alien::Libgpg_error
 Alien::OpenVcdiff
 Alien::SNMP::MAXTC
