@@ -15,14 +15,14 @@
 - :construction: Alien::GEOS  -> [PR](https://github.com/alranel/Alien-GEOS/pull/1) from plicease already merged 1 march 2016 -> need only 0.02 release I guess -> commented 5 may 2020
 
 ### GETTY
-- :construction: Alien::mpg123 -> [PR](https://github.com/Getty/p5-alien-mpg123/pull/2) from me
-- :construction: Alien::ffmpeg -> [PR](https://github.com/Getty/p5-alien-ffmpeg/pull/5) from me
-- :construction: Alien::sispmctl -> [PR](https://github.com/Getty/p5-alien-sispmctl/pull/2) from me
-- :construction: Alien::gettext -> [PR](https://github.com/Getty/p5-alien-gettext/pull/2) from me
+- :construction: Alien::mpg123 -> [PR](https://github.com/Getty/p5-alien-mpg123/pull/2) from me 30 april 2020
+- :construction: Alien::ffmpeg -> [PR](https://github.com/Getty/p5-alien-ffmpeg/pull/5) from me 30 april 2020
+- :construction: Alien::sispmctl -> [PR](https://github.com/Getty/p5-alien-sispmctl/pull/2) from me 30 april 2020
+- :construction: Alien::gettext -> [PR](https://github.com/Getty/p5-alien-gettext/pull/2) from me 30 april 2020
 
 ### GUGOD 
-- :construction: Alien::CImg -> [PR](https://github.com/gugod/Alien-CImg/pull/1) from me
-- :construction: Alien::libsndfile -> [PR](https://github.com/gugod/Alien-libsndfile/pull/1) from me
+- :construction: Alien::CImg -> [PR](https://github.com/gugod/Alien-CImg/pull/1) from me 30 april 2020
+- :construction: Alien::libsndfile -> [PR](https://github.com/gugod/Alien-libsndfile/pull/1) from me 30 april 2020
 
 
 ## Something else
@@ -42,7 +42,7 @@
 - Alien::ROOT -> configure: libX11 MUST be installed ([repo](https://github.com/tsee/SOOT/tree/master/Alien-ROOT))
 - Alien::MeCab -> Detected circular dependencies Alien-MeCab-0.97005 -> Alien-MeCab-0.97005
 - :construction: Alien::SNMP::MAXTC -> compilation error [PR](https://github.com/ollyg/Alien-SNMP-MAXTC/pull/3) from me to upgrade tarball
-- Alien::TALib -> compilation/build problem
+- :construction: Alien::TALib -> compilation/build problem
 - :construction: Alien::NSS -> 404 -> [PR](https://github.com/0xxon/alien-nss/pull/6) by me
 - :construction: Alien::LibUSBx -> download link issue Could not connect to 'aarnet.dl.sourceforge.net:80': Name or service not known
 
