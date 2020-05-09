@@ -2,16 +2,19 @@
 
 ## Can't locate Alien/Base/ModuleBuild.pm
 - :construction: Alien::Sodium -> [PR](https://github.com/ajgb/alien-sodium/pull/4) from plicease 2016 + waiting adoption from genio
-- :construction: Alien::Lua -> [PR](https://github.com/tsee/p5-Alien-Lua/pull/1) from plicease 2016 -> [commented](https://github.com/tsee/p5-Alien-Lua/pull/1#issuecomment-623946352) 5 may 2020
 - :construction: Alien::SFML -> [PR](https://github.com/jakeanq/perl-alien-sfml/pull/2) MERGED from plicease 2016 -> need cpan release ([issue](https://github.com/jakeanq/perl-alien-sfml/issues) from me 30 april 2020)
 - :construction: Alien::NSS -> Fixed by plicease [PR](https://github.com/0xxon/alien-nss/pull/4) in 2016 -> need cpan release
-- :construction: Alien::LibUSBx -> PR from plicease not merged 2016 -> PR from me 
+- :construction: Alien::LibUSBx -> [PR](https://github.com/henrikbrixandersen/Alien-LibUSBx/pull/1) from plicease not merged 2016 -> [PR](https://github.com/henrikbrixandersen/Alien-LibUSBx/pull/3) from me 8 may 2020
 
-### Alranel 
+### SMUELLER
+- :construction: Alien::Lua -> [PR](https://github.com/tsee/p5-Alien-Lua/pull/1) from plicease 2016 -> [commented](https://github.com/tsee/p5-Alien-Lua/pull/1#issuecomment-623946352) 5 may 2020
+- :construction: Alien::LuaJIT -> [PR](https://github.com/tsee/p5-Alien-LuaJIT/pull/1) MERGED from plicease 2016 -> need a CPAN release -> New [issue](https://github.com/tsee/p5-Alien-LuaJIT/issues/2) from me 9 may 2020
+
+### Alranel AAR
 - :construction: Alien::qd -> [PR](https://github.com/alranel/Alien-qd/pull/2) from plicease already merged 17 april 2016 -> need only 0.02 release I guess -> commented 30 april 2020 
 - :construction: Alien::GEOS  -> [PR](https://github.com/alranel/Alien-GEOS/pull/1) from plicease already merged 1 march 2016 -> need only 0.02 release I guess -> commented 5 may 2020
 
-### Getty
+### GETTY
 - :construction: Alien::mpg123 -> [PR](https://github.com/Getty/p5-alien-mpg123/pull/2) from me
 - :construction: Alien::ffmpeg -> [PR](https://github.com/Getty/p5-alien-ffmpeg/pull/5) from me
 - :construction: Alien::sispmctl -> [PR](https://github.com/Getty/p5-alien-sispmctl/pull/2) from me
