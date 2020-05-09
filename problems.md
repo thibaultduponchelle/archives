@@ -62,6 +62,7 @@
 ### ZMUGHAL
 - :construction: Alien::pdf2htmlEX -> depends on Alien::FontForge -> Will be reworked soon by ZMUGHAL
 - :construction: Alien::FontForge -> tarball content changed ? -> sh: 0: Can't open ./bootstrap -> Will be reworked soon by ZMUGHAL
+- :construction: Alien::WFDB -> [PR](https://github.com/EntropyOrg/p5-Alien-WFDB/pull/8) from me
 
 ### KMX
 - :construction: Alien::FreeImage ->  error: call of overloaded ‘powf64(int, int)’ is ambiguous -> [PR](https://github.com/kmx/alien-freeimage/pull/1) or [PR](https://github.com/kmx/alien-freeimage/pull/2)
