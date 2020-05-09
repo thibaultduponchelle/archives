@@ -30,13 +30,12 @@
 - Alien::Hush Failed to change directory to 'src/': No such file or directory at /usr/local/share/perl/5.26.1/Alien/Base/ModuleBuild/Repository/Local.pm line 20.
 - :construction: Alien::DBD::SQLite::BundledExtensions Can't locate File/ShareDir.pm in @INC not reproduced locally -> Alien/Base/PkgConfig not in @INC -> fix on my [REPO](https://github.com/thibaultduponchelle/Alien-DBD-SQLite-BundledExtensions/commit/e4736bba119ab2ab1653a83670412c11b2515be2)
 - Alien::Gnuplot -> tarball content changed I guess
-- Alien::raylib -> Makefile:1005: recipe for target '_alien/mm/build' failed
 - :construction: Alien::LibANN -> syntax error at inc/Devel/CheckLib.pm line 164, near "$mm_attr_key qw(LIBS INC)" -> [PR](https://github.com/rogersprint/Alien-LibANN/pull/1) from me
 - :construction: Alien::AntTweakBar -> Can't link/include C library 'X11/cursorfont.h', 'GL/glx.h', 'GL/gl.h', aborting. -> insall non alienazed big deps
 - :construction: Alien::LibBigWig -> fatal error: curl/curl.h: No such file or directory I do not reproduce locally -> [PR] from me
 - Alien::RRDtool -> configure: error: you need either glib with g_regex support or libpcre to compile rrdtool.
 - :construction: Alien::Protobuf -> Only a system install in upstream -> share is on kiwiroy branch, system seems broken here
-- Alien::DDC-Concordance -> configure: error: could not find pcre_compile(): ensure that LDFLAGS, LIBS are set to link to libpcre
+- Alien::DDC::Concordance -> configure: error: could not find pcre_compile(): ensure that LDFLAGS, LIBS are set to link to libpcre
 - Alien::OpenVcdiff -> compilation error src/vcdecoder_test.cc:33:3: error: narrowing conversion of ‘214’ from ‘int’ to ‘char’ inside { } [-Wnarrowing]
 - Alien::Gimp -> only a probe ?
 - Alien::ROOT -> configure: libX11 MUST be installed ([repo](https://github.com/tsee/SOOT/tree/master/Alien-ROOT))
@@ -73,7 +72,6 @@
 
 
 
-
 ## OK :+1: 
 - :heavy_check_mark: ~Alien::GSL -> Could not find any matching files at /usr/local/share/perl/5.26.1/Alien/Base/ModuleBuild.pm line 442. -> [PR](https://github.com/Perl5-Alien/Alien-GSL/pull/6) and [PR](https://github.com/Perl5-Alien/Alien-GSL/pull/7)~
 - :heavy_check_mark: ~Alien::LibJIT -> You need to make sure you have a recent 'libtool' installed and that it can be found in your PATH at inc/Module/Build/AlienLibJIT.pm line 40 -> add libtool-bin flex, bison, texinfo -> Alien::libtool and Alien::bison and Alien::flex and Alien::texinfo are available...~
@@ -88,3 +86,4 @@
 - :heavy_check_mark: ~Alien::libtermkey depends on Alien::unibilium + OS unsupported - unable to find GNU libtool -> require libtool~ Alien::libtool exists
 - :heavy_check_mark: ~Alien::unibilium requires:    !  ExtUtils::PkgConfig is not installed + OS unsupported - unable to find GNU libtool -> require libtool~ Alien::libtool exists
 - :heavy_check_mark: ~Alien::HDF4 -> tarball content changed ? Cannot find hdf library, libdf.a.~
+- :heavy_check_mark: ~Alien::raylib -> Makefile:1005: recipe for target '_alien/mm/build' failed -> no problem locally -> need debs~
