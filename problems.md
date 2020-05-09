@@ -33,7 +33,6 @@
 - :construction: Alien::LibANN -> syntax error at inc/Devel/CheckLib.pm line 164, near "$mm_attr_key qw(LIBS INC)" -> [PR](https://github.com/rogersprint/Alien-LibANN/pull/1) from me
 - :construction: Alien::AntTweakBar -> Can't link/include C library 'X11/cursorfont.h', 'GL/glx.h', 'GL/gl.h', aborting. -> insall non alienazed big deps
 - :construction: Alien::LibBigWig -> fatal error: curl/curl.h: No such file or directory I do not reproduce locally -> [PR] from me
-- Alien::RRDtool -> configure: error: you need either glib with g_regex support or libpcre to compile rrdtool.
 - :construction: Alien::Protobuf -> Only a system install in upstream -> share is on kiwiroy branch, system seems broken here
 - Alien::Gimp -> only a probe ?
 - Alien::ROOT -> configure: libX11 MUST be installed ([repo](https://github.com/tsee/SOOT/tree/master/Alien-ROOT))
@@ -72,6 +71,7 @@
 - Alien::MeCab -> Detected circular dependencies Alien-MeCab-0.97005 -> Alien-MeCab-0.97005
 - Alien::DDC::Concordance -> configure: error: could not find pcre_compile(): ensure that LDFLAGS, LIBS are set to link to libpcre -> compilation error with Curl.cpp (??)
 - Alien::OpenVcdiff -> compilation error src/vcdecoder_test.cc:33:3: error: narrowing conversion of ‘214’ from ‘int’ to ‘char’ inside { } [-Wnarrowing] 
+- Alien::RRDtool -> configure: error: you need either glib with g_regex support or libpcre to compile rrdtool. -> need libxml2-dev (or Alien::libxml2) then relocation issue + multiple RT issues)
 
 
 ## OK :+1: 
