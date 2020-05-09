@@ -149,10 +149,11 @@ Alien::Taco
 Alien::GSL
 Alien::SNMP
 Alien::IUP libgtk2.0-dev
+Alien::LibJIT libtool-bin flex bison texinfo
 Alien::AntTweakBar libgl1-mesa-dev libglu1-mesa-dev
-Alien::SDL2
 Alien::libtiff
 Alien::TALib
+Alien::SDL2
 Alien::DBD::SQLite::BundledExtensions
 Alien::Plotly::Orca
 Alien::CImg
@@ -165,7 +166,6 @@ Alien::SDL
 Alien::SFML
 Alien::WFDB
 Alien::qd
-Alien::LibJIT libtool-bin flex bison texinfo
 Alien::HIDAPI
 Alien::LibANN
 Alien::LibUSB
