@@ -48,7 +48,7 @@
 
 ### ATHREEF
 - :construction: Alien::HIDAPI -> depends on LibUSB that failed
-- :construction: Alien::LibUSB -> Can't locate Alien/libudev.pm in @INC (you may need to install the Alien::libudev module) prereq missing -> Alien::libudev is not a prereq because not available on all platforms, I need to investigate. Conditional use, very tricky 
+- :construction: Alien::LibUSB -> Can't locate Alien/libudev.pm in @INC (you may need to install the Alien::libudev module) prereq missing -> Alien::libudev is not a prereq because not available on all platforms, I need to investigate. Conditional use, very tricky -> Fixed with [PR](https://github.com/athreef/Alien-LibUSB/pull/3) MERGED from plicease -> need cpan release
 
 ### CBUREL 
 - Alien::QtSmoke -> Fetch problem Fetch failed! HTTP response: 500 Internal Server Error [500 Can't connect to ftp.gtlib.cc.gatech.edu:80 (Name or service not known)] at Makefile.PL line 43.
