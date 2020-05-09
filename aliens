@@ -144,7 +144,6 @@ Alien::Editline libncurses5-dev
 Alien::libtermkey libtool-bin
 Alien::libtickit libtool-bin
 Alien::unibilium libtool-bin
-Alien::LuaJIT
 Alien::Taco
 Alien::GSL
 Alien::SNMP
@@ -160,6 +159,7 @@ Alien::CImg
 Alien::GEOS
 Alien::Hush
 Alien::Lua
+Alien::LuaJIT
 Alien::NSS
 Alien::ROOT libx11-dev libxpm-dev
 Alien::SDL
