@@ -5,6 +5,7 @@
 - :construction: Alien::SFML -> [PR](https://github.com/jakeanq/perl-alien-sfml/pull/2) MERGED from plicease 2016 -> need cpan release ([issue](https://github.com/jakeanq/perl-alien-sfml/issues) from me 30 april 2020)
 - :construction: Alien::NSS -> Fixed by plicease [PR](https://github.com/0xxon/alien-nss/pull/4) in 2016 -> need cpan release
 - :construction: Alien::LibUSBx -> [PR](https://github.com/henrikbrixandersen/Alien-LibUSBx/pull/1) from plicease not merged 2016 -> [PR](https://github.com/henrikbrixandersen/Alien-LibUSBx/pull/3) from me 8 may 2020
+- Alien::libgpg_error 
 
 ### SMUELLER
 - :construction: Alien::Lua -> [PR](https://github.com/tsee/p5-Alien-Lua/pull/1) from plicease 2016 -> [commented](https://github.com/tsee/p5-Alien-Lua/pull/1#issuecomment-623946352) 5 may 2020
