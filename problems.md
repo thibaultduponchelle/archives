@@ -39,7 +39,6 @@
 - :construction: Alien::TALib -> compilation/build problem
 - :construction: Alien::NSS -> 404 -> [PR](https://github.com/0xxon/alien-nss/pull/6) by me
 - :construction: Alien::LibUSBx -> download link issue Could not connect to 'aarnet.dl.sourceforge.net:80': Name or service not known
-- Alien::gputils -> flex
 - Alien::XInputSimulator
 
 ### PLU 
@@ -91,3 +90,4 @@
 - :heavy_check_mark: ~Alien::HDF4 -> tarball content changed ? Cannot find hdf library, libdf.a.~
 - :heavy_check_mark: ~Alien::raylib -> Makefile:1005: recipe for target '_alien/mm/build' failed -> no problem locally -> need debs~
 - :heavy_check_mark: ~Alien::Gimp -> only a probe ? -> need libgimp dev~
+- :heavy_check_mark: ~Alien::gputils -> flex -> we should use Alien::flex~ 
