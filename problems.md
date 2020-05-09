@@ -5,6 +5,7 @@
 - :construction: Alien::Lua -> [PR](https://github.com/tsee/p5-Alien-Lua/pull/1) from plicease 2016 -> [commented](https://github.com/tsee/p5-Alien-Lua/pull/1#issuecomment-623946352) 5 may 2020
 - :construction: Alien::SFML -> [PR](https://github.com/jakeanq/perl-alien-sfml/pull/2) MERGED from plicease 2016 -> need cpan release ([issue](https://github.com/jakeanq/perl-alien-sfml/issues) from me 30 april 2020)
 - :construction: Alien::NSS -> Fixed by plicease [PR](https://github.com/0xxon/alien-nss/pull/4) in 2016 -> need cpan release
+- :construction: Alien::LibUSBx -> PR from plicease not merged 2016 -> PR from me 
 
 ### Alranel 
 - :construction: Alien::qd -> [PR](https://github.com/alranel/Alien-qd/pull/2) from plicease already merged 17 april 2016 -> need only 0.02 release I guess -> commented 30 april 2020 
@@ -34,7 +35,7 @@
 - Alien::raylib -> Makefile:1005: recipe for target '_alien/mm/build' failed
 - Alien::HDF4 -> tarball content changed ? Cannot find hdf library, libdf.a.
 - :construction: Alien::LibANN -> syntax error at inc/Devel/CheckLib.pm line 164, near "$mm_attr_key qw(LIBS INC)" -> [PR](https://github.com/rogersprint/Alien-LibANN/pull/1) from me
-- :construnction: Alien::AntTweakBar -> Can't link/include C library 'X11/cursorfont.h', 'GL/glx.h', 'GL/gl.h', aborting. -> insall non alienazed big deps
+- :construction: Alien::AntTweakBar -> Can't link/include C library 'X11/cursorfont.h', 'GL/glx.h', 'GL/gl.h', aborting. -> insall non alienazed big deps
 - :construction: Alien::LibBigWig -> fatal error: curl/curl.h: No such file or directory I do not reproduce locally -> [PR] from me
 - :construction: Alien::LibJIT -> You need to make sure you have a recent 'libtool' installed and that it can be found in your PATH at inc/Module/Build/AlienLibJIT.pm line 40 -> add libtool-bin flex, bison, texinfo -> Alien::libtool and Alien::bison and Alien::flex and Alien::texinfo are available...
 - Alien::RRDtool -> configure: error: you need either glib with g_regex support or libpcre to compile rrdtool.
@@ -43,13 +44,13 @@
 - Alien::OpenVcdiff -> compilation error src/vcdecoder_test.cc:33:3: error: narrowing conversion of ‘214’ from ‘int’ to ‘char’ inside { } [-Wnarrowing]
 - Alien::Gimp -> only a probe ?
 - Alien::ROOT -> configure: libX11 MUST be installed ([repo](https://github.com/tsee/SOOT/tree/master/Alien-ROOT))
-- Alien::SDL -> !  Archive::Zip is not installed + FAIL Timed out (> 60s).
+- :heavy_check_mark: ~Alien::SDL -> !  Archive::Zip is not installed + FAIL Timed out (> 60s).~
 - :heavy_check_mark: ~Alien::SDL2 -> unstable timeout~
 - Alien::MeCab -> Detected circular dependencies Alien-MeCab-0.97005 -> Alien-MeCab-0.97005
 - :construction: Alien::SNMP::MAXTC -> compilation error [PR](https://github.com/ollyg/Alien-SNMP-MAXTC/pull/3) from me to upgrade tarball
 - Alien::TALib -> compilation/build problem
 - :construction: Alien::NSS -> 404 -> [PR](https://github.com/0xxon/alien-nss/pull/6) by me
-- Alien::LibUSBx -> download link issue Could not connect to 'aarnet.dl.sourceforge.net:80': Name or service not known
+- :construction: Alien::LibUSBx -> download link issue Could not connect to 'aarnet.dl.sourceforge.net:80': Name or service not known
 
 ### PLU 
 - :construction: Alien::Gearman -> depends on Alien::Libevent that fails -> removed inc/Devel/ChecLib and use cpan version, no github (removed) -> Need ALien::libuuid -> fixed on my [REPO](https://github.com/thibaultduponchelle/Alien-Gearman)  -> [RT ticket](https://rt.cpan.org/Ticket/Display.html?id=132505) 5 may 2020 -> Johannes Plunien confirmed -> TO ADOPT -> I asked to adopt it
@@ -76,10 +77,10 @@
 
 ### KIWIROY
 - :construction: ALien::MUSCLE ExtUtils::CBuilder version 0.280226 required--this is only version 0.280225 at /home/tduponchelle/.cpanm/work/1588163506.974/Alien-MUSCLE-0.01/alienfile line 8. -> Fixed with [PR](https://github.com/kiwiroy/p5-alien-muscle/pull/2) -> need cpan release
-- :construction: Alien::KentSrc pngwrite.c:7:10: fatal error: png.h: No such file or directory -> Alien::PNG not installed but if libpng is installed, Alien::PNG does not install devel ? -> Needs prereq Alien::libuuid ?
+- :construction: Alien::KentSrc pngwrite.c:7:10: fatal error: png.h: No such file or directory -> Alien::PNG not installed but if libpng is installed, Alien::PNG does not install devel ? -> Needs prereq Alien::libuuid ? -> Fixed on lib-deps branch of [kiwiroy repo](https://github.com/kiwiroy/alien-kentsrc/tree/lib-deps)
 
 ### PEVANS
-- :heavy_check_mark: ~Alien::libtickit looking for pkg-config termkey... OS unsupported - unable to find GNU libtool -> require non alienazed libtool~ Alien::libtool exists
-- :heavy_check_mark: ~Alien::libtermkey depends on Alien::unibilium + OS unsupported - unable to find GNU libtool -> require non alienazed libtool~ Alien::libtool exists
-- :heavy_check_mark: ~Alien::unibilium requires:    !  ExtUtils::PkgConfig is not installed + OS unsupported - unable to find GNU libtool -> require non alienazed libtool~ Alien::libtool exists
+- :heavy_check_mark: ~Alien::libtickit looking for pkg-config termkey... OS unsupported - unable to find GNU libtool -> require libtool~ Alien::libtool exists
+- :heavy_check_mark: ~Alien::libtermkey depends on Alien::unibilium + OS unsupported - unable to find GNU libtool -> require libtool~ Alien::libtool exists
+- :heavy_check_mark: ~Alien::unibilium requires:    !  ExtUtils::PkgConfig is not installed + OS unsupported - unable to find GNU libtool -> require libtool~ Alien::libtool exists
 
