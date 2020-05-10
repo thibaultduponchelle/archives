@@ -47,10 +47,6 @@
 - :construction: Alien::HIDAPI -> depends on LibUSB that failed
 - :construction: Alien::LibUSB -> Can't locate Alien/libudev.pm in @INC (you may need to install the Alien::libudev module) prereq missing -> Alien::libudev is not a prereq because not available on all platforms, I need to investigate. Conditional use, very tricky -> Fixed with [PR](https://github.com/athreef/Alien-LibUSB/pull/3) MERGED from plicease -> need cpan release
 
-### CBUREL 
-- Alien::QtSmoke -> Fetch problem Fetch failed! HTTP response: 500 Internal Server Error [500 Can't connect to ftp.gtlib.cc.gatech.edu:80 (Name or service not known)] at Makefile.PL line 43.
-- Alien::SmokeQt -> Found unsuitable Qt version "" from NOTFOUND, this code requires Qt 4.x
-
 ### ZMUGHAL
 - :construction: Alien::pdf2htmlEX -> depends on Alien::FontForge -> Will be reworked soon by ZMUGHAL
 - :construction: Alien::FontForge -> tarball content changed ? -> sh: 0: Can't open ./bootstrap -> Will be reworked soon by ZMUGHAL
@@ -71,7 +67,8 @@
 - Alien::RRDtool -> configure: error: you need either glib with g_regex support or libpcre to compile rrdtool. -> need libxml2-dev (or Alien::libxml2) then relocation issue + multiple RT issues)
 - Alien::Gnuplot -> only root install
 - Alien::ROOT -> configure: libX11 MUST be installed ([repo](https://github.com/tsee/SOOT/tree/master/Alien-ROOT)) + can not include iostream.h (bundled with sources) -> tested with more recent root lib same error -> then compilation error
-
+- Alien::QtSmoke -> Fetch problem Fetch failed! HTTP response: 500 Internal Server Error [500 Can't connect to ftp.gtlib.cc.gatech.edu:80 (Name or service not known)] at Makefile.PL line 43. -> mirrors are dead
+- Alien::SmokeQt -> Found unsuitable Qt version "" from NOTFOUND, this code requires Qt 4.x -> install libqt4-dev -> compilation error
 
 ## OK :+1: 
 - :heavy_check_mark: ~Alien::GSL -> Could not find any matching files at /usr/local/share/perl/5.26.1/Alien/Base/ModuleBuild.pm line 442. -> [PR](https://github.com/Perl5-Alien/Alien-GSL/pull/6) and [PR](https://github.com/Perl5-Alien/Alien-GSL/pull/7)~
