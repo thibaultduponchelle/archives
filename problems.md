@@ -33,7 +33,6 @@
 - :construction: Alien::LibBigWig -> fatal error: curl/curl.h: No such file or directory I do not reproduce locally -> [PR](https://github.com/Ensembl/Alien-LibBigWig/pull/3) from me
 - :construction: Alien::Protobuf -> Only a system install in upstream -> share is on kiwiroy branch, system seems broken here
 - :construction: Alien::SNMP::MAXTC -> compilation error [PR](https://github.com/ollyg/Alien-SNMP-MAXTC/pull/3) from me to upgrade tarball
-- :construction: Alien::TALib -> compilation/build problem
 - :construction: Alien::NSS -> 404 -> [PR](https://github.com/0xxon/alien-nss/pull/6) by me
 - :construction: Alien::LibUSBx -> download link issue Could not connect to 'aarnet.dl.sourceforge.net:80': Name or service not known
 - Alien::XInputSimulator
@@ -88,3 +87,4 @@
 - :heavy_check_mark: ~Alien::Gimp -> only a probe ? -> need libgimp dev~
 - :heavy_check_mark: ~Alien::gputils -> flex -> we should use Alien::flex~ 
 - :heavy_check_mark: ~Alien::AntTweakBar -> Can't link/include C library 'X11/cursorfont.h', 'GL/glx.h', 'GL/gl.h', aborting. -> insall non alienazed big deps~
+- :heavy_check_mark: ~Alien::TALib -> compilation/build problem -> tiemout~
