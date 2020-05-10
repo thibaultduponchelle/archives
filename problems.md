@@ -12,8 +12,8 @@
 - :construction: Alien::LuaJIT -> [PR](https://github.com/tsee/p5-Alien-LuaJIT/pull/1) MERGED from plicease 2016 -> need a CPAN release -> New [issue](https://github.com/tsee/p5-Alien-LuaJIT/issues/2) from me 9 may 2020
 
 ### Alranel AAR
-- :construction: Alien::qd -> [PR](https://github.com/alranel/Alien-qd/pull/2) from plicease already merged 17 april 2016 -> need only 0.02 release I guess -> commented 30 april 2020 
-- :construction: Alien::GEOS  -> [PR](https://github.com/alranel/Alien-GEOS/pull/1) from plicease already merged 1 march 2016 -> need only 0.02 release I guess -> commented 5 may 2020
+- :construction: Alien::qd -> [PR](https://github.com/alranel/Alien-qd/pull/2) from plicease MERGED 17 april 2016 -> need only 0.02 release I guess -> commented 30 april 2020 
+- :construction: Alien::GEOS  -> [PR](https://github.com/alranel/Alien-GEOS/pull/1) from plicease MERGED 1 march 2016 -> need only 0.02 release I guess -> commented 5 may 2020
 
 ### GETTY
 - :construction: Alien::mpg123 -> [PR](https://github.com/Getty/p5-alien-mpg123/pull/2) from me 30 april 2020
