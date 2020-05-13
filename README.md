@@ -44,3 +44,4 @@
 | [![spatialite](https://github.com/thibaultduponchelle/aliens-ci/workflows/spatialite/badge.svg)](https://github.com/thibaultduponchelle/aliens-ci/actions?query=workflow%3Aspatialite) |
 
 You can find details about failing modules on the [problems page](https://github.com/thibaultduponchelle/aliens-ci/blob/master/problems.md)
+[test](../../actions)
