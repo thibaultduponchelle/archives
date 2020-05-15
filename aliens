@@ -144,6 +144,12 @@ Alien::Editline libncurses5-dev
 Alien::libtermkey libtool-bin
 Alien::libtickit libtool-bin
 Alien::unibilium libtool-bin
+Alien::gputils flex
+Alien::libnewrelic
+Alien::raylib xorg-dev libglu1-mesa-dev libvulkan-dev
+Alien::libpcre
+Alien::LibMagic
+Alien::UDUNITS2
 Alien::Taco
 Alien::GSL
 Alien::HDF4 libhdf4-dev
@@ -183,16 +189,12 @@ Alien::SmokeQt
 Alien::Sodium
 Alien::ffmpeg
 Alien::gettext
-Alien::gputils flex
 Alien::mpg123
-Alien::raylib xorg-dev libglu1-mesa-dev libvulkan-dev
 Alien::FontForge
 Alien::FreeImage
 Alien::LibBigWig
-Alien::LibMagic
 Alien::Libevent
 Alien::Libgcrypt
-Alien::UDUNITS2
 Alien::sispmctl
 Alien::ProtoBuf
 Alien::DDC::Concordance
