@@ -146,6 +146,7 @@ Alien::libtickit libtool-bin
 Alien::unibilium libtool-bin
 Alien::gputils flex
 Alien::libnewrelic
+Alien::WFDB
 Alien::raylib xorg-dev libglu1-mesa-dev libvulkan-dev
 Alien::libpcre
 Alien::LibMagic
@@ -172,7 +173,6 @@ Alien::NSS
 Alien::ROOT libx11-dev libxpm-dev
 Alien::SDL
 Alien::SFML
-Alien::WFDB
 Alien::qd
 Alien::HIDAPI
 Alien::LibANN
