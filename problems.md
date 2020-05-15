@@ -5,15 +5,15 @@
 - :construction: Alien::SFML -> [PR](https://github.com/jakeanq/perl-alien-sfml/pull/2) MERGED from plicease 2016 -> need cpan release ([issue](https://github.com/jakeanq/perl-alien-sfml/issues) from me 30 april 2020)
 - :construction: Alien::NSS -> Fixed by plicease [PR](https://github.com/0xxon/alien-nss/pull/4) in 2016 -> need cpan release
 - :construction: Alien::LibUSBx -> [PR](https://github.com/henrikbrixandersen/Alien-LibUSBx/pull/1) from plicease not merged 2016 -> [PR](https://github.com/henrikbrixandersen/Alien-LibUSBx/pull/3) from me 8 may 2020
-- Alien::libgpg_error 
+- :construction: Alien::libgpg_error -> [PR](https://github.com/salva/p5-Alien-Libgpg_error/pull/1) MERGED from plicease 2016 -> need a CPAN release
 
 ### SMUELLER
 - :construction: Alien::Lua -> [PR](https://github.com/tsee/p5-Alien-Lua/pull/1) from plicease 2016 -> [commented](https://github.com/tsee/p5-Alien-Lua/pull/1#issuecomment-623946352) 5 may 2020
 - :construction: Alien::LuaJIT -> [PR](https://github.com/tsee/p5-Alien-LuaJIT/pull/1) MERGED from plicease 2016 -> need a CPAN release -> New [issue](https://github.com/tsee/p5-Alien-LuaJIT/issues/2) from me 9 may 2020
 
 ### Alranel AAR
-- :construction: Alien::qd -> [PR](https://github.com/alranel/Alien-qd/pull/2) from plicease already merged 17 april 2016 -> need only 0.02 release I guess -> commented 30 april 2020 
-- :construction: Alien::GEOS  -> [PR](https://github.com/alranel/Alien-GEOS/pull/1) from plicease already merged 1 march 2016 -> need only 0.02 release I guess -> commented 5 may 2020
+- :construction: Alien::qd -> [PR](https://github.com/alranel/Alien-qd/pull/2) from plicease MERGED 17 april 2016 -> need only 0.02 release I guess -> commented 30 april 2020 
+- :construction: Alien::GEOS  -> [PR](https://github.com/alranel/Alien-GEOS/pull/1) from plicease MERGED 1 march 2016 -> need only 0.02 release I guess -> commented 5 may 2020
 
 ### GETTY
 - :construction: Alien::mpg123 -> [PR](https://github.com/Getty/p5-alien-mpg123/pull/2) from me 30 april 2020
@@ -28,18 +28,13 @@
 
 ## Something else
 - :construction: Alien::Plotly::Orca prereq Fil::Copy::Recursive not reproducible locally -> [PR](https://github.com/stphnlyd/perl5-Alien-Plotly-Orca/pull/4) from me
-- Alien::Hush Failed to change directory to 'src/': No such file or directory at /usr/local/share/perl/5.26.1/Alien/Base/ModuleBuild/Repository/Local.pm line 20.
 - :construction: Alien::DBD::SQLite::BundledExtensions Can't locate File/ShareDir.pm in @INC not reproduced locally -> Alien/Base/PkgConfig not in @INC -> fix on my [REPO](https://github.com/thibaultduponchelle/Alien-DBD-SQLite-BundledExtensions/commit/e4736bba119ab2ab1653a83670412c11b2515be2)
 - :construction: Alien::LibANN -> syntax error at inc/Devel/CheckLib.pm line 164, near "$mm_attr_key qw(LIBS INC)" -> [PR](https://github.com/rogersprint/Alien-LibANN/pull/1) from me
-- :construction: Alien::AntTweakBar -> Can't link/include C library 'X11/cursorfont.h', 'GL/glx.h', 'GL/gl.h', aborting. -> insall non alienazed big deps
-- :construction: Alien::LibBigWig -> fatal error: curl/curl.h: No such file or directory I do not reproduce locally -> [PR] from me
+- :construction: Alien::LibBigWig -> fatal error: curl/curl.h: No such file or directory I do not reproduce locally -> [PR](https://github.com/Ensembl/Alien-LibBigWig/pull/3) from me
 - :construction: Alien::Protobuf -> Only a system install in upstream -> share is on kiwiroy branch, system seems broken here
-- Alien::ROOT -> configure: libX11 MUST be installed ([repo](https://github.com/tsee/SOOT/tree/master/Alien-ROOT))
 - :construction: Alien::SNMP::MAXTC -> compilation error [PR](https://github.com/ollyg/Alien-SNMP-MAXTC/pull/3) from me to upgrade tarball
-- :construction: Alien::TALib -> compilation/build problem
 - :construction: Alien::NSS -> 404 -> [PR](https://github.com/0xxon/alien-nss/pull/6) by me
-- :construction: Alien::LibUSBx -> download link issue Could not connect to 'aarnet.dl.sourceforge.net:80': Name or service not known
-- Alien::gputils -> flex
+- :construction: Alien::LibUSBx -> download link issue Could not connect to 'aarnet.dl.sourceforge.net:80': Name or service not known -> [PR](https://github.com/henrikbrixandersen/Alien-LibUSBx/pull/3) from me 8 may 2020
 - Alien::XInputSimulator
 
 ### PLU 
@@ -49,10 +44,6 @@
 ### ATHREEF
 - :construction: Alien::HIDAPI -> depends on LibUSB that failed
 - :construction: Alien::LibUSB -> Can't locate Alien/libudev.pm in @INC (you may need to install the Alien::libudev module) prereq missing -> Alien::libudev is not a prereq because not available on all platforms, I need to investigate. Conditional use, very tricky -> Fixed with [PR](https://github.com/athreef/Alien-LibUSB/pull/3) MERGED from plicease -> need cpan release
-
-### CBUREL 
-- Alien::QtSmoke -> Fetch problem Fetch failed! HTTP response: 500 Internal Server Error [500 Can't connect to ftp.gtlib.cc.gatech.edu:80 (Name or service not known)] at Makefile.PL line 43.
-- Alien::SmokeQt -> Found unsuitable Qt version "" from NOTFOUND, this code requires Qt 4.x
 
 ### ZMUGHAL
 - :construction: Alien::pdf2htmlEX -> depends on Alien::FontForge -> Will be reworked soon by ZMUGHAL
@@ -73,7 +64,10 @@
 - Alien::OpenVcdiff -> compilation error src/vcdecoder_test.cc:33:3: error: narrowing conversion of ‘214’ from ‘int’ to ‘char’ inside { } [-Wnarrowing] 
 - Alien::RRDtool -> configure: error: you need either glib with g_regex support or libpcre to compile rrdtool. -> need libxml2-dev (or Alien::libxml2) then relocation issue + multiple RT issues)
 - Alien::Gnuplot -> only root install
-
+- Alien::ROOT -> configure: libX11 MUST be installed ([repo](https://github.com/tsee/SOOT/tree/master/Alien-ROOT)) + can not include iostream.h (bundled with sources) -> tested with more recent root lib same error -> then compilation error
+- Alien::QtSmoke -> Fetch problem Fetch failed! HTTP response: 500 Internal Server Error [500 Can't connect to ftp.gtlib.cc.gatech.edu:80 (Name or service not known)] at Makefile.PL line 43. -> mirrors are dead
+- Alien::SmokeQt -> Found unsuitable Qt version "" from NOTFOUND, this code requires Qt 4.x -> install libqt4-dev -> compilation error
+- Alien::Hush Failed to change directory to 'src/': No such file or directory at /usr/local/share/perl/5.26.1/Alien/Base/ModuleBuild/Repository/Local.pm line 20.
 
 ## OK :+1: 
 - :heavy_check_mark: ~Alien::GSL -> Could not find any matching files at /usr/local/share/perl/5.26.1/Alien/Base/ModuleBuild.pm line 442. -> [PR](https://github.com/Perl5-Alien/Alien-GSL/pull/6) and [PR](https://github.com/Perl5-Alien/Alien-GSL/pull/7)~
@@ -91,3 +85,6 @@
 - :heavy_check_mark: ~Alien::HDF4 -> tarball content changed ? Cannot find hdf library, libdf.a.~
 - :heavy_check_mark: ~Alien::raylib -> Makefile:1005: recipe for target '_alien/mm/build' failed -> no problem locally -> need debs~
 - :heavy_check_mark: ~Alien::Gimp -> only a probe ? -> need libgimp dev~
+- :heavy_check_mark: ~Alien::gputils -> flex -> we should use Alien::flex~ 
+- :heavy_check_mark: ~Alien::AntTweakBar -> Can't link/include C library 'X11/cursorfont.h', 'GL/glx.h', 'GL/gl.h', aborting. -> insall non alienazed big deps~
+- :heavy_check_mark: ~Alien::TALib -> compilation/build problem -> tiemout~
