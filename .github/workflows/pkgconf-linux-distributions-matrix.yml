@@ -41,7 +41,7 @@ jobs:
       - name: Eventually install Perl on OpenSuse
         run: zypper install -y perl || true
       - name: Eventually install Perl on alpine
-        run: apk add perl openssl openssl-dev curl || true
+        run: apk add perl openssl openssl-dev  zlib zlib-dev curl || true
       - name: perl -v
         run: perl -v
       - name: Install alien
