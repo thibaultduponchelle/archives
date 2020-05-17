@@ -1,0 +1,41 @@
+name: pkgconf-linux-distributions-matrix
+on:
+  push:
+  schedule:
+    - cron: 0 0 * * *
+
+jobs:
+  perl:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        img:
+          - 'ubuntu:14.04'
+          - 'ubuntu:16.04'
+          - 'ubuntu:18.04'
+          - 'ubuntu:20.04'
+          - 'base/archlinux'
+          - 'fedora:26'
+          - 'fedora:30'
+          - 'debian:jessie'
+          - 'debian:etch'
+          - 'debian:lenny'
+          - 'debian:bullseye'
+          - 'centos:centos6'
+          - 'centos:centos7'
+          - 'slackware/base'
+          - 'opensuse/leap'
+          - 'opensuse/tumbleweed'
+          
+
+    container:
+      image: ${{ matrix.img }}
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: perl -V
+        run: perl -V
+      - name: Install alien
+        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure Alien::pkgconf
