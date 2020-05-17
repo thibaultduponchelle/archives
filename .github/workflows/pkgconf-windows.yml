@@ -1,4 +1,4 @@
-name: pkgconf-cpm
+name: pkgconf-windows
 
 on:
   push:
