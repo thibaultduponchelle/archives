@@ -35,6 +35,8 @@ jobs:
     steps:
       - name: Eventually install Perl on Fedora and centos
         run: yum install perl -y || true
+      - name: Eventually install Digest::MD5 for Fedora
+        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure Digest::MD5
       - name: perl -V
         run: perl -V
       - name: Install alien
