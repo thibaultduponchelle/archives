@@ -20,8 +20,6 @@ jobs:
           - 'fedora:26'
           - 'fedora:30'
           - 'debian:jessie'
-          - 'debian:etch'
-          - 'debian:lenny'
           - 'debian:bullseye'
           - 'centos:centos6'
           - 'centos:centos7'
@@ -35,6 +33,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - name: Eventually install Perl on Fedora and centos
+        run: yum install perl -y || true
       - name: perl -V
         run: perl -V
       - name: Install alien
