@@ -36,7 +36,7 @@ jobs:
     steps:
       - name: Eventually install Perl on Fedora and centos
         run: yum install perl perl-Digest-MD5 perl-Time-HiRes perl-Data-Dumper perl-ExtUtils-Install perl-ExtUtils-MakeMaker perl-Storable perl-Module-CoreList -y || true
-      - name: perl -V
-        run: perl -V
+      - name: perl -v
+        run: perl -v
       - name: Install alien
         run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure Alien::pkgconf
