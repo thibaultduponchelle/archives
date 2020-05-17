@@ -34,7 +34,7 @@ jobs:
 
     steps:
       - name: Eventually install Perl on Fedora and centos
-        run: yum install perl perl-Digest-MD5 -y || true
+        run: yum install perl perl-Digest-MD5 perl-Time-HiRes -y || true
       - name: perl -V
         run: perl -V
       - name: Install alien
