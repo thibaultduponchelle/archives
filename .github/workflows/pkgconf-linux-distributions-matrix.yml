@@ -26,8 +26,8 @@ jobs:
           #- 'centos:centos6'
           #- 'centos:centos7'
           #- 'slackware/base'
-          #- 'opensuse/leap'
-          #- 'opensuse/tumbleweed'
+          - 'opensuse/leap'
+          - 'opensuse/tumbleweed'
           
 
     container:
