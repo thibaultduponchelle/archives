@@ -1,7 +1,6 @@
 name: pkgconf-perl-versions-matrix
 
 on:
-  push:
   schedule:
     - cron: 0 0 * * *
 
