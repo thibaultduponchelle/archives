@@ -33,7 +33,6 @@ jobs:
       image: ${{ matrix.img }}
 
     steps:
-      - uses: actions/checkout@v2
       - name: Eventually install Perl on Fedora and centos
         run: yum install perl -y || true
       - name: perl -V
