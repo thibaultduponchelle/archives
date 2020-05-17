@@ -17,6 +17,8 @@ jobs:
           - 'ubuntu:18.04'
           - 'ubuntu:20.04'
           - 'yamamuteki/debian-etch-i386'
+          - 'lpenz/debian-lenny-i386'
+          - 'scottw/alpine-perl'
           #- 'fedora:26'
           #- 'fedora:30'
           #- 'base/archlinux'
@@ -38,6 +40,8 @@ jobs:
         run: yum install perl perl-Digest-MD5 perl-Time-HiRes perl-Data-Dumper perl-ExtUtils-Install perl-ExtUtils-MakeMaker perl-Storable perl-Module-CoreList -y || true
       - name: Eventually install Perl on OpenSuse
         run: zypper install -y perl || true
+      - name: Eventually install Perl on alpine
+        run: apk add perl || true
       - name: perl -v
         run: perl -v
       - name: Install alien
