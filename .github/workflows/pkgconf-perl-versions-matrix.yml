@@ -1,4 +1,4 @@
-name: linux-perl-container-cpm
+name: pkgconf-perl-versions-matrix
 
 on:
   push:
