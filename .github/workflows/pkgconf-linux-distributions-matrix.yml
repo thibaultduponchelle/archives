@@ -16,16 +16,17 @@ jobs:
           - 'ubuntu:16.04'
           - 'ubuntu:18.04'
           - 'ubuntu:20.04'
-          - 'base/archlinux'
           - 'fedora:26'
           - 'fedora:30'
-          - 'debian:jessie'
-          - 'debian:bullseye'
-          - 'centos:centos6'
-          - 'centos:centos7'
-          - 'slackware/base'
-          - 'opensuse/leap'
-          - 'opensuse/tumbleweed'
+          #- 'base/archlinux'
+
+          #- 'debian:jessie'
+          #- 'debian:bullseye'
+          #- 'centos:centos6'
+          #- 'centos:centos7'
+          #- 'slackware/base'
+          #- 'opensuse/leap'
+          #- 'opensuse/tumbleweed'
           
 
     container:
