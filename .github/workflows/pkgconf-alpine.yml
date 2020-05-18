@@ -1,4 +1,4 @@
-name: pkgconf-linux-distributions-matrix
+name: pkgconf-alpine
 on:
   push:
   schedule:
