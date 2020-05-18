@@ -12,7 +12,9 @@ jobs:
     strategy:
       matrix:
         img:
-          - 'scottw/alpine-perl' 
+          - 'alpine'
+          - 'scottw/alpine-perl'
+          - 'i386/alpine'
           
     container:
       image: ${{ matrix.img }}
