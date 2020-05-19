@@ -43,4 +43,4 @@ jobs:
             ${{ runner.os }}-build-share-${{ hashFiles('perlversion.txt') }}
       - name: Install Dynamic Dependencies
         run: 
-          run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure Alien::Libxml2
+          curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure Alien::Libxml2
