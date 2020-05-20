@@ -1,7 +1,6 @@
 name : SNMP
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

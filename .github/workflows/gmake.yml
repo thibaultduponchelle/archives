@@ -1,7 +1,6 @@
 name : gmake
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

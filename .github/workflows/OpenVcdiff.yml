@@ -1,7 +1,6 @@
 name : OpenVcdiff
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

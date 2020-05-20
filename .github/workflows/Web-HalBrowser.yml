@@ -1,7 +1,6 @@
 name : Web-HalBrowser
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

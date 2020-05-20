@@ -1,7 +1,6 @@
 name : Zilla-Plugin-Alien
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

@@ -1,7 +1,6 @@
 name : Box2D
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

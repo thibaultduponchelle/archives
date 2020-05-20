@@ -1,7 +1,6 @@
 name : pdf2htmlEX
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

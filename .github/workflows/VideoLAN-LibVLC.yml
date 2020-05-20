@@ -1,7 +1,6 @@
 name : VideoLAN-LibVLC
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

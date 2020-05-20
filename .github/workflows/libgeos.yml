@@ -1,7 +1,6 @@
 name : libgeos
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

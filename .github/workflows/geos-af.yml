@@ -1,7 +1,6 @@
 name : geos-af
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

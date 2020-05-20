@@ -1,7 +1,6 @@
 name : gperf
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

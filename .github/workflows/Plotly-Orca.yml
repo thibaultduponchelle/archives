@@ -1,7 +1,6 @@
 name : Plotly-Orca
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

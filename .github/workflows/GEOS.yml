@@ -1,7 +1,6 @@
 name : GEOS
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

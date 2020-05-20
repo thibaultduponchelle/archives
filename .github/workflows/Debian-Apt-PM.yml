@@ -1,7 +1,6 @@
 name : Debian-Apt-PM
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

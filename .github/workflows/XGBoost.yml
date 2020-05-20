@@ -1,7 +1,6 @@
 name : XGBoost
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

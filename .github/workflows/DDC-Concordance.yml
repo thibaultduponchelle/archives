@@ -1,7 +1,6 @@
 name : DDC-Concordance
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

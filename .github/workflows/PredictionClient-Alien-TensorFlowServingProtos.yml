@@ -1,7 +1,6 @@
 name : PredictionClient-Alien-TensorFlowServingProtos
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

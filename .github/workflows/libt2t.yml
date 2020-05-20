@@ -1,7 +1,6 @@
 name : libt2t
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 
