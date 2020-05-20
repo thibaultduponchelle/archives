@@ -1,6 +1,7 @@
 name : gputils
 
 on:
+  push:
   schedule:
     - cron: 0 12 * * *
 
@@ -16,4 +17,4 @@ jobs:
       - name: Install non alienazed dependencies
         run: sudo apt-get install flex
       - name: Install alien
-        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure Alien::gputils
+        run: curl -L https://cpanmin.us | perl - Alien::gputils

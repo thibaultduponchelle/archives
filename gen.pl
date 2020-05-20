@@ -6,6 +6,7 @@
 
 my $startyml = << "END";
 on:
+  push:
   schedule:
     - cron: 0 12 * * *
 
@@ -22,7 +23,7 @@ END
 
 my $endyml = << "END";
       - name: Install alien
-        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure 
+        run: curl -L https://cpanmin.us | perl - 
 END
 
 
