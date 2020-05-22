@@ -1,0 +1,20 @@
+name : gputils-cpanm
+
+on:
+  push:
+  schedule:
+    - cron: 0 12 * * *
+
+jobs:
+  perl:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: perl -V
+        run: perl -V
+      - name: Install non alienazed dependencies
+        run: sudo apt-get install flex
+      - name: Install alien
+        run: curl -L https://cpanmin.us | perl - Alien::gputils
