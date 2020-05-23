@@ -1,7 +1,6 @@
 name : Proj4-cpanm
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

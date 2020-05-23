@@ -1,7 +1,6 @@
 name : Gfsm-cpm
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

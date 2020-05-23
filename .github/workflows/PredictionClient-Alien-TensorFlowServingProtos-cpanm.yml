@@ -1,7 +1,6 @@
 name : PredictionClient-Alien-TensorFlowServingProtos-cpanm
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

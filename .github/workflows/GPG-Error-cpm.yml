@@ -1,7 +1,6 @@
 name : GPG-Error-cpm
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

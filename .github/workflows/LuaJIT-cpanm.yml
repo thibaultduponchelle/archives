@@ -1,7 +1,6 @@
 name : LuaJIT-cpanm
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

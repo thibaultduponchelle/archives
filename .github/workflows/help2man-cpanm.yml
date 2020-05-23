@@ -1,7 +1,6 @@
 name : help2man-cpanm
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

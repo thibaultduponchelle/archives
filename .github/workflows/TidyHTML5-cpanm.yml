@@ -1,7 +1,6 @@
 name : TidyHTML5-cpanm
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

@@ -1,7 +1,6 @@
 name : Libgpg_error-cpanm
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

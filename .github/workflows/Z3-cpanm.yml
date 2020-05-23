@@ -1,7 +1,6 @@
 name : Z3-cpanm
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

@@ -1,7 +1,6 @@
 name : cmake3-cpm
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

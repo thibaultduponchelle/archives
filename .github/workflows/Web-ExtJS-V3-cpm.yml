@@ -1,7 +1,6 @@
 name : Web-ExtJS-V3-cpm
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

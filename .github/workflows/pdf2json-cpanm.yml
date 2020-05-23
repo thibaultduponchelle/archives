@@ -1,7 +1,6 @@
 name : pdf2json-cpanm
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

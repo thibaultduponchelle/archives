@@ -1,7 +1,6 @@
 name : libuv-cpanm
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

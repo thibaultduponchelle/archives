@@ -1,7 +1,6 @@
 name : Build-MB-cpanm
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

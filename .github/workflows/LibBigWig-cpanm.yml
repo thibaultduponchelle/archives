@@ -1,7 +1,6 @@
 name : LibBigWig-cpanm
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

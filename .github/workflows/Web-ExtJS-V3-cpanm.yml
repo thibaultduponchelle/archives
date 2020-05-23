@@ -1,7 +1,6 @@
 name : Web-ExtJS-V3-cpanm
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

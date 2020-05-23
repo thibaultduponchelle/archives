@@ -1,7 +1,6 @@
 name : Debian-Apt-PM-cpm
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

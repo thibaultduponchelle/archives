@@ -1,7 +1,6 @@
 name : LibMagic-cpanm
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

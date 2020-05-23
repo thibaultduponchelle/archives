@@ -1,7 +1,6 @@
 name : FFCall-cpanm
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

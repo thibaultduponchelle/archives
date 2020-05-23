@@ -1,7 +1,6 @@
 name : geos-af-cpanm
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

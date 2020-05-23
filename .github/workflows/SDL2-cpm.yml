@@ -1,7 +1,6 @@
 name : SDL2-cpm
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

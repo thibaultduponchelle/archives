@@ -1,7 +1,6 @@
 name : mpg123-cpm
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

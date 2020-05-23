@@ -1,7 +1,6 @@
 name : NSS-cpanm
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 
