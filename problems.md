@@ -19,7 +19,15 @@
 - :construction: Alien::mpg123 -> [PR](https://github.com/Getty/p5-alien-mpg123/pull/2) from me 30 april 2020
 - :construction: Alien::ffmpeg -> [PR](https://github.com/Getty/p5-alien-ffmpeg/pull/5) from me 30 april 2020
 - :construction: Alien::sispmctl -> [PR](https://github.com/Getty/p5-alien-sispmctl/pull/2) from me 30 april 2020
-- :construction: Alien::gettext -> [PR](https://github.com/Getty/p5-alien-gettext/pull/2) from me 30 april 2020
+- :construction: Alien::gettext -> [PR](https://github.com/Getty/p5-alien-gettext/pull/2) from me 30 april 2020 and also 
+```
+perl -e 'use Alien::gettext; print Alien::gettext->libs()'
+Could not resolve -lgettextlib-0 at -e line 1.
+Could not resolve -lgettextsrc-0 at -e line 1.
+Could not resolve -lpreloadable_libintl at -e line 1.
+-L/usr/local/share/perl/5.26.1/auto/share/dist/Alien-gettext/lib -lasprintf -lgettextlib -lgettextlib-0 -lgettextpo -lgettextsrc -lgettextsrc-0 -lpreloadable_libintl -ltextstyle
+```
++ Alien::SVN tests are broken when Alien::gettext is installed 
 
 ### GUGOD 
 - :construction: Alien::CImg -> [PR](https://github.com/gugod/Alien-CImg/pull/1) from me 30 april 2020
@@ -36,6 +44,8 @@
 - :construction: Alien::NSS -> 404 -> [PR](https://github.com/0xxon/alien-nss/pull/6) by me
 - :construction: Alien::LibUSBx -> download link issue Could not connect to 'aarnet.dl.sourceforge.net:80': Name or service not known -> [PR](https://github.com/henrikbrixandersen/Alien-LibUSBx/pull/3) from me 8 may 2020
 - Alien::XInputSimulator
+- Alien::Judy
+- Alien::SVN -> need libaprutil1-dev (and libsqlite3-dev ?)
 
 ### PLU 
 - :construction: Alien::Gearman -> depends on Alien::Libevent that fails -> removed inc/Devel/ChecLib and use cpan version, no github (removed) -> Need ALien::libuuid -> fixed on my [REPO](https://github.com/thibaultduponchelle/Alien-Gearman)  -> [RT ticket](https://rt.cpan.org/Ticket/Display.html?id=132505) 5 may 2020 -> Johannes Plunien confirmed -> TO ADOPT -> I asked to adopt it
