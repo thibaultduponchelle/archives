@@ -10,13 +10,11 @@ Alien::LZO
 Alien::bz2
 Alien::OTR
 Alien::PNG
-Alien::SVN
-Alien::XPA
+Alien::SVN libaprutil1-dev libsqlite3-dev libgettextpo-dev
 Alien::ZMQ
 Alien::FLTK
 Alien::Gfsm
 Alien::Jerl
-Alien::Judy
 Alien::LMDB
 Alien::Moot
 Alien::caca
@@ -33,13 +31,10 @@ Alien::Ditaa
 Alien::Expat
 Alien::Iconv
 Alien::MuPDF
-Alien::PCRE2
 Alien::Pluto
-Alien::Proj4
 Alien::Saxon
 Alien::Tidyp
 Alien::UnRTF
-Alien::Zcash
 Alien::bison
 Alien::cmark
 Alien::gmake
@@ -50,13 +45,9 @@ Alien::unzip
 Alien::FFCall
 Alien::GCrypt
 Alien::GfsmXL
-Alien::JPCRE2
 Alien::LIBSVM
 Alien::LibXML
-Alien::Libjio
 Alien::Nettle
-Alien::Thrust
-Alien::TinyCC
 Alien::Uninum
 Alien::astyle
 Alien::cmake3
@@ -73,7 +64,6 @@ Alien::Poppler
 Alien::Texinfo
 Alien::TinyCCx
 Alien::WhiteDB
-Alien::XGBoost
 Alien::hiredis
 Alien::libgeos
 Alien::libtool
@@ -81,10 +71,8 @@ Alien::libudev
 Alien::libuuid
 Alien::nragent
 Alien::pkgconf
-Alien::ActiveMQ
 Alien::Capstone
 Alien::Chipmunk
-Alien::Electron
 Alien::Hunspell
 Alien::Keystone
 Alien::LibGumbo
@@ -154,7 +142,6 @@ Alien::UDUNITS2
 Alien::Taco
 Alien::GSL
 Alien::HDF4 libhdf4-dev
-Alien::SNMP
 Alien::IUP libgtk2.0-dev
 Alien::LibJIT libtool-bin flex bison texinfo
 Alien::AntTweakBar libgl1-mesa-dev libglu1-mesa-dev
@@ -206,3 +193,16 @@ Alien::XInputSimulator
 Alien::libsndfile
 Alien::pdf2htmlEX
 Alien::spatialite
+Alien::Judy
+Alien::TinyCC
+Alien::XPA
+Alien::PCRE2
+Alien::Zcash
+Alien::Proj4
+Alien::JPCRE2
+Alien::Thrust
+Alien::Libjio
+Alien::XGBoost
+Alien::Electron
+Alien::ActiveMQ
+Alien::SNMP
