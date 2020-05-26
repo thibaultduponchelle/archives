@@ -1,6 +1,7 @@
 name : ActiveMQ
 
 on:
+  push:
   schedule:
     - cron: 0 12 * * *
 
@@ -14,4 +15,4 @@ jobs:
       - name: perl -V
         run: perl -V
       - name: Install alien
-        run: curl -L https://cpanmin.us | perl - Alien::ActiveMQ
+        run: curl -L https://cpanmin.us | perl - Alien-ActiveMQ-0.00005.tar.gz
