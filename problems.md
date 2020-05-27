@@ -40,11 +40,11 @@ Could not resolve -lpreloadable_libintl at -e line 1.
 - :construction: Alien::LibBigWig -> fatal error: curl/curl.h: No such file or directory I do not reproduce locally -> [PR](https://github.com/Ensembl/Alien-LibBigWig/pull/3) from me
 - :construction: Alien::Protobuf -> Only a system install in upstream -> share is on kiwiroy branch, system seems broken here
 - :construction: Alien::SNMP::MAXTC -> compilation error [PR](https://github.com/ollyg/Alien-SNMP-MAXTC/pull/3) from me to upgrade tarball
-- :construction: Alien::NSS -> 404 -> [PR](https://github.com/0xxon/alien-nss/pull/6) by me
+- :construction: Alien::NSS -> 404 -> [PR](https://github.com/0xxon/alien-nss/pull/6) by me 13 may 2020
 - :construction: Alien::LibUSBx -> download link issue Could not connect to 'aarnet.dl.sourceforge.net:80': Name or service not known -> [PR](https://github.com/henrikbrixandersen/Alien-LibUSBx/pull/3) from me 8 may 2020
 - Alien::XInputSimulator
 - Alien::Judy
-- :construction: Alien-ActiveMQ -> Can't locate Test/Exception.pm in @INC
+- :construction: Alien-ActiveMQ -> Can't locate Test/Exception.pm in @INC -> [PR](https://github.com/bobtfish/alien-apachemq/pull/7) by me 27 may 2020 
 - ~Alien::SVN -> need libaprutil1-dev and libsqlite3-dev ?~ 
 
 ### PLU 
