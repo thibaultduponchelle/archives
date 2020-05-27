@@ -1,6 +1,5 @@
 name: pkgconf-linux-distributions-matrix
 on:
-  push:
   schedule:
     - cron: 0 0 * * *
 
