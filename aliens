@@ -145,7 +145,6 @@ Alien::HDF4 libhdf4-dev
 Alien::IUP libgtk2.0-dev
 Alien::LibJIT libtool-bin flex bison texinfo
 Alien::AntTweakBar libgl1-mesa-dev libglu1-mesa-dev
-Alien::Gimp libgimp2.0-dev
 Alien::libtiff
 Alien::TALib
 Alien::SDL2
@@ -206,3 +205,4 @@ Alien::XGBoost
 Alien::Electron
 Alien::ActiveMQ
 Alien::SNMP
+Alien::Gimp libgimp2.0-dev
