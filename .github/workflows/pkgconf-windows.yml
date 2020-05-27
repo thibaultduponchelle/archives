@@ -1,7 +1,6 @@
 name: pkgconf-windows
 
 on:
-  push:
   schedule:
     - cron: 0 0 * * *
 
