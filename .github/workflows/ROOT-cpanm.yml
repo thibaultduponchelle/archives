@@ -16,4 +16,4 @@ jobs:
       - name: Install non alienazed dependencies
         run: sudo apt-get install libx11-dev libxpm-dev
       - name: Install alien
-        run: curl -L https://cpanmin.us | perl - Alien::ROOT
+        run: curl -L https://cpanmin.us | perl - --configure-timeout=480 Alien::ROOT

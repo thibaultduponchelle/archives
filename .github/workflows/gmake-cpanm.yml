@@ -14,4 +14,4 @@ jobs:
       - name: perl -V
         run: perl -V
       - name: Install alien
-        run: curl -L https://cpanmin.us | perl - Alien::gmake
+        run: curl -L https://cpanmin.us | perl - --configure-timeout=480 Alien::gmake

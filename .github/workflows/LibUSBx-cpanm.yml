@@ -16,4 +16,4 @@ jobs:
       - name: Install non alienazed dependencies
         run: sudo apt-get install libudev-dev
       - name: Install alien
-        run: curl -L https://cpanmin.us | perl - Alien::LibUSBx
+        run: curl -L https://cpanmin.us | perl - --configure-timeout=480 Alien::LibUSBx

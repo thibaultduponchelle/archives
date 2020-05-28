@@ -16,4 +16,4 @@ jobs:
       - name: Install non alienazed dependencies
         run: sudo apt-get install libgtk2.0-dev
       - name: Install alien
-        run: curl -L https://cpanmin.us | perl - Alien::IUP
+        run: curl -L https://cpanmin.us | perl - --configure-timeout=480 Alien::IUP
