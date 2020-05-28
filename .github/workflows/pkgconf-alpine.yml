@@ -1,6 +1,5 @@
 name: pkgconf-alpine
 on:
-  push:
   schedule:
     - cron: 0 0 * * *
 
