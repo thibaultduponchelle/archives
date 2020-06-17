@@ -2,6 +2,7 @@
 
 From [cpan.org/misc/japh](https://www.cpan.org/misc/japh)
 
+```perl
 %%
 #JoeCamel on http://www.perlmonks.com/
 #note: requires Perl5.6.0 or better
@@ -1653,4 +1654,4 @@ Date:         5 Jul 90 17:18:01 GMT
 From:         merlyn@iwarp.intel.com (Randal Schwartz)
 $_="cker,rl haer PeanothJust ";1 while s/(.{5})(.{5})?/$_{$2}=$1,$2/e;print while $_=$_{$_};
 %%     
-
+```
