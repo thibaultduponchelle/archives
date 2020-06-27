@@ -10,43 +10,6 @@ author: ""
 encrypted_text: true
 permalink: /
 ---
-
-<nav class="flex flex-row justify-center justify-end-l items-center flex-wrap ph2 pl3-ns pr4-ns pb3">
-  <div class="brand flex-auto w-100 w-auto-l self-start tc tl-l">
-    <a href="/" class="brand">
-      <img class="v-mid ml0-l" alt="Perl Logo" src="/assets/img/raptor.png">
-      
-    </a>
-  </div>
-
-  <ul class="nav list w-100 w-auto-l flex flex-none flex-row flex-wrap justify-center justify-end-l items-center pv2 ph0 ph4-ns">
-    <li class="tc pv2 ph2 ph4-ns flex-20-s"><a href="/tools/install">Install</a></li>
-    <li class="tc pv2 ph2 ph4-ns flex-20-s"><a href="/learn">Learn</a></li>
-    <li class="tc pv2 ph2 ph4-ns flex-20-s"><a href="https://play.rust-lang.org/">Playground</a></li>
-    <li class="tc pv2 ph2 ph4-ns flex-20-s"><a href="/tools">Tools</a></li>
-    <li class="tc pv2 ph2 ph4-ns flex-20-s"><a href="/governance">Governance</a></li>
-    <li class="tc pv2 ph2 ph4-ns flex-20-s"><a href="/community">Community</a></li>
-    <li class="tc pv2 ph2 ph4-ns flex-20-s"><a href="https://blog.rust-lang.org/">Blog</a></li>
-  </ul>
-
-  <div class=" w-100 w-auto-l flex-none flex justify-center pv4 pv-0-l languages">
-    <label for="language-nav" class="hidden">Language</label>
-    <select id="language-nav" data-current-lang="en-US">
-      <option title="English (en-US)" value="en-US">English (en-US)</option>
-<option title="Español (es)" value="es">Español (es)</option>
-<option title="Italiano (it)" value="it">Italiano (it)</option>
-<option title="日本語 (ja)" value="ja">日本語 (ja)</option>
-<option title="Português (pt-BR)" value="pt-BR">Português (pt-BR)</option>
-<option title="Русский (ru)" value="ru">Русский (ru)</option>
-<option title="Türkçe (tr)" value="tr">Türkçe (tr)</option>
-<option title="简体中文 (zh-CN)" value="zh-CN">简体中文 (zh-CN)</option>
-<option title="正體中文 (zh-TW)" value="zh-TW">正體中文 (zh-TW)</option>
-
-    </select>
-  </div>
-
-</nav>
-
 <header class="mt3 mt0-ns mb6-ns w-100 mw-none ph3 mw8-m mw9-l center">
   <div class="flex flex-column flex-row-l">
     <div class="w-80-l pl6-l pl3 mw8-l">
