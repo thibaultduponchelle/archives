@@ -1,7 +1,7 @@
 ## Settings
-title: Code Poison
+title: Perl
 owner: ""
-url: "https://thibaultduponchelle.github.io/codepoison"
+url: "https://thibaultduponchelle.github.io/perldot"
 baseurl: ""
 permalink: /:title/
 description: ""
@@ -10,14 +10,10 @@ webrick:
   headers:
     Access-Control-Allow-Origin: "*"
 ## Global Variables
-github: "thibaultduponchelle/codepoison"
+github: "thibaultduponchelle/perldot"
 # path to: css/, fonts/, img/ and js/
 assets_path: "/assets" # i.e. "/assets" 
-statement: "Black Magic"
 # default max toc levels: 1 - 6 (h1 - h6)
-toc_level: 3
-# texts randomly displayed in background
-bgtext: '~!@#$%^&*)(_-=+;:{}[]|\/<>,.'
 plugins:
   - jemoji
 
