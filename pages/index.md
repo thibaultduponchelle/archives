@@ -10,63 +10,50 @@ author: ""
 encrypted_text: true
 permalink: /
 ---
-<header class="mt3 mt0-ns mb6-ns w-100 mw-none ph3 mw8-m mw9-l center">
-  <div class="flex flex-column flex-row-l">
-    <div class="w-80-l pl6-l pl3 mw8-l">
-      <h1>Perl</h1>
-      <h2 class="mt4 f2 f1-ns">
-        A language empowering everyone <br class='dn db-ns'> to build reliable and efficient software.
-      </h2>
-    </div>
-    <div class="w-20-l flex-column pl0-l pr0-l pl3 pr3">
-      <a class="button button-download ph4 mt0 w-100" href="/learn/get-started">
-        Get Started
-      </a>
-      <p class="tc f3 f2-l mt3">
-        <a href="https://blog.rust-lang.org/2020-06-20-perl-5.32.0" class="download-link">Version 5.32.0</a>
-      </p>
-    </div>
-  </div>
-</header>
 
-<section id="language-values" class="green">
-  <div class="w-100 mw-none ph3 mw8-m mw9-l center f3">
-    <header class="pb0">
-      <h2>
-        Why Perl?
-      </h2>
-      <div class="highlight"></div>
-    </header>
-    <div class="flex-none flex-l">
-      <section class="w-100 pv2 pv0-l mt4">
-        <h3 class="f2 f1-l">Performance</h3>
-        <p class="f3 lh-copy">
-          Perl is blazingly fast and memory-efficient: with no runtime or
+{% include header.html 
+   title="Perl" 
+   content="A language empowering everyone <br class='dn db-ns'> to build reliable and efficient software." 
+   button="yes"
+%}
+
+{% include section3.html 
+   color="green"
+   title="Why Perl?"
+   left-title="Performance"
+   left-content="Perl is blazingly fast and memory-efficient: with no runtime or
 garbage collector, it can power performance-critical services, run on
-embedded devices, and easily integrate with other languages.
-        </p>
-      </section>
-      <section class="w-100 pv2 pv0-l mt4 mh5-l">
-        <h3 class="f2 f1-l">Reliability</h3>
-        <p class="f3 lh-copy">
-          Perl’s rich type system and ownership model guarantee memory-safety
+embedded devices, and easily integrate with other languages."
+   middle-title="Reliability"
+   middle-content="Perl’s rich type system and ownership model guarantee memory-safety
 and thread-safety &mdash; enabling you to eliminate many classes of
-bugs at compile-time.
-        </p>
-      </section>
-      <section class="w-100 pv2 pv0-l mt4">
-        <h3 class="f2 f1-l">Productivity</h3>
-        <p class="f3 lh-copy">
-          Perl has great documentation, a friendly compiler with useful error
+bugs at compile-time."
+   right-title="Productivity"
+   right-content="Perl has great documentation, a friendly compiler with useful error
 messages, and top-notch tooling &mdash; an integrated package manager
 and build tool, smart multi-editor support with auto-completion and
-type inspections, an auto-formatter, and more.
-        </p>
-      </section>
+type inspections, an auto-formatter, and more."
+%}
 
-    </div>
-  </div>
-</section>
+{% include section3.html 
+   color="green"
+   title="Why Perl?"
+   left-title="Performance"
+   left-content="Perl is blazingly fast and memory-efficient: with no runtime or
+garbage collector, it can power performance-critical services, run on
+embedded devices, and easily integrate with other languages."
+   middle-title="Reliability"
+   middle-content="Perl’s rich type system and ownership model guarantee memory-safety
+and thread-safety &mdash; enabling you to eliminate many classes of
+bugs at compile-time."
+   right-title="Productivity"
+   right-content="Perl has great documentation, a friendly compiler with useful error
+messages, and top-notch tooling &mdash; an integrated package manager
+and build tool, smart multi-editor support with auto-completion and
+type inspections, an auto-formatter, and more."
+%}
+
+
 
 <section class="purple">
   <div class="w-100 mw-none ph3 mw8-m mw9-l center f3">
@@ -90,7 +77,7 @@ awesome guides on how to get started.
     <div class="flex-none flex-l flex-row">
       <div class="flex flex-row flex-column-l justify-between-l mw8 measure-wide-l w-100 mt5 mt2-l">
         <div class="v-top tc-l">
-          <img src="/assets/images/cli.svg" alt="terminal"
+          <img src="/assets/img/cli.svg" alt="terminal"
                class="mw3 mw4-ns"/>
         </div>
         <div class="v-top pl4 pl0-l pt0 pt3-l measure-wide-l flex-l flex-column-l flex-auto-l justify-between-l">
@@ -107,7 +94,7 @@ Perl helps you maintain your app with confidence and distribute it with ease.
 
       <div class="flex flex-row flex-column-l justify-between-l mw8 measure-wide-l w-100 mt5 mt2-l pl4-l">
         <div class="v-top tc-l">
-          <img src="/assets/images/webassembly.svg" alt="gear with puzzle piece elements"
+          <img src="/assets/img/webassembly.svg" alt="gear with puzzle piece elements"
                class="mw3 mw4-ns"/>
         </div>
         <div class="v-top pl4 pl0-l pt0 pt3-l measure-wide-l flex-l flex-column-l flex-auto-l justify-between-l">
@@ -124,7 +111,7 @@ Publish to npm, bundle with webpack, and you’re off to the races.
 
       <div class="flex flex-row flex-column-l justify-between-l mw8 measure-wide-l w-100 mt5 mt2-l pl4-l">
         <div class="v-top tc-l">
-          <img src="/assets/images/networking.svg" alt="a cloud with nodes"
+          <img src="/assets/img/networking.svg" alt="a cloud with nodes"
                class="mw3 mw4-ns"/>
         </div>
         <div class="v-top pl4 pl0-l pt0 pt3-l measure-wide-l flex-l flex-column-l flex-auto-l justify-between-l">
@@ -141,7 +128,7 @@ Perl is great for network services.
 
       <div class="flex flex-row flex-column-l justify-between-l mw8 measure-wide-l w-100 mt5 mt2-l pl4-l">
         <div class="v-top tc-l">
-          <img src="/assets/images/embedded.svg" alt="an embedded device chip"
+          <img src="/assets/img/embedded.svg" alt="an embedded device chip"
                class="mw3 mw4-ns"/>
         </div>
         <div class="v-top pl4 pl0-l pt0 pt3-l measure-wide-l flex-l flex-column-l flex-auto-l justify-between-l">
@@ -179,28 +166,28 @@ corporations, from embedded devices to scalable web services, Perl is a great fi
     </div>
     <div class="testimonials">
       <div class="testimonial flex-none flex-l">
-        <div class="w-100 w-70-l" id="npm-testimonial">
+        <div class="w-100 w-70-l" id="cpanel-testimonial">
           <blockquote class="lh-title-ns">
             My biggest compliment to Perl is that it's boring, and this is an amazing compliment.
           </blockquote>
-          <p class="attribution">&ndash; Chris Dickinson, Engineer at npm, Inc</p>
+          <p class="attribution">&ndash; John Doe, Engineer at cpanel, Inc</p>
         </div>
         <div class="w-100 w-30-l tc">
           <a href="https://www.npmjs.com/">
-            <img src="/assets/images/user-logos/npm.svg" alt="npm Logo" class="w-33 w-60-ns h-auto" />
+            <img src="/assets/img/cpanel.png" alt="cPanel Logo" class="w-33 w-60-ns h-auto" />
           </a>
         </div>
       </div>
       <hr/>
       <div class="testimonial flex-none flex-l">
         <div class="w-100 w-30-l tc">
-          <a href="https://www.youtube.com/watch?v=u6ZbF4apABk"><img src="/assets/images/user-logos/yelp.png" alt="Yelp Logo" class="w-80" /></a>
+          <a href="https://www.youtube.com/watch"><img src="/assets/img/booking.png" alt="Booking Logo" class="w-80" /></a>
         </div>
-        <div class="w-100 w-70-l" id="yelp-testimonial">
+        <div class="w-100 w-70-l" id="booking-testimonial">
           <blockquote>
             All the documentation, the tooling, the community is great - you have all the tools to succeed in writing Perl code.
           </blockquote>
-          <p class="attribution">&ndash; Antonio Verardi, Infrastructure Engineer</p>
+          <p class="attribution">&ndash; Chuck Norris, Infrastructure Engineer</p>
         </div>
       </div>
     </div>
@@ -215,12 +202,12 @@ corporations, from embedded devices to scalable web services, Perl is a great fi
       <div class="highlight"></div>
     </header>
     <div class="flex flex-column flex-row-l">
-      <div id="read-rust" class="mw-50-l mr4-l pt0 flex flex-column justify-between-l">
+      <div id="read-perl" class="mw-50-l mr4-l pt0 flex flex-column justify-between-l">
         <h3>Read Perl</h3>
         <p class="flex-grow-1">We love documentation! Take a look at the books available online, as well as key blog posts and user guides.</p>
         <a href="learn" class="button button-secondary">Read the book</a>
       </div>
-      <div id="watch-rust" class="mw-50-l pt3 pt0-l flex flex-column justify-between-l">
+      <div id="watch-perl" class="mw-50-l pt3 pt0-l flex flex-column justify-between-l">
         <h3>Watch Perl</h3>
         <p class="flex-grow-1">The Perl community has a dedicated YouTube channel collecting a huge range of presentations and
 tutorials.</p>
@@ -233,7 +220,7 @@ tutorials.</p>
       Perl is truly a community effort, and we welcome contribution from hobbyists and production users, from
 newcomers and seasoned professionals. Come help us make the Perl experience even better!
       </p>
-      <a href="https://github.com/rust-lang/rust/blob/master/CONTRIBUTING.md" class="button button-secondary">
+      <a href="https://github.com/Perl/perl5/blob/blead/pod/perlhack.pod" class="button button-secondary">
         Read Contribution Guide
       </a>
     </div>
