@@ -1,6 +1,6 @@
 ---
 title: Sample post
-layout: default
+layout: text
 category: article
 ---
 

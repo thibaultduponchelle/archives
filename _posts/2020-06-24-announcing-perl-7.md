@@ -1,6 +1,6 @@
 ---
 title: Announcing Perl 7
-layout: default
+layout: text
 category: article
 ---
 

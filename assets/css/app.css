@@ -27,8 +27,8 @@ html {
 body {
   font-family: "Fira Sans", Helvetica, Arial, sans-serif;
   background-color: white;
-  font-size: 1.5rem;
-  line-height: 1.6;
+  font-size: 1.0rem;
+  line-height: 1.4;
   /* Ensure the footer is always at the bottom of the screen */
   min-height: 100vh;
   display: flex;
@@ -47,7 +47,8 @@ code {
   white-space: nowrap;
   border: 1px solid #e1e1e1;
   border-radius: 4px;
-  overflow: auto; }
+  overflow: auto; 
+}
 
 pre > code {
   display: block;
@@ -82,7 +83,7 @@ p {
 
 code.code-header {
   background-color: rgba(127, 127, 127, 0.25);
-  font-size: 2rem;
+  font-size: 1rem;
   display: inline-block;
   margin: 0 0 3px 0; }
 
@@ -117,15 +118,31 @@ code {
 
 header .button.button-download {
   color: black;
-  background-color: #ffc832;
-  border-color: #ffc832;
+  background-color: white; 
+  border: solid 3px #00ff00;
   width: 100%;
   padding: 20px;
   height: auto;
   font-size: 2.25rem;
   margin-top: 20px; }
   header .button.button-download:hover, header .button.button-download:focus {
-    border-color: black; }
+    border-color: black; 
+    background-color: #00ff00; 
+    color: black;
+  }
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
 
 h2.subtitle {
   margin: 0;
@@ -135,7 +152,8 @@ h2.subtitle {
   color: #2a3439; }
 
 section {
-  padding: 30px 0 60px 0; }
+  padding: 30px 0 60px 0; 
+}
   section header {
     padding: 30px 0 60px 0;
     display: inline-block; }
@@ -166,8 +184,18 @@ ol {
 section .container {
   padding-top: 20px; }
 
+.nav {
+  #background: #d0e2f7;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 2px black;
+}
+
 .nav a {
-  color: #2a3439; }
+  color: #2a3439; 
+  font-size: 1.6rem;
+}
 
 div.brand {
   color: black;
@@ -227,6 +255,47 @@ a.brand {
     .green .button.button-secondary:hover, .green .button.button-secondary:focus {
       border-color: white; }
 
+.lblue {
+  background-color: #d0e2f7;
+  color: black; }
+  .lblue .highlight {
+    background-color: black; }
+  .lblue h2 {
+    color: black;
+  }
+  .lblue .cornered {
+    border-color: black;
+  }
+  .lblue a {
+    color: black;
+    text-decoration: underline; }
+  .lblue .button.button-secondary {
+    background-color: #2e2459;
+    border-color: #2e2459;
+    color: white;
+    text-decoration: none; }
+    .sky .button.button-secondary:hover, .sky .button.button-secondary:focus {
+      border-color: white; }
+
+.lgreen {
+  background-color: #cef5c5;
+  color: black; }
+  .lgreen .highlight {
+    background-color: black; }
+  .lgreen h2 {
+    color: white;
+  }
+  .lgreen a {
+    color: black;
+    text-decoration: underline; }
+  .lgreen .button.button-secondary {
+    background-color: #2e2459;
+    border-color: #2e2459;
+    color: white;
+    text-decoration: none; }
+    .lgreen .button.button-secondary:hover, .lgreen .button.button-secondary:focus {
+      border-color: white; }
+
 .white {
   color: black; }
   .white .highlight {
@@ -260,7 +329,7 @@ a.brand {
 
 h3 {
   font-weight: 600;
-  font-size: 1.5em;
+  font-size: 1.2em;
   letter-spacing: normal; }
 
 .get-involved .code {
@@ -270,14 +339,32 @@ h3 {
   padding-bottom: 20px;
   border-bottom: 1px dotted white; }
 
+h1 {
+  margin: 1em 0 0.5em 0;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: black;
+  font-style: italic;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 58px;
+  line-height: 54px;
+  text-shadow: 2px 5px 0 rgba(0,0,0,0.2);
+}
+
+.cornered {
+  border-top: solid 3px white;
+}
+
 .highlight {
-  height: 24px;
+  height: 44px;
   position: relative;
-  top: -24px;
+  top: -45px;
   left: -10px;
   width: 120%;
   max-width: 90vw;
-  line-height: 1.6; }
+  line-height: 1.6; 
+  font-family: 'Josefin Sans', sans-serif;
+}
 
 footer {
   padding: 30px 0;
@@ -316,7 +403,7 @@ footer .languages {
   color: #2a3439; }
 
 blockquote {
-  font-size: 1.5em;
+  font-size: 2em;
   line-height: 1.2em;
   position: relative;
   border-bottom: 1px dotted #2a3439;
@@ -547,7 +634,8 @@ section header {
     text-align: center; }
 
 .download-link {
-  color: #4299bf; }
+  color: black; 
+}
 
 #pb4 {
   padding-bottom: 3.8em; }

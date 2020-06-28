@@ -1,10 +1,11 @@
 ---
 layout: text
-footer: true
-color: green
+color: sky
 title: Grants Proposals
 permalink: /grants-proposals
 ---
+
+## Grants proposed by the community
 
 The Perl Foundation provides grants for work that is valuable to the Perl and Raku communities.
 
@@ -14,8 +15,6 @@ The Perl Foundation provides grants for work that is valuable to the Perl and Ra
 While we try to keep this list relevant, things can easily get out of date. Before grabbing a task, check that a similar investment is not done recently.
 
 ⚠️ *Disclaimer* The list does not guarantee that TPF will fund any grant proposal based on them. This is still subject to a vote.
-
-# Perl
 
 ## Perl core
 
@@ -95,17 +94,17 @@ Github is experimenting/putting in place the code navigation.
 
 Below the alert to introduce this new feature to developers :
 
-![Code navigation alert](./githubcodenav/codenavalert.png)
+![Code navigation alert]({{ site.url }}{% link /assets/img/grants/codenavalert.png %})
 
 And next a real life working example : 
 
-![Code navigation example](./githubcodenav/codenavexample.png)
+![Code navigation example]({{ site.url }}{% link /assets/img/grants/codenavexample.png %})
 
 It is available since november 2019 (see the [annoucement](https://github.blog/changelog/2019-11-13-code-navigation-is-now-available-for-all-go-python-and-ruby-repositories/)) and I guess it will grow as this feature is just a "must have" for developers (we have multiple code browsers in my company : bitbucket native, grok and woboq !).
 
 The [doc of github](https://help.github.com/en/github/managing-files-in-a-repository/navigating-code-on-github) says that it is based on [semantic](https://github.com/github/semantic) which does not support Perl as of today.
 
-![Code navigation language support](./githubcodenav/codenavlanguagesupport.png)
+![Code navigation language support]({{ site.url }}{% link /assets/img/grants/codenavlanguagesupport.png %})
 
 
 The purpose of this grant would be to :

@@ -13,12 +13,12 @@ permalink: /
 
 {% include header.html 
    title="Perl" 
-   content="A language empowering everyone <br class='dn db-ns'> to build reliable and efficient software." 
+   content="Powering millions of businesses<br class='dn db-ns'> and the Web for decades<br class='dn db-ns'> Perl just works! :dromedary_camel:"
    button="yes"
 %}
 
 {% include section3.html 
-   color="green"
+   color="lblue"
    title="Why Perl?"
    left-title="Performance"
    left-content="Perl is blazingly fast and memory-efficient: with no runtime or
@@ -67,9 +67,7 @@ type inspections, an auto-formatter, and more."
     <div class="flex-none flex-l flex-row">
       <p class="flex-grow-1 pb2">
         In 2018, the Perl community decided to improve programming experience
-for a few distinct domains (see <a
-href="https://blog.rust-lang.org/2018/03/12/roadmap.html">the 2018
-roadmap</a>). For these, you can find many high-quality crates and some
+for a few distinct domains. For these, you can find many high-quality crates and some
 awesome guides on how to get started.
       </p>
     </div>

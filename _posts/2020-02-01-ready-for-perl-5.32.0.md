@@ -1,6 +1,6 @@
 ---
 title: Ready for Perl 5.32.0
-layout: default
+layout: text
 category: article
 ---
 
@@ -25,14 +25,6 @@ sub bazinga () {
 	print "Bazinga !\n";
 }
 ```
-
-```perl
-#!/usr/bin/env perl
-
-use MIME::Base64;(eval decode_base64('am9pbignJywobWFwe2NocigpfShncmVwL1xTLyxzcGxpdCgvKC4uLikvLCcwNzQxMTcxMTUxMTYwMzIwOTcxMTAxMTExMTYxMDQxMDExMTQwMzIwODAxMDExMTQxMDgwMzIxMDQwOTcwOTkxMDcxMDExMTQwNDQnKSkpKQ=='))=~/.*/;print$&
-```
-
-
 
 ### Lists (3)
 
