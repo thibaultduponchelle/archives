@@ -12,9 +12,7 @@ permalink: /blog
 ---
 
 {% include header.html 
-   title="Perl" 
-   content="A language empowering everyone <br class='dn db-ns'> to build reliable and efficient software." 
-   button="yes"
+   title="Blog" 
 %}
 
 {% include list_of_articles.html %}
