@@ -5,10 +5,6 @@
 
     <table class="post-list collapse w-100 f2-l f2-m f3-s">
 
-      <tr>
-        <td class="bn"></td>
-        <td class="bn"><h3 class="f0-l f1-m f2-s mt4 mb0">Posts from The Perl Foundation</h3></td>
-      </tr>
       {% for post in site.posts %}
       <tr>
 	<td class="bn">{{ post.date | date: '%Y-%m-%d' }}</td>

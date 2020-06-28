@@ -175,7 +175,12 @@ section {
 
 ul {
   list-style: circle;
-  padding-left: 1.5em; }
+  padding-left: 1.5em; 
+}
+
+section ul {
+  list-style-image: url('/assets/img/onion-li.svg');
+}
 
 ol {
   list-style: decimal;
@@ -185,7 +190,7 @@ section .container {
   padding-top: 20px; }
 
 .nav {
-  #background: #d0e2f7;
+  background: #d0e2f7;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
@@ -259,7 +264,7 @@ a.brand {
   background-color: #d0e2f7;
   color: black; }
   .lblue .highlight {
-    background-color: black; }
+    background-color: #d0e2f7; }
   .lblue h2 {
     color: black;
   }

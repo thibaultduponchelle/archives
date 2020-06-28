@@ -4,7 +4,6 @@ layout: text
 category: article
 ---
 
-# Sample (1)
 ## Text (2)
 This is a [link](http://lwp.interglacial.com)
 

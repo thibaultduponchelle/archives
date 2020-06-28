@@ -35,27 +35,7 @@ and build tool, smart multi-editor support with auto-completion and
 type inspections, an auto-formatter, and more."
 %}
 
-{% include section3.html 
-   color="green"
-   title="Why Perl?"
-   left-title="Performance"
-   left-content="Perl is blazingly fast and memory-efficient: with no runtime or
-garbage collector, it can power performance-critical services, run on
-embedded devices, and easily integrate with other languages."
-   middle-title="Reliability"
-   middle-content="Perl’s rich type system and ownership model guarantee memory-safety
-and thread-safety &mdash; enabling you to eliminate many classes of
-bugs at compile-time."
-   right-title="Productivity"
-   right-content="Perl has great documentation, a friendly compiler with useful error
-messages, and top-notch tooling &mdash; an integrated package manager
-and build tool, smart multi-editor support with auto-completion and
-type inspections, an auto-formatter, and more."
-%}
-
-
-
-<section class="purple">
+<section class="lblue">
   <div class="w-100 mw-none ph3 mw8-m mw9-l center f3">
     <header>
       <h2>
@@ -193,39 +173,7 @@ corporations, from embedded devices to scalable web services, Perl is a great fi
   </div>
 </section>
 
-<section class="get-involved red">
-  <div class="w-100 mw-none ph3 mw8-m mw9-l center f3">
-    <header>
-      <h2>Get involved</h2>
-      <div class="highlight"></div>
-    </header>
-    <div class="flex flex-column flex-row-l">
-      <div id="read-perl" class="mw-50-l mr4-l pt0 flex flex-column justify-between-l">
-        <h3>Read Perl</h3>
-        <p class="flex-grow-1">We love documentation! Take a look at the books available online, as well as key blog posts and user guides.</p>
-        <a href="learn" class="button button-secondary">Read the book</a>
-      </div>
-      <div id="watch-perl" class="mw-50-l pt3 pt0-l flex flex-column justify-between-l">
-        <h3>Watch Perl</h3>
-        <p class="flex-grow-1">The Perl community has a dedicated YouTube channel collecting a huge range of presentations and
-tutorials.</p>
-        <a href="https://www.youtube.com/channel/UCaYhcUwRBNscFNUKTjgPFiA" class="button button-secondary">Watch the Videos</a>
-      </div>
-    </div>
-    <div class="pt3">
-      <h3>Contribute code</h3>
-      <p>
-      Perl is truly a community effort, and we welcome contribution from hobbyists and production users, from
-newcomers and seasoned professionals. Come help us make the Perl experience even better!
-      </p>
-      <a href="https://github.com/Perl/perl5/blob/blead/pod/perlhack.pod" class="button button-secondary">
-        Read Contribution Guide
-      </a>
-    </div>
-  </div>
-</section>
-
-<section class="white thanks">
+<section class="lblue thanks">
   <div class="w-100 mw-none ph3 mw8-m mw9-l center">
     <header>
       <h2>Thanks</h2>
