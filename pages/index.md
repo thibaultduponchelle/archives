@@ -13,7 +13,7 @@ permalink: /
 
 {% include header.html 
    title="Perl" 
-   content="Powering millions of businesses<br class='dn db-ns'> and the Web for decades<br class='dn db-ns'> Perl just works! :dromedary_camel:"
+   content="Powering millions of businesses<br class='dn db-ns'> and the Web for decades<br class='dn db-ns'> Perl just works! :camel:"
    button="yes"
 %}
 
@@ -35,13 +35,12 @@ and build tool, smart multi-editor support with auto-completion and
 type inspections, an auto-formatter, and more."
 %}
 
-<section class="lblue">
+<section class="black">
   <div class="w-100 mw-none ph3 mw8-m mw9-l center f3">
-    <header>
+    <header class="cornered">
       <h2>
         Build it in Perl
       </h2>
-      <div class="highlight"></div>
     </header>
 
     <div class="flex-none flex-l flex-row">
@@ -127,9 +126,8 @@ Perl has you covered.
 
 <section class="white production">
   <div class="w-100 mw-none ph3 mw8-m mw9-l center">
-    <header>
+    <header class="cornered">
       <h2>Perl in production</h2>
-      <div class="highlight"></div>
     </header>
     <div class="description">
       <p class="lh-copy f2">

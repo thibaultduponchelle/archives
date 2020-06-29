@@ -244,6 +244,28 @@ a.brand {
     .red .button.button-secondary:hover, .red .button.button-secondary:focus {
       border-color: white; }
 
+.black {
+  background-color: #2a3439;
+  color: white; }
+  .black .highlight {
+    background-color: white; 
+  }
+  .black .cornered {
+    border-color: white;
+  }
+  .black a {
+    color: white;
+    text-decoration: underline; }
+  .black .button.button-secondary {
+    background-color: white;
+    border-color: #2e2459;
+    color: black;
+    text-decoration: none; 
+  }
+  .black .button.button-secondary:hover, .red .button.button-secondary:focus {
+      border-color: white; 
+  }
+
 .green {
   background-color: #0b7261;
   color: white; }
@@ -305,6 +327,9 @@ a.brand {
   color: black; }
   .white .highlight {
     background-color: #ffc832; }
+  .white .cornered {
+    border-color: black;
+  }
   .white a {
     color: #2a3439;
     text-decoration: underline; }
@@ -353,6 +378,17 @@ h1 {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 58px;
   line-height: 54px;
+  text-shadow: 2px 5px 0 rgba(0,0,0,0.2);
+}
+
+section h2 {
+  margin: 1em 0 0.5em 0;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-style: italic;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 38px;
+  line-height: 33px;
   text-shadow: 2px 5px 0 rgba(0,0,0,0.2);
 }
 
