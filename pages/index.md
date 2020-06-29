@@ -124,49 +124,25 @@ Perl has you covered.
   </div>
 </section>
 
-<section class="white production">
-  <div class="w-100 mw-none ph3 mw8-m mw9-l center">
-    <header class="cornered">
-      <h2>Perl in production</h2>
-    </header>
-    <div class="description">
-      <p class="lh-copy f3">
-        <strong>Millions</strong> of companies are using Perl in production to run their business
+{% include quotes.html 
+  title="Perl in production"
+  description='<strong>Millions</strong> of companies are using Perl in production to run their business
 from glue frameworks to full featured applications. Perl is <strong>battle-tested</strong>, <strong>cross-platform</strong> and empowered by a <strong>smart, mature and vibrant community</strong>. 
 Software you know and love, like <a href="https://www.suse.com">Suse</a>, <a href="https://duckduckgo.com">DuckDuckGo</a> and
-<a href="https://slashdot.org/">Slashdot</a> uses Perl.  
-      </p>
-    </div>
-    <div class="testimonials">
-      <div class="testimonial flex-none flex-l">
-        <div class="w-100 w-70-l" id="cpanel-testimonial">
-          <blockquote class="lh-title-ns">
-            I do not always use Perl language for coding, but when I don't, I write it in Perl.
-          </blockquote>
-          <p class="attribution">&ndash; John Doe, Engineer at cpanel, Inc</p>
-        </div>
-        <div class="w-100 w-30-l tc">
-          <a href="https://www.cpanel.net/">
-            <img src="/assets/img/cpanel.png" alt="cPanel Logo" class="w-33 w-60-ns h-auto" />
-          </a>
-        </div>
-      </div>
-      <hr/>
-      <div class="testimonial flex-none flex-l">
-        <div class="w-100 w-30-l tc">
-          <a href="https://www.youtube.com/watch"><img src="/assets/img/booking.png" alt="Booking Logo" class="w-80" /></a>
-        </div>
-        <div class="w-100 w-70-l" id="booking-testimonial">
-          <blockquote>
-            The World Wide Web was invented just as a showcase of what Perl can achieve. 
-          </blockquote>
-          <p class="attribution">&ndash; Chuck Norris, Infrastructure Engineer</p>
-        </div>
-      </div>
-    </div>
-    <a href="https://builtinperl.com/" class="button button-secondary">Learn More</a>
-  </div>
-</section>
+<a href="https://slashdot.org/">Slashdot</a> uses Perl.'
+  quote-1="I do not always use Perl language for coding, but when I don't, I write it in Perl."
+  author-1="John Doe, Engineer at cpanel, Inc"
+  link-1="https://www.cpanel.net/"
+  image-1="/assets/img/cpanel.png"
+  
+  link-2="https://www.youtube.com/watch"
+  image-2="/assets/img/booking.png"
+  quote-2="The World Wide Web was invented just as a showcase of what Perl can achieve."
+  author-2="Chuck Norris, Infrastructure Engineer"
+
+  final-link="https://builtinperl.com/"
+  final-text="Learn More"
+%}
 
 {% include section2.html 
    color="lblue"

@@ -1,0 +1,43 @@
+<section class="white production">
+  <div class="w-100 mw-none ph3 mw8-m mw9-l center">
+    <header class="cornered">
+      <h2>{{ include.title }}</h2>
+    </header>
+    {% if include.description %}
+    <div class="description">
+      <p class="lh-copy f3">
+        {{ include.description }}
+      </p>
+    </div>
+    {% endif %}
+    <div class="testimonials">
+      <div class="testimonial flex-none flex-l">
+        <div class="w-100 w-70-l" id="testimonial">
+          <blockquote class="lh-title-ns">
+            {{ include.quote-1 }}
+          </blockquote>
+	  <p class="attribution">&ndash; {{ include.author-1 }}</p>
+        </div>
+        <div class="w-100 w-30-l tc">
+	  <a href="{{ include.link-1 }}">
+	    <img src="{{ include.image-1 }}" alt="Logo" class="w-33 w-60-ns h-auto" />
+          </a>
+        </div>
+      </div>
+      <hr/>
+      <div class="testimonial flex-none flex-l">
+        <div class="w-100 w-30-l tc">
+	  <a href="{{ include.link-2 }}"><img src="{{ include.image-2 }}" alt="Logo" class="w-80" /></a>
+        </div>
+        <div class="w-100 w-70-l" id="testimonial">
+          <blockquote>
+	    {{ include.quote-2 }}
+          </blockquote>
+	  <p class="attribution">&ndash; {{ include.author-2 }}</p>
+        </div>
+      </div>
+    </div>
+    <a href="{{ include.final-link }}" class="button button-secondary">{{ include.final-text }}</a>
+  </div>
+</section>
+
