@@ -2,7 +2,7 @@
 title: Sample post
 layout: post
 category: article
-comments: 1
+comments_id: 1
 ---
 
 ## Text (2)

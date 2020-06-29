@@ -2,7 +2,7 @@
 title: Announcing Perl 7
 layout: post
 category: article
-comments: 3
+comments_id: 3
 ---
 
 ## Text (2)

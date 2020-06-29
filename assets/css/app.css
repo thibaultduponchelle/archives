@@ -78,9 +78,6 @@ p {
   margin-top: 0;
   margin-bottom: 2.5rem; }
 
-.button.button-secondary {
-  font-size: 0.8em; }
-
 code.code-header {
   background-color: rgba(127, 127, 127, 0.25);
   font-size: 1rem;
@@ -124,7 +121,11 @@ header .button.button-download {
   padding: 20px;
   height: auto;
   font-size: 2.25rem;
-  margin-top: 20px; }
+  margin-top: 20px; 
+
+  }
+
+
   header .button.button-download:hover, header .button.button-download:focus {
     border-color: black; 
     background-color: #00ff00; 
@@ -149,6 +150,7 @@ h2.subtitle {
   font-family: "Fira Sans", Helvetica, Arial, sans-serif;
   font-size: 3rem;
   font-weight: 600;
+
   color: #2a3439; }
 
 section {
@@ -195,11 +197,19 @@ section .container {
   -webkit-border-radius: 4px;
   border-radius: 4px;
   border: solid 2px black;
+  background: repeating-linear-gradient(
+  135deg,
+  #dadada,
+  #dadada 4px,
+  white 4px,
+  white 8px
+);
 }
 
 .nav a {
   color: #2a3439; 
   font-size: 1.6rem;
+  font-weight: 800;
 }
 
 div.brand {
@@ -228,20 +238,6 @@ a.brand {
     max-height: 50%;
     padding-bottom: 20px; }
 
-.red {
-  background-color: #a72145;
-  color: white; }
-  .red a {
-    color: white;
-    text-decoration: underline; }
-  .red .button.button-secondary {
-    background-color: #2e2459;
-    border-color: #2e2459;
-    color: white;
-    text-decoration: none; }
-    .red .button.button-secondary:hover, .red .button.button-secondary:focus {
-      border-color: white; }
-
 .black {
   background-color: #2a3439;
   color: white; }
@@ -261,23 +257,10 @@ a.brand {
       border-color: white; 
   }
 
-.green {
-  background-color: #0b7261;
-  color: white; }
-  .green a {
-    color: white;
-    text-decoration: underline; }
-  .green .button.button-secondary {
-    background-color: #2e2459;
-    border-color: #2e2459;
-    color: white;
-    text-decoration: none; }
-    .green .button.button-secondary:hover, .green .button.button-secondary:focus {
-      border-color: white; }
-
 .lblue {
   background-color: #d0e2f7;
-  color: black; }
+  /*background-color: #ac0;*/
+    color: black; }
   .lblue h2 {
     color: black;
   }
@@ -288,10 +271,12 @@ a.brand {
     color: black;
     text-decoration: underline; }
   .lblue .button.button-secondary {
-    background-color: #2e2459;
-    border-color: #2e2459;
-    color: white;
-    text-decoration: none; }
+    background-color: #ffc832;
+    border-color: #ffc832;
+    color: #2a3439;
+    text-decoration: none; 
+
+  }
     .sky .button.button-secondary:hover, .sky .button.button-secondary:focus {
       border-color: white; }
 
@@ -305,9 +290,9 @@ a.brand {
     color: black;
     text-decoration: underline; }
   .lgreen .button.button-secondary {
-    background-color: #2e2459;
-    border-color: #2e2459;
-    color: white;
+    background-color: #ffc832;
+    border-color: #ffc832;
+    color: #2a3439;
     text-decoration: none; }
     .lgreen .button.button-secondary:hover, .lgreen .button.button-secondary:focus {
       border-color: white; }
@@ -324,23 +309,10 @@ a.brand {
     background-color: #ffc832;
     border-color: #ffc832;
     color: #2a3439;
-    text-decoration: none; }
+    text-decoration: none; 
+}
     .white .button.button-secondary:hover, .white .button.button-secondary:focus {
       border-color: #2a3439; }
-
-.purple {
-  background-color: #2e2459;
-  color: white; }
-  .purple a {
-    color: white;
-    text-decoration: underline; }
-  .purple .button.button-secondary {
-    background-color: #a72145;
-    border-color: #a72145;
-    color: white;
-    text-decoration: none; }
-    .purple .button.button-secondary:hover, .purple .button.button-secondary:focus {
-      border-color: white; }
 
 h3 {
   font-weight: 600;
@@ -364,6 +336,7 @@ h1 {
   font-size: 58px;
   line-height: 54px;
   text-shadow: 2px 5px 0 rgba(0,0,0,0.2);
+
 }
 
 section h2 {
@@ -440,7 +413,8 @@ blockquote::before {
   text-align: right; }
 
 .production .button.button-secondary {
-  margin-top: 30px; }
+  margin-top: 30px; 
+}
 
 .testimonial img {
   padding: 10px; }
@@ -515,7 +489,8 @@ blockquote::before {
   height: 250px; }
 
 #embedded-project-gallery .button.button-secondary {
-  color: #ffc832; }
+  color: #ffc832; 
+}
 
 #embedded-users img {
   width: 80%;
@@ -587,6 +562,7 @@ blockquote::before {
     font-size: 4rem; }
   header h2.subtitle {
     font-size: 2.5rem;
+
     line-height: 1.1; }
   header .button.button-primary.button-download {
     padding: 5px;

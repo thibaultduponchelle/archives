@@ -1,0 +1,37 @@
+<section id="language-values" class="{{ include.color }}">
+  <div class="w-100 mw-none ph3 mw8-m mw9-l center">
+    <header class="cornered">
+      <h2>
+	{{ include.title }}
+      </h2>
+    </header>
+{% if include.description %}
+    <div class="description">
+      <p class="lh-copy f2">
+        {{ include.description }}
+      </p>
+    </div>
+{% endif %}
+
+    <div class="flex flex-column flex-row-l">
+      <section class="mw-50-l mr4-l pt0 flex flex-column justify-between-l">
+	<h3 class="f2 f1-l"> {{ include.left-title }}</h3>
+        <p class="f3 lh-copy">
+	  {{ include.left-content }}
+        </p>
+	{% if include.left-button-text %}
+	<a href="{{ include.left-button-link }}" class="button button-secondary">{{ include.left-button-text }}</a>
+	{% endif %}
+      </section>
+      <section class="mw-50-l mr4-l pt0 flex flex-column justify-between-l">
+	<h3 class="f2 f1-l">{{ include.right-title }}</h3>
+        <p class="f3 lh-copy">
+	  {{ include.right-content }}
+        </p>
+	{% if include.right-button-text %}
+	<a href="{{ include.right-button-link }}" class="button button-secondary">{{ include.right-button-text }}</a>
+	{% endif %}
+      </section>
+    </div>
+  </div>
+</section>

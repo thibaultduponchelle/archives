@@ -13,7 +13,7 @@ permalink: /
 
 {% include header.html 
    title="Perl" 
-   content="Powering millions of businesses<br class='dn db-ns'> and the Web for decades<br class='dn db-ns'> Perl just works! :camel:"
+   content="Powering millions of businesses<br class='dn db-ns'> and the Web for decades...<br class='dn db-ns'> Perl just works! :camel:"
    button="yes"
 %}
 
@@ -171,32 +171,21 @@ corporations, from embedded devices to scalable web services, Perl is a great fi
   </div>
 </section>
 
-<section class="lblue thanks">
-  <div class="w-100 mw-none ph3 mw8-m mw9-l center">
-    <header>
-      <h2>Thanks</h2>
-      <div class="highlight"></div>
-    </header>
-    <div class="description">
-      <p class="lh-copy f2">
-        Perl would not exist without the generous contributions of time, work, and resources from individuals and companies. We are very grateful for the support!
-      </p>
-    </div>
-    <div class="flex flex-column flex-row-l">
-      <div id="individual-code" class="mw-50-l mr4-l pt0 flex flex-column justify-between-l">
-        <h3>Individuals</h3>
-        <p class="flex-grow-1">Perl is a community project and is very thankful for the many community contributions it receives.</p>
-        <a href="https://thanks.rust-lang.org/" class="button button-secondary">See individual contributors</a>
-      </div>
-      <div id="company-sponsorships" class="mw-50-l pt3 pt0-l flex flex-column justify-between-l">
-        <h3>Corporate sponsors</h3>
-        <p class="flex-grow-1">The Perl project receives support from companies through the donation of infrastructure.</p>
-        <a href="/sponsors" class="button button-secondary">See sponsors</a>
-      </div>
-    </div>
-  </div>
-</section>
+{% include section2.html 
+   color="lblue"
+   title="Thanks"
+   description="Perl is community driven since forever and would not exist without the generous contributions of time, work, and resources from individuals and companies."
+   left-title="Individuals"
+   left-content="Perl is a community project and is very thankful for the many community contributions it receives."
+   left-button-text="See contributors"
+   left-button-link="https://github.com/Perl/perl5/blob/blead/AUTHORS"
 
+   right-title="Corporate sponsors"
+   right-content="The Perl project receives support from companies through the donation of infrastructure."
+   right-button-text="See sponsors"
+   right-button-link="https://www.perlfoundation.org/our-donors.html"
+
+%}
 
 
 

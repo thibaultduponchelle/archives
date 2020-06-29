@@ -2,7 +2,7 @@
 title: Ready for Perl 5.32.0
 layout: post
 category: article
-comments: 2
+comments_id: 2
 ---
 
 ## Text (2)

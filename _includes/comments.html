@@ -1,13 +1,12 @@
 <script>
-/*const GH_API_URL = 'https://api.github.com/repos/aristath/aristath.github.com/issues/5/comments';*/
-	const GH_API_URL = 'https://api.github.com/repos/thibaultduponchelle/messy-perl-ci-workflows/issues/{{page.comments}}/comments';
+const GH_API_URL = 'https://api.github.com/repos/thibaultduponchelle/messy-perl-ci-workflows/issues/{{page.comments_id}}/comments';
 
 let request = new XMLHttpRequest();
 request.open( 'GET', GH_API_URL, true );
 request.onload = function() {
 	if ( this.status >= 200 && this.status < 400 ) {
 		let response = JSON.parse( this.response );
-		console.log(response);
+		/*console.log(response);*/
 
 		for ( var i = 0; i < response.length; i++ ) {
 			document.getElementById( 'gh-comments-list' ).appendChild( createCommentEl( response[ i ] ) );
