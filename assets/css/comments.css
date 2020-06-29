@@ -43,11 +43,9 @@
     outline-color: #fff;
 }
 #no-comments-found {
-    font-size: .8rem;
     display: none;
 }
 #comments-not-allowed {
-    font-size: .8rem;
     display: none;
 }
 #gh-comments-list a.user, #gh-comments-list a.comment-url {
