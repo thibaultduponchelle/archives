@@ -131,7 +131,7 @@ Perl has you covered.
     </header>
     <div class="description">
       <p class="lh-copy f3">
-        <strong>Hundreds of thousands</strong> of companies are using Perl in production to run their business
+        <strong>Millions</strong> of companies are using Perl in production to run their business
 from glue frameworks to full featured applications. Perl is <strong>battle-tested</strong>, <strong>cross-platform</strong> and empowered by a <strong>smart, mature and vibrant community</strong>. 
 Software you know and love, like <a href="https://www.suse.com">Suse</a>, <a href="https://duckduckgo.com">DuckDuckGo</a> and
 <a href="https://slashdot.org/">Slashdot</a> uses Perl.  
@@ -141,7 +141,7 @@ Software you know and love, like <a href="https://www.suse.com">Suse</a>, <a hre
       <div class="testimonial flex-none flex-l">
         <div class="w-100 w-70-l" id="cpanel-testimonial">
           <blockquote class="lh-title-ns">
-            I do not always use Perl language for coding, but when I do not, I write it in Perl.
+            I do not always use Perl language for coding, but when I don't, I write it in Perl.
           </blockquote>
           <p class="attribution">&ndash; John Doe, Engineer at cpanel, Inc</p>
         </div>
