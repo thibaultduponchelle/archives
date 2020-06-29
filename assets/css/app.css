@@ -231,8 +231,6 @@ a.brand {
 .red {
   background-color: #a72145;
   color: white; }
-  .red .highlight {
-    background-color: #2e2459; }
   .red a {
     color: white;
     text-decoration: underline; }
@@ -247,9 +245,6 @@ a.brand {
 .black {
   background-color: #2a3439;
   color: white; }
-  .black .highlight {
-    background-color: white; 
-  }
   .black .cornered {
     border-color: white;
   }
@@ -269,8 +264,6 @@ a.brand {
 .green {
   background-color: #0b7261;
   color: white; }
-  .green .highlight {
-    background-color: #2e2459; }
   .green a {
     color: white;
     text-decoration: underline; }
@@ -285,8 +278,6 @@ a.brand {
 .lblue {
   background-color: #d0e2f7;
   color: black; }
-  .lblue .highlight {
-    background-color: #d0e2f7; }
   .lblue h2 {
     color: black;
   }
@@ -307,8 +298,6 @@ a.brand {
 .lgreen {
   background-color: #cef5c5;
   color: black; }
-  .lgreen .highlight {
-    background-color: black; }
   .lgreen h2 {
     color: white;
   }
@@ -325,8 +314,6 @@ a.brand {
 
 .white {
   color: black; }
-  .white .highlight {
-    background-color: #ffc832; }
   .white .cornered {
     border-color: black;
   }
@@ -344,8 +331,6 @@ a.brand {
 .purple {
   background-color: #2e2459;
   color: white; }
-  .purple .highlight {
-    background-color: #a72145; }
   .purple a {
     color: white;
     text-decoration: underline; }
@@ -394,17 +379,6 @@ section h2 {
 
 .cornered {
   border-top: solid 3px white;
-}
-
-.highlight {
-  height: 44px;
-  position: relative;
-  top: -45px;
-  left: -10px;
-  width: 120%;
-  max-width: 90vw;
-  line-height: 1.6; 
-  font-family: 'Josefin Sans', sans-serif;
 }
 
 footer {
@@ -611,9 +585,6 @@ blockquote::before {
 @media screen and (max-width: 550px) {
   header h1 {
     font-size: 4rem; }
-  header .highlight {
-    height: 20px;
-    top: -20px; }
   header h2.subtitle {
     font-size: 2.5rem;
     line-height: 1.1; }

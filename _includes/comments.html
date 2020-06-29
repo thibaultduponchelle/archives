@@ -1,6 +1,6 @@
 <script>
 /*const GH_API_URL = 'https://api.github.com/repos/aristath/aristath.github.com/issues/5/comments';*/
-const GH_API_URL = 'https://api.github.com/repos/thibaultduponchelle/messy-perl-ci-workflows/issues/1/comments';
+	const GH_API_URL = 'https://api.github.com/repos/thibaultduponchelle/messy-perl-ci-workflows/issues/{{page.comments}}/comments';
 
 let request = new XMLHttpRequest();
 request.open( 'GET', GH_API_URL, true );
