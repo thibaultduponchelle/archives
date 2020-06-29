@@ -1,0 +1,57 @@
+#gh-comments-list {
+    list-style: none;
+    list-style-type: none;
+}
+#gh-comments-list li {
+    margin: 0;
+    padding: 1.5em 0;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #aaa;
+}
+#gh-comments-list li>a.user {
+    width: 2.5em;
+    height: 2.5em;
+    overflow: hidden;
+    padding: 3px;
+}
+#gh-comments-list li>a.user img {
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 0 3px #aaa;
+}
+#gh-comments-list li>a.comment-url {
+    width: 100%;
+    text-align: right;
+    font-size: .6em;
+    opacity: .5;
+}
+#gh-comments-list li>a.comment-url:hover {
+    opacity: 1;
+}
+#gh-comments-list li .comment-content {
+    padding: 0 1.5em;
+}
+#leave-a-comment {
+    background: #000;
+    color: #fff;
+    padding: 1rem;
+}
+#leave-a-comment a {
+    color: #fff;
+    border-bottom-color: #fff;
+    outline-color: #fff;
+}
+#no-comments-found {
+    font-size: .8rem;
+    display: none;
+}
+#comments-not-allowed {
+    font-size: .8rem;
+    display: none;
+}
+#gh-comments-list a.user, #gh-comments-list a.comment-url {
+    text-decoration: none !important;
+    box-shadow: none !important;
+    border-bottom: none !important;
+}

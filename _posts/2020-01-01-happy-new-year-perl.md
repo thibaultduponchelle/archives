@@ -1,7 +1,8 @@
 ---
 title: Sample post
-layout: text
+layout: post
 category: article
+comments: 1
 ---
 
 ## Text (2)

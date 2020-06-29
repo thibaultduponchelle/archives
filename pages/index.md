@@ -144,12 +144,12 @@ corporations, from embedded devices to scalable web services, Perl is a great fi
       <div class="testimonial flex-none flex-l">
         <div class="w-100 w-70-l" id="cpanel-testimonial">
           <blockquote class="lh-title-ns">
-            My biggest compliment to Perl is that it's boring, and this is an amazing compliment.
+            I do not always use Perl language for coding, but when I do not, I write it in Perl.
           </blockquote>
           <p class="attribution">&ndash; John Doe, Engineer at cpanel, Inc</p>
         </div>
         <div class="w-100 w-30-l tc">
-          <a href="https://www.npmjs.com/">
+          <a href="https://www.cpanel.net/">
             <img src="/assets/img/cpanel.png" alt="cPanel Logo" class="w-33 w-60-ns h-auto" />
           </a>
         </div>
@@ -161,7 +161,7 @@ corporations, from embedded devices to scalable web services, Perl is a great fi
         </div>
         <div class="w-100 w-70-l" id="booking-testimonial">
           <blockquote>
-            All the documentation, the tooling, the community is great - you have all the tools to succeed in writing Perl code.
+            The World Wide Web was invented just as a showcase of what Perl can achieve. 
           </blockquote>
           <p class="attribution">&ndash; Chuck Norris, Infrastructure Engineer</p>
         </div>

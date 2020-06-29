@@ -1,7 +1,8 @@
 ---
 title: Ready for Perl 5.32.0
-layout: text
+layout: post
 category: article
+comments: 2
 ---
 
 ## Text (2)
