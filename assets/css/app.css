@@ -420,7 +420,7 @@ blockquote::before {
   padding: 10px; }
 
 .production .attribution {
-  font-size: 1.0em;
+  font-size: 1.5em;
   text-align: right; }
 
 #whitepapers .top-border {
@@ -559,21 +559,28 @@ blockquote::before {
 
 @media screen and (max-width: 550px) {
   header h1 {
-    font-size: 4rem; }
+    font-size: 4rem; 
+  }
   header h2.subtitle {
     font-size: 2.5rem;
 
-    line-height: 1.1; }
+    line-height: 1.1; 
+  }
   header .button.button-primary.button-download {
     padding: 5px;
     font-size: 1.5em;
-    margin-top: 20px; } }
+    margin-top: 20px; 
+  } 
+}
 
 section header {
   padding-top: 10px;
-  padding-bottom: 30px; }
-  section header h2 {
-    font-size: 3rem; }
+  padding-bottom: 30px; 
+}
+
+section header h2 {
+  font-size: 3rem; 
+}
 
 .team {
   text-align: center;

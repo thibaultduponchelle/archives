@@ -164,7 +164,7 @@ Software you know and love, like <a href="https://www.suse.com">Suse</a>, <a hre
         </div>
       </div>
     </div>
-    <a href="/production" class="button button-secondary">Learn More</a>
+    <a href="https://builtinperl.com/" class="button button-secondary">Learn More</a>
   </div>
 </section>
 
