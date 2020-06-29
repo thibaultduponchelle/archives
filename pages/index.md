@@ -117,7 +117,7 @@ Perl is great for network services.
 Need low-level control without giving up high-level conveniences?
 Perl has you covered.
           </p>
-          <a href="/what/embedded" class="button button-secondary">Starting With Embedded</a>
+          <a href="/what/embedded" class="button button-secondary">Start Embedded</a>
         </div>
       </div>
     </div>
@@ -130,14 +130,11 @@ Perl has you covered.
       <h2>Perl in production</h2>
     </header>
     <div class="description">
-      <p class="lh-copy f2">
-        Hundreds of companies around the world are using Perl in production
-today for fast, low-resource, cross-platform solutions. Software you know
-and love, like <a href="https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/">Firefox</a>,
-<a href="https://blogs.dropbox.com/tech/2016/06/lossless-compression-with-brotli/">Dropbox</a>,
-and <a href="https://blog.cloudflare.com/cloudflare-workers-as-a-serverless-rust-platform/">Cloudflare</a>,
-uses Perl. <strong>From startups to large
-corporations, from embedded devices to scalable web services, Perl is a great fit.</strong>
+      <p class="lh-copy f3">
+        <strong>Hundreds of thousands</strong> of companies are using Perl in production to run their business
+from glue frameworks to full featured applications. Perl is <strong>battle-tested</strong>, <strong>cross-platform</strong> and empowered by a <strong>smart, mature and vibrant community</strong>. 
+Software you know and love, like <a href="https://www.suse.com">Suse</a>, <a href="https://duckduckgo.com">DuckDuckGo</a> and
+<a href="https://slashdot.org/">Slashdot</a> uses Perl.  
       </p>
     </div>
     <div class="testimonials">
