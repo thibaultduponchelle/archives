@@ -1,13 +1,5 @@
 ---
 layout: default
-post_list: "date"
-toc: false
-home_btn: true
-btn_text: true
-footer: true
-title: ""
-author: ""
-encrypted_text: true
 permalink: /
 ---
 
@@ -20,22 +12,39 @@ permalink: /
 {% include section3.html 
    color="lblue"
    title="Why Perl?"
-   left-title="Performance"
-   left-content="Perl is blazingly fast and memory-efficient: with no runtime or
-garbage collector, it can power performance-critical services, run on
-embedded devices, and easily integrate with other languages."
-   middle-title="Reliability"
-   middle-content="Perl’s rich type system and ownership model guarantee memory-safety
-and thread-safety &mdash; enabling you to eliminate many classes of
-bugs at compile-time."
-   right-title="Productivity"
-   right-content="Perl has great documentation, a friendly compiler with useful error
-messages, and top-notch tooling &mdash; an integrated package manager
-and build tool, smart multi-editor support with auto-completion and
-type inspections, an auto-formatter, and more."
+   left-title='Powerful, stable, mature, portable'
+   left-content='Perl is a <strong>highly capable</strong>, <strong>feature-rich</strong> programming language with over <strong>30 years of development</strong>. Perl runs on over <strong>100 platforms</strong> from portables to mainframes and is suitable for both <strong>rapid prototyping</strong> and <strong>large scale</strong> development projects.
+
+"Perl" is a family of languages, <strong>Raku</strong> (formerly known as "Perl 6") is part of the family, but it is a separate language which has its own development team.'
+   middle-title="General purpose"
+   middle-content='<ul>
+<li>Used for mission critical projects</li>
+<li>OO, procedural and functional</li>
+<li>Easily extendible</li>
+<li>Over 200,000 open source modules</li>
+<li>Killer language for text manipulation</li>
+<li>Unicode support</li>
+<li>Database integration</li>
+<li>C/C++ library interface through XS/FFI</li>
+<li>Go/Rust/X library interface through FFI</li>
+<li>Embeddable</li>
+<li>Open Source (Artistic License or GPL)</li>
+</ul>'
+   right-title="Perl and the Web"
+   right-content='<ul>
+<li>Ideal Web programming language</li>
+<li>Modern Web Frameworks (Mojolicious, Dancer, Catalyst...)</li>
+<li>Great database integration</li>
+<li>Web modules</li>
+<li>Encryption capable</li>
+<li>Embed into Apache</li>
+<li>PSGI</li>
+<li>Best companion of Sysadmin</li>
+</ul>'
 %}
 
 
+<!--
 <section class="black">
   <div class="w-100 mw-none ph3 mw8-m mw9-l center f3">
     <header class="cornered">
@@ -124,6 +133,7 @@ Perl has you covered.
     </div>
   </div>
 </section>
+-->
 
 {% include quotes.html 
   title="Perl in production"
