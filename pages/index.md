@@ -12,9 +12,14 @@ permalink: /
 {% include section3.html 
    color="lblue"
    title="Why Perl?"
-   left-title='Powerful, stable, mature, portable'
-   left-content='Perl is a <strong>highly capable</strong>, <strong>feature-rich</strong> programming language with over <strong>30 years of development</strong>. Perl runs on over <strong>100 platforms</strong> from portables to mainframes and is suitable for both <strong>rapid prototyping</strong> and <strong>large scale</strong> development projects.
-
+   left-title='Powerful and stable'
+   left-content='<ul>
+<li>Highly capable</li> 
+<li>Feature-rich</li>
+<li>More than <strong>30 years of development</strong></li>
+<li>Runs on over <strong>100 platforms</strong></li>
+<li>Rapid prototyping or large scale development projects</li>
+</ul>
 "Perl" is a family of languages, <strong>Raku</strong> (formerly known as "Perl 6") is part of the family, but it is a separate language which has its own development team.'
    middle-title="General purpose"
    middle-content='<ul>
