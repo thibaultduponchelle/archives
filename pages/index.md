@@ -18,7 +18,8 @@ permalink: /
 <li>Feature-rich</li>
 <li>More than <strong>30 years of development</strong></li>
 <li>Runs on over <strong>100 platforms</strong></li>
-<li>Rapid prototyping or large scale development projects</li>
+<li>Rapid prototyping...</li>
+<li>...Or large scale development projects</li>
 </ul>
 "Perl" is a family of languages, <strong>Raku</strong> (formerly known as "Perl 6") is part of the family, but it is a separate language which has its own development team.'
    middle-title="General purpose"
