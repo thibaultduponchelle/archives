@@ -469,9 +469,6 @@ blockquote::before {
 #security-learn-community-key pre {
   color: black; }
 
-#rust-trademarks img {
-  vertical-align: middle; }
-
 .tools-row {
   display: flex;
   flex-direction: row;
