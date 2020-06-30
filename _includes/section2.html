@@ -5,17 +5,19 @@
 	{{ include.title }}
       </h2>
     </header>
-{% if include.description %}
+    {% if include.description %}
     <div class="description">
       <p class="lh-copy f2">
         {{ include.description }}
       </p>
     </div>
-{% endif %}
+    {% endif %}
 
     <div class="flex flex-column flex-row-l">
       <section class="mw-50-l mr4-l pt0 flex flex-column justify-between-l">
+	{% if include.left-title %}
 	<h3 class="f2 f1-l"> {{ include.left-title }}</h3>
+	{% endif %}
         <p class="f3 lh-copy">
 	  {{ include.left-content }}
         </p>
@@ -24,7 +26,9 @@
 	{% endif %}
       </section>
       <section class="mw-50-l mr4-l pt0 flex flex-column justify-between-l">
+	{% if include.right-title %}
 	<h3 class="f2 f1-l">{{ include.right-title }}</h3>
+	{% endif %}
         <p class="f3 lh-copy">
 	  {{ include.right-content }}
         </p>
