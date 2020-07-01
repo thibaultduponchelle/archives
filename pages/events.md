@@ -16,7 +16,7 @@ permalink: /events
 Organizational support from The Perl Foundation. [Find a group near you!](http://www.pm.org/)'
    middle-title="YAPC"
    middle-content='Yet Another Perl Conference (YAPC) is a series of popular annual conferences with roots in the Perl user community.
-Annual conferences in [North America]("https://perlconference.us/") and [Europe]("https://yapc.org/Europe/") (and other continents, see the [YAPC site](http://www.yapc.org/) for more)
+Annual conferences in [North America](https://perlconference.us/) and [Europe](https://yapc.org/Europe/) (and other continents, see the [YAPC site](http://www.yapc.org/) for more)
 An inexpensive alternative to other conferences.
 A friendly venue for sharing research, learning new techniques, and talking with leading developers.
 [YAPC Survey results](http://yapc-surveys.org/) - see the breakdown of attendees and feedback about their experiences at YAPC conferences'
