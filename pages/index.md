@@ -13,40 +13,44 @@ permalink: /
    color="lblue"
    title="Why Perl?"
    left-title='Powerful and stable'
-   left-content='<ul>
-<li>Highly capable</li> 
-<li>Feature-rich</li>
-<li>More than <strong>30 years of development</strong></li>
-<li>Runs on over <strong>100 platforms</strong></li>
-<li>Rapid prototyping...</li>
-<li>...Or large scale development projects</li>
-</ul>
-"Perl" is a family of languages, <strong>Raku</strong> (formerly known as "Perl 6") is part of the family, but it is a separate language which has its own development team.'
+   left-content='
+
+* Highly capable
+* Feature-rich
+* More than **30 years of development**
+* Runs on over **100 platforms**
+* Rapid prototyping...
+* ...Or large scale development projects
+
+"Perl" is a family of languages, **Raku** (formerly known as "Perl 6") is part of the family, but it is a separate language which has its own development team.'
+
    middle-title="General purpose"
-   middle-content='<ul>
-<li>Used for mission critical projects</li>
-<li>OO, procedural and functional</li>
-<li>Easily extendible</li>
-<li>Over 200,000 open source modules</li>
-<li>Killer language for text manipulation</li>
-<li>Unicode support</li>
-<li>Database integration</li>
-<li>C/C++ library interface through XS/FFI</li>
-<li>Go/Rust/X library interface through FFI</li>
-<li>Embeddable</li>
-<li>Open Source (Artistic License or GPL)</li>
-</ul>'
+   middle-content='
+
+* Used for mission critical projects
+* OO, procedural and functional
+* Flexible
+* Over 200,000 open source modules
+* Killer language for text manipulation
+* Unicode support
+* Database integration
+* C/C++ library interface through XS/FFI
+* Other libraries interface through FFI
+* Embeddable
+* Open Source (Artistic License or GPL)'
+
    right-title="Perl and the Web"
-   right-content='<ul>
-<li>Ideal Web programming language</li>
-<li>Modern Web Frameworks (Mojolicious, Dancer, Catalyst...)</li>
-<li>Great database integration</li>
-<li>Web modules</li>
-<li>Encryption capable</li>
-<li>Embed into Apache</li>
-<li>PSGI</li>
-<li>Best companion of Sysadmin</li>
-</ul>'
+   right-content='
+
+* Ideal Web programming language
+* Modern Web Frameworks
+* Great database integration
+* Web modules
+* Encryption capable
+* Embed into Apache
+* PSGI
+* Best companion of Sysadmin'
+
 %}
 
 

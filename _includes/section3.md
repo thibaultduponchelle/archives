@@ -1,6 +1,6 @@
 <section id="language-values" class="{{ include.color }}">
   <div class="w-100 mw-none ph3 mw8-m mw9-l center f3">
-    <header class="cornered">
+    <header class="pb0 cornered">
       <h2>
 	{{ include.title }}
       </h2>
@@ -19,7 +19,7 @@
 	<h3 class="f2 f1-l">{{ include.left-title }}</h3>
 	{% endif %}
         <p class="f3 lh-copy">
-	  {{ include.left-content | markdownify }}
+	  {{ include.left-content }}
         </p>
       </section>
       <section class="w-100 pv2 pv0-l mt4 mh5-l">
@@ -27,7 +27,7 @@
 	<h3 class="f2 f1-l">{{ include.middle-title }}</h3>
 	{% endif %}
         <p class="f3 lh-copy">
-	  {{ include.middle-content | markdownify }}
+	  {{ include.middle-content }}
         </p>
 
       </section>
@@ -36,7 +36,7 @@
 	<h3 class="f2 f1-l">{{ include.right-title }}</h3>
 	{% endif %}
         <p class="f3 lh-copy">
-	  {{ include.right-content | markdownify }}
+	  {{ include.right-content }}
         </p>
       </section>
     </div>

@@ -9,13 +9,13 @@ permalink: /learn
    title="Learn Perl" 
 %}
 
-{% include section3.html 
+{% include section3.html
    color="lblue"
    title="Learn Perl"
    description="Useful links to learn Perl"
    left-title="Get Started"
    left-content='<ul>
-<li><a href="learn.perl.org">Learn</a></li>
+<li><a href="/learn">Learn</a></li>
 <li><a href="https://perldoc.pl/perlintro.html">A brief introduction</a></li>
 <li><a href="/books">Free online Perl books</a></li>
 <li><a href="/community">Join your local community</a></li>
