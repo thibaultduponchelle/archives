@@ -13,13 +13,13 @@ permalink: /events
    color="lblue"
    left-title="Local meetings"
    left-content='Over 230 local Perl Monger groups spread over six continents. Technical and social meetings.
-Organizational support from The Perl Foundation. <a href="http://www.pm.org/">Find a group near you!</a>'
+Organizational support from The Perl Foundation. [Find a group near you!](http://www.pm.org/)'
    middle-title="YAPC"
    middle-content='Yet Another Perl Conference (YAPC) is a series of popular annual conferences with roots in the Perl user community.
-Annual conferences in <a href="https://perlconference.us/">North America</a> and <a href="https://yapc.org/Europe/">Europe</a> (and other continents, see the <a href="http://www.yapc.org/">YAPC site</a> for more)
+Annual conferences in [North America]("https://perlconference.us/") and [Europe]("https://yapc.org/Europe/") (and other continents, see the [YAPC site](http://www.yapc.org/) for more)
 An inexpensive alternative to other conferences.
 A friendly venue for sharing research, learning new techniques, and talking with leading developers.
-<a href="http://yapc-surveys.org/">YAPC Survey results</a> - see the breakdown of attendees and feedback about their experiences at YAPC conferences'
+[YAPC Survey results](http://yapc-surveys.org/) - see the breakdown of attendees and feedback about their experiences at YAPC conferences'
    right-title="The Perl Conference"
    right-content='An annual event since 1997. Tutorials, technical presentations, social events, and more.'
 %}

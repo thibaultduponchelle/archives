@@ -14,7 +14,7 @@
       <div class="testimonial flex-none flex-l">
         <div class="w-100 w-70-l" id="testimonial">
           <blockquote class="lh-title-ns">
-            {{ include.quote-1 }}
+		  {{ include.quote-1 | markdownify }}
           </blockquote>
 	  <p class="attribution">&ndash; {{ include.author-1 }}</p>
         </div>
@@ -31,7 +31,7 @@
         </div>
         <div class="w-100 w-70-l" id="testimonial">
           <blockquote>
-	    {{ include.quote-2 }}
+	    {{ include.quote-2 | markdownify }}
           </blockquote>
 	  <p class="attribution">&ndash; {{ include.author-2 }}</p>
         </div>

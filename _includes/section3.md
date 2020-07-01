@@ -19,7 +19,7 @@
 	<h3 class="f2 f1-l">{{ include.left-title }}</h3>
 	{% endif %}
         <p class="f3 lh-copy">
-	  {{ include.left-content }}
+	  {{ include.left-content | markdownify }}
         </p>
       </section>
       <section class="w-100 pv2 pv0-l mt4 mh5-l">
@@ -27,7 +27,7 @@
 	<h3 class="f2 f1-l">{{ include.middle-title }}</h3>
 	{% endif %}
         <p class="f3 lh-copy">
-	  {{ include.middle-content }}
+	  {{ include.middle-content | markdownify }}
         </p>
 
       </section>
@@ -36,7 +36,7 @@
 	<h3 class="f2 f1-l">{{ include.right-title }}</h3>
 	{% endif %}
         <p class="f3 lh-copy">
-	  {{ include.right-content }}
+	  {{ include.right-content | markdownify }}
         </p>
       </section>
     </div>

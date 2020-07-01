@@ -19,7 +19,7 @@
 	<h3 class="f2 f1-l"> {{ include.left-title }}</h3>
 	{% endif %}
         <p class="f3 lh-copy">
-	  {{ include.left-content }}
+	  {{ include.left-content | markdownify }}
         </p>
 	{% if include.left-button-text %}
 	<a href="{{ include.left-button-link }}" class="button button-secondary">{{ include.left-button-text }}</a>
@@ -30,7 +30,7 @@
 	<h3 class="f2 f1-l">{{ include.right-title }}</h3>
 	{% endif %}
         <p class="f3 lh-copy">
-	  {{ include.right-content }}
+	  {{ include.right-content | markdownify }}
         </p>
 	{% if include.right-button-text %}
 	<a href="{{ include.right-button-link }}" class="button button-secondary">{{ include.right-button-text }}</a>
