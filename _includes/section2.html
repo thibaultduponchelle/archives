@@ -13,8 +13,8 @@
     </div>
     {% endif %}
 
-    <div class="flex flex-column flex-row-l">
-      <section class="mw-50-l mr4-l pt0 flex flex-column justify-between-l">
+    <div class="flex flex-l">
+      <section class="w-100 pv2 pv0-l mt4 pr2">
 	{% if include.left-title %}
 	<h3 class="f2 f1-l"> {{ include.left-title }}</h3>
 	{% endif %}
@@ -25,7 +25,7 @@
 	<a href="{{ include.left-button-link }}" class="button button-secondary">{{ include.left-button-text }}</a>
 	{% endif %}
       </section>
-      <section class="mw-50-l mr4-l pt0 flex flex-column justify-between-l">
+      <section class="w-100 pv2 pv0-l mt4 pl2">
 	{% if include.right-title %}
 	<h3 class="f2 f1-l">{{ include.right-title }}</h3>
 	{% endif %}

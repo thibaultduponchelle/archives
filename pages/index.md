@@ -61,11 +61,11 @@ permalink: /
 
 {% include quotes.html 
   title="What people say about Perl"
-  description='<strong>Millions</strong> of companies are using Perl in production to run their business
-from glue frameworks to large scale full featured applications. Perl is <strong>battle-tested</strong>, <strong>cross-platform</strong> and empowered by a <strong>smart, mature and vibrant community</strong>. 
+  description='**Millions** of companies are using Perl in production to run their business
+from glue frameworks to large scale full featured applications. Perl is **battle-tested**, **cross-platform** and empowered by a **smart, mature and vibrant community**. 
 
-Big players like <a href="https://www.suse.com">Suse</a>, <a href="https://duckduckgo.com">DuckDuckGo</a> and
-<a href="https://slashdot.org/">Slashdot</a> uses Perl.'
+Big players like [Suse](https://www.suse.com), [DuckDuckGo](https://duckduckgo.com) and
+[Slashdot](https://slashdot.org/) uses Perl.'
   quote-1="I do not always use Perl language for coding, but when I don't, I write it in Perl."
   author-1="John Doe, Engineer at cpanel, Inc"
   link-1="https://www.cpanel.net/"
