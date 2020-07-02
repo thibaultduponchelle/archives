@@ -14,6 +14,7 @@ permalink: /learn
    title="Learn Perl"
    description="Useful links to learn Perl"
    left-title="Get Started"
+   left-image="start.svg"
    left-content='
 * [Learn](/learn)
 * [A brief introduction](https://perldoc.pl/perlintro.html)
@@ -21,8 +22,10 @@ permalink: /learn
 * [Join your local community](/community)
 * [Books and more](/media)'
    middle-title="Modules"
+   middle-image="modules.svg"
    middle-content='If you are looking for a list of recommended modules for many day-to-day tasks, look at [Task::Kensho](https://metacpan.org/module/Task::Kensho)'
    right-title="The Perl FAQ"
+   right-image="faq.svg"
    right-content='FAQs are part of your Perl distribution : ```perldoc perlfaq```
 Or read [FAQs online](http://learn.perl.org/faq/)'
 %}
