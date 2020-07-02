@@ -18,19 +18,22 @@ While we try to keep this list relevant, things can easily get out of date. Befo
 
 ## Perl core
 
-### [readpipe(LIST)](https://rjbs.manxome.org/rubric/entry/1964) (from @rjbs)
+### readpipe(LIST) 
+
+This proposal comes from **rjbs** see details : [readpipe(LIST)](https://rjbs.manxome.org/rubric/entry/1964) 
 
 From the Perl todo:
 
 > system() accepts a LIST syntax (and a PROGRAM LIST syntax) to avoid running a shell. readpipe() (the function behind qx//) could be similarly extended.
 
 
-### [Unused lexicals](https://rjbs.manxome.org/rubric/entry/1964) (from @rjbs)
+### Unused lexicals
 
-From the Perl todo:
+This proposal comes from **rjbs** see details: [Unused lexicals](https://rjbs.manxome.org/rubric/entry/1964)
+
+From the Perl todo :
 
 This warns:
-
 ```bash
 $ perl -we '$pie = 42'
   Name "main::pie" used only once: possible typo at -e line 1.
@@ -43,7 +46,9 @@ $ perl -we 'my $pie = 42'
 Logically all lexicals used only once should warn, if the user asks for warnings. An unworked RT ticket (#5087) has been open for eleven years for this discrepancy.
 ```
 
-### [pack and unpack on streams](http://blogs.perl.org/users/makoto_nozaki/2015/07/grant-idea---pack-and-unpack-on-streams.html) (from @tux)
+### Pack and unpack on streams
+
+This proposal comes from **Tux** see details: [pack and unpack on streams](http://blogs.perl.org/users/makoto_nozaki/2015/07/grant-idea---pack-and-unpack-on-streams.html)
 
 Currently, `pack` and `unpack` work on a string, which means that you have to move forward in the data-string yourself, if the full data-format is not known in advance, but depends on data seen so far.
 
@@ -55,34 +60,44 @@ Extreme "win" can be taken where the size of the data being read for a given pic
 
 ### Code Combat support for Perl.
 
-https://codecombat.com is a great website for introducing programming to kids. The language they use is Python by default but you can switch to other languages. This could also be a great tool for learning Perl.
+[CodeCombat](https://codecombat.com) is a great website for introducing programming to kids. The language they use is Python by default but you can switch to other languages. This could also be a great tool for learning Perl.
 
 When they were asked in their slack, they responded to the idea of adding Perl:
 
-It’s a bit tricky, but doable. This is the open-source code interpreter we made for this: https://github.com/codecombat/esper.js – to add new programming languages for CodeCombat, we add plugins to Esper to support them. A plugin consists of a parser for the language (implemented in JavaScript, parsing to Mozilla-JavaScript-compatible AST) and a JavaScript runtime that implements the needed semantic differences between normal JS behavior and the target language. That’s how we have JS, Python, CoffeeScript, Lua, Java, and C++.
+> It’s a bit tricky, but doable. This is the open-source code interpreter we made for this: [Esper.js](https://github.com/codecombat/esper.js) – to add new programming languages for CodeCombat, we add plugins to Esper to support them. A plugin consists of a parser for the language (implemented in JavaScript, parsing to Mozilla-JavaScript-compatible AST) and a JavaScript runtime that implements the needed semantic differences between normal JS behavior and the target language. That’s how we have JS, Python, CoffeeScript, Lua, Java, and C++.
 
 ## CPAN
 
-### [PSGI protocol for HTTP::Tiny](https://perl-foundation-outreach.github.io/gsoc-2020-ideas/perl/HTTP-Tiny-PSGI.html)
+### PSGI protocol for HTTP::Tiny
+
+See details: [PSGI protocol for HTTP::Tiny](https://perl-foundation-outreach.github.io/gsoc-2020-ideas/perl/HTTP-Tiny-PSGI.html)
 
 Enhance [HTTP::Tiny](https://metacpan.org/pod/HTTP::Tiny) to support it communicating via [PSGI](https://metacpan.org/pod/PSGI). The primary use case being to assist in testing. See also [LWP::Protocol::PSGI](https://metacpan.org/pod/LWP::Protocol::PSGI) and [Furl::PSGI](https://metacpan.org/pod/Furl::PSGI).
 
-### [Convert CHI::Driver::Memcached to Moo](https://github.com/jonswar/perl-chi-driver-memcached/issues/3)
+### Convert CHI::Driver::Memcached to Moo
+
+See details: [Convert CHI::Driver::Memcached to Moo](https://github.com/jonswar/perl-chi-driver-memcached/issues/3)
 
 The base [CHI](https://metacpan.org/pod/CHI) of the Caching Handler Interface was swapped from Moose to Moo in v0.58 (v0.60 being current). Arguably the most common Driver [CHI::Driver::Memcached](https://metacpan.org/pod/CHI::Driver::Memcached) for Memcache still uses Moose. Swapping this driver would reduce the footprint of this common configuration and benefit everything that uses it. Other common backends might also get the same treatment as part of a grant.
 
-### [Net::Google::Calendar authentication failure](https://rt.cpan.org/Public/Bug/Display.html?id=100421)
+### Net::Google::Calendar authentication failure
+
+See details: [Net::Google::Calendar authentication failure](https://rt.cpan.org/Public/Bug/Display.html?id=100421)
 
 This library no longer works as it uses the Calendar v2 API which [Google discontinued](https://developers.googleblog.com/2014/07/upgrade-now-to-calendar-apiv3.html). It needs to be updated to the [new API](https://developers.google.com/calendar/) (v3).
 
-### [Module to handle OData](http://blogs.perl.org/users/makoto_nozaki/2015/07/grant-idea---odata.html) (from Alex aka ASB)
+### Module to handle OData
+
+This proposal comes from **ASB** see details: [Module to handle OData](http://blogs.perl.org/users/makoto_nozaki/2015/07/grant-idea---odata.html) 
 
 We (the Perl community) currently do not have a CPAN module that handles [OData](https://www.odata.org/). There seems to be an attempt to do it in [OData::Client](https://github.com/mrallen1/OData-Client) but it's not finished yet, and I fit doesn't get a care taker, it will never be done. Also, there is client and server parts. Let's get both :)
 
 Side node: Eventually, I'm too dumb to see that we don't need one because Perl can do it out oft he box. But if this is the case, eventually, it would be a good idea to put up a grant to create a document describing how to use OData with Perl (like this one).
 
 ## Tooling
-### [Update PPI for more recent constructs](https://rjbs.manxome.org/rubric/entry/1964) (from @rjbs)
+### Update PPI for more recent constructs
+
+This proposal comes from **rjbs** see details: [Update PPI for more recent constructs](https://rjbs.manxome.org/rubric/entry/1964)
 
 Last I looked, [PPI](https://metacpan.org/pod/PPI) couldn't handle much newer than Perl *v5.10* or *v5.12*. I don't have a comprehensive list of the stuff it can't do, but it wouldn't be tiny. Make it all work.
 
@@ -130,7 +145,9 @@ Quoting from [langserver.org](https://langserver.org):
 Perl is yet to be included!
 
 ## Documentation
-### [DBIx::Class re-documentation](http://blogs.perl.org/users/makoto_nozaki/2015/07/grant-idea---dbixclass-re-documentation.html) (from @ribasushi)
+### DBIx::Class re-documentation
+
+This proposal comes from **ribasushi** see details: [DBIx::Class re-documentation](http://blogs.perl.org/users/makoto_nozaki/2015/07/grant-idea---dbixclass-re-documentation.html) 
 
 Fixing up the *better-than-most-but-still-terrible* documentation of DBIC is a ~200 person-hour undertaking, which on top of that requires someones fresh eye. 
 
@@ -152,7 +169,9 @@ All the milestones that will deliver on accessibility.
 
 ## External site
 
-### [BountySource has a few ideas on Perl](https://www.bountysource.com/teams/perl/issues)
+### BountySource
+
+See details: [BountySource has a few ideas on Perl](https://www.bountysource.com/teams/perl/issues)
 
 # Raku
 

@@ -13,7 +13,7 @@ permalink: /community
    color="lblue"
    left-title="Local Communities"
    left-image="community.svg"
-   left-content='Find your local Perl group from over 230 groups world wide via [Perl Mongers](http://www.pm.org/)'
+   left-content='Find your local Perl group from over 230 groups worldwide via [Perl Mongers](http://www.pm.org/)'
    middle-title="Events"
    middle-image="events.svg"
    middle-content='Our vibrant community is organizing [conferences, hackathons and workshops](/events) all around the world.'

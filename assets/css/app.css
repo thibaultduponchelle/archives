@@ -342,7 +342,8 @@ footer .attribution {
 footer .languages {
     color: #2a3439;
 }
-blockquote {
+
+.quotes blockquote {
     font-size: 2em;
     line-height: 1.2em;
     position: relative;
@@ -350,6 +351,7 @@ blockquote {
     padding: 5px;
     color: #2a3439;
 }
+
 blockquote::before {
     content: "“";
     color: black;

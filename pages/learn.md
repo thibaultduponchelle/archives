@@ -6,24 +6,27 @@ permalink: /learn
 
 
 {% include header.html 
-   title="Learn Perl" 
+   title="Learn" 
 %}
 
 {% include section3.html
    color="lblue"
    title="Learn Perl"
    description="Useful links to learn Perl"
-   left-title="Get Started"
+   left-title="Start with Perl"
    left-image="start.svg"
    left-content='
-* [Learn](/learn)
 * [A brief introduction](https://perldoc.pl/perlintro.html)
+* [PerlMaven](https://perlmaven.com)
 * [Free online Perl books](/books)
 * [Join your local community](/community)
+* [Examples](/learn/examples)
 * [Books and more](/media)'
-   middle-title="Modules"
+   middle-title="CPAN Modules"
    middle-image="modules.svg"
-   middle-content='If you are looking for a list of recommended modules for many day-to-day tasks, look at [Task::Kensho](https://metacpan.org/module/Task::Kensho)'
+   middle-content='Read our [introduction about modules](/learn/modules). 
+
+If you are looking for a list of recommended modules for many day-to-day tasks, look at [Task::Kensho](https://metacpan.org/module/Task::Kensho)'
    right-title="The Perl FAQ"
    right-image="faq.svg"
    right-content='FAQs are part of your Perl distribution : ```perldoc perlfaq```
