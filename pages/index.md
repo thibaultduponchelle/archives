@@ -11,7 +11,7 @@ permalink: /
 
 {% include section3.html 
    color="lblue"
-   title="Why Perl?"
+   title="About Perl"
    left-title='Powerful and stable'
    left-content='
 
