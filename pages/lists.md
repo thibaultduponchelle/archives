@@ -4,6 +4,9 @@ title: "Mailing Lists"
 permalink: /lists
 ---
 
+## By first letter
+[a](#a) - [b](#b) - [c](#c) - [d](#d) - [e](#e) - [f](#f) - [g](#g) - [h](#h) - [i](#i) - [j](#j) - [k](#k) - [l](#l) - [m](#m) - [n](#n) - [o](#o) - [p](#p) - [q](#q) - [r](#r) - [s](#s) - [t](#t) - [u](#u) - [v](#v) - [x](#x) - [y](#y) - [z](#z)
+
 ## a
 * [ack-announcements](/list/ack-announcements.html) - Annoucement about Ack
 * [ack-users](/list/ack-users.html) - A group for Ack users
