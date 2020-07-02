@@ -15,41 +15,44 @@ permalink: /
    left-title='Powerful and stable'
    left-content='
 
-* Highly capable
+* Highly capable :muscle:
 * Feature-rich
 * More than **30 years of development**
 * Runs on over **100 platforms**
-* Rapid prototyping...
-* ...Or large scale development projects
+* From rapid prototyping...
+* ...To large scale development projects
 
-"Perl" is a family of languages, **Raku** (formerly known as "Perl 6") is part of the family, but it is a separate language which has its own development team.'
+"Perl" is a family of languages, **Raku** (formerly known as "Perl 6") is part of the family, but it is a separate language which has its [own development team](https://www.raku.org/).'
 
    middle-title="General purpose"
    middle-content='
 
-* Used for mission critical projects
+* Used for mission critical projects :fire:
 * OO, procedural and functional
 * Flexible
 * Over 200,000 open source modules
 * Killer language for text manipulation
 * Unicode support
 * Database integration
-* C/C++ library interface through XS/FFI
-* Other libraries interface through FFI
-* Embeddable
+* C/C++ library interface (XS/FFI/SWIG)
+* Go/Rust/xxx libraries interface (FFI)
+* Embeddable :pager:
 * Open Source (Artistic License or GPL)'
 
    right-title="Perl and the Web"
    right-content='
 
 * Ideal Web programming language
-* Modern Web Frameworks
+* Modern Web Frameworks :earth_asia:
 * Great database integration
 * Web modules
-* Encryption capable
+* Encryption capable :shipit:
 * Embed into Apache
 * PSGI
-* Best companion of Sysadmin'
+* Best companion of Sysadmin
+* Army-knife for hackers :speak_no_evil:
+'
+
 
 %}
 
@@ -133,7 +136,7 @@ Perl is great for network services.
             Embedded
           </h3>
           <p class="flex-grow-1">
-            Targeting low-resource devices?
+            Tardgeting low-resource devices?
 Need low-level control without giving up high-level conveniences?
 Perl has you covered.
           </p>

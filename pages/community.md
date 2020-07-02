@@ -6,6 +6,7 @@ permalink: /community
 
 {% include header.html 
    title="Community" 
+   content="A vibrant and tremendous community"
 %}
 
 {% include section3.html 
@@ -37,7 +38,7 @@ permalink: /community
    right-content='
 * [The Perl Foundation](http://www.perlfoundation.org/) - Dedicated to the advancement of the Perl programming language 
 * [Enlightened Perl Organization](http://www.enlightenedperl.org/) - A membership organization created to support Perl ecosystem 
-* [YAPC Europe Foundation](http://www.yapceurope.org/) - The YAPC::Europe Foundation (YEF) is a non-profit organization which works to promote Perl in Europe primarily through public events'
+* [YAPC::Europe Foundation](http://www.yapceurope.org/) - A non-profit organization which works to promote Perl in Europe primarily through public events'
 
 %}
 

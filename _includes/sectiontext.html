@@ -1,8 +1,10 @@
 <section id="language-values" class="{{ include.color }}">
   <div class="w-100 mw-none ph3 mw8-m mw9-l center f3">
+    {% if include.title %}
     <header>
       <h2 class="cornered">{{ include.title }}</h2>
     </header>
+    {% endif %}
     <div class="f3 f2-l">
       <p>
 	  {{ include.content | markdownify }}

@@ -19,6 +19,8 @@
     border-radius: 50%;
     border: 3px solid #fff;
     box-shadow: 0 0 3px #aaa;
+    display: inline-block;
+
 }
 #gh-comments-list li>a.comment-url {
     width: 100%;
@@ -31,6 +33,7 @@
 }
 #gh-comments-list li .comment-content {
     padding: 0 1.5em;
+    display: inline-block;
 }
 #leave-a-comment {
     background: #000;

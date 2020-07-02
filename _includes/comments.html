@@ -29,6 +29,9 @@ function createCommentEl( response ) {
 
 	let userAvatar = document.createElement( 'img' );
 	userAvatar.classList.add( 'avatar' );
+	userAvatar.classList.add( 'flex' );
+	userAvatar.classList.add( 'flex-column' );
+	userAvatar.classList.add( 'mr4-l' );
 	userAvatar.setAttribute( 'src', response.user.avatar_url );
 
 	user.appendChild( userAvatar );
@@ -40,10 +43,18 @@ function createCommentEl( response ) {
 
 	let commentContents = document.createElement( 'div' );
 	commentContents.classList.add( 'comment-content' );
+	commentContents.classList.add( 'flex' );
+	commentContents.classList.add( 'flex-column' );
+	commentContents.classList.add( 'mw-67-l' );
+	commentContents.classList.add( 'mr4-l' );
+	commentContents.classList.add( 'flex-column' );
 	let text = response.body.replace(/(?:\r\n|\r|\n)/g, '<br/>');
 	commentContents.innerHTML = text;
 
 	let comment = document.createElement( 'li' );
+	comment.classList.add( 'flex' );
+	comment.classList.add( 'flex-row' );
+	comment.classList.add( 'flex-row-l' );
 	comment.setAttribute( 'data-created', response.created_at );
 	comment.setAttribute( 'data-user-url', response.user.url );
 
@@ -63,6 +74,6 @@ request.send();
 	<ul id="gh-comments-list"></ul>
 	<p id="no-comments-found" style="display:none">No comments found for this article.</p>
 	<p id="comments-not-allowed" style="display:none">Comments not allowed for this article, contact site administrators.</p>
-	<p id="leave-a-comment">Join the discussion for this article on <a href="https://github.com/thibaultduponchelle/messy-perl-ci-workflows/issues/1">this ticket</a>. Comments appear on this page instantly.</p>
+	<p id="leave-a-comment">Join the discussion for this article on <a href="https://github.com/thibaultduponchelle/messy-perl-ci-workflows/issues/{{page.comments_id}}">this ticket</a>. Comments appear on this page instantly.</p>
 </div>
 
