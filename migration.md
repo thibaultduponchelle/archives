@@ -17,7 +17,6 @@ When possible, link to external websites :
 ### Removal
 * https://perl.org/ -> redundant (a menu actually)
 * https://www.perl.org/docs.html -> redundant (link perldoc in menu)
-* https://www.perl.org/cpan.html -> link metacpan instead (not redundant but partially outdated or not for beginners or useless)
 
 ## grants.perlfoundation.org
 ### Migration
