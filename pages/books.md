@@ -69,7 +69,7 @@ permalink: /books
 %}
 
 {% include sectiontext.html 
-   color="lblue"
+   color="white"
    title="And much more"
    content='There are literally hundreds of good Perl books. Try to catch the most recent ones on [Perl School](https://perlschool.com/) or the latest editions of classic books. 
 

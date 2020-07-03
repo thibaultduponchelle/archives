@@ -6,7 +6,7 @@ Links like /learn are also accessible with /learn/ or /learn.html
 * https://perl.org/learn.html -> /learn (merged with http://learn.perl.org)
 * https://www.perl.org/community.html -> /community
 * https://www.perl.org/cpan.html -> /cpan
-* https://www.perl.org/books/library.html -> /books (WIP)
+* https://www.perl.org/books/library.html -> /books
 
 When possible, link to external websites :
 * Playground => https://perlbanjo.com/
