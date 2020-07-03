@@ -1,20 +1,15 @@
 ## Settings
-title: Perl
-owner: ""
+title: Perldot
 url: "https://thibaultduponchelle.github.io/perldot"
 baseurl: ""
 permalink: /:title/
-description: ""
-latest: 5.32.0
 markdown: kramdown
 webrick:
   headers:
     Access-Control-Allow-Origin: "*"
 ## Global Variables
+latest: 5.32.0
 github: "thibaultduponchelle/perldot"
-# path to: css/, fonts/, img/ and js/
-assets_path: "/assets" # i.e. "/assets" 
-# default max toc levels: 1 - 6 (h1 - h6)
 plugins:
   - jemoji
 
