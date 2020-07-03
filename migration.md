@@ -6,7 +6,6 @@ Links like /learn are also accessible with /learn/ or /learn.html
 * https://perl.org/learn.html -> /learn (merged with http://learn.perl.org)
 * https://www.perl.org/community.html -> /community
 * https://www.perl.org/cpan.html -> /cpan
-* https://www.perl.org/media.html -> /media (WIP)
 * https://www.perl.org/books/library.html -> /books (WIP)
 
 When possible, link to external websites :
@@ -17,6 +16,7 @@ When possible, link to external websites :
 ### Removal
 * https://perl.org/ -> redundant (a menu actually)
 * https://www.perl.org/docs.html -> redundant (link perldoc in menu)
+* https://www.perl.org/media.html -> outdated (perlcast 2010, books amazon is just a "search perl" on amazon, slideshare is "tag perl on slideshare, $foo seems great but german, perl.com/perlsphere/perl iron man already mentionned)
 
 ## grants.perlfoundation.org
 ### Migration
