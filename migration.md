@@ -1,10 +1,30 @@
 
 ## perl.org
-https://perl.org/ -> /
+### Migration
+https://perl.org/about.html -> /
+https://perl.org/learn.html -> /learn (merged with http://learn.perl.org)
+https://www.perl.org/community.html -> /community
+
+When possible, link to external websites :
+Playground => https://perlbanjo.com/
+CPAN => https://metacpan.org/
+Foundation => https://www.perlfoundation.org/
+Version 5.32.0 => https://www.cpan.org/src/README.html
+
+### Removal
+https://perl.org/ -> redundant (a menu actually)
+https://www.perl.org/docs.html -> redundant (link perldoc in menu)
+https://www.perl.org/cpan.html -> link metacpan instead (not redundant but partially outdated or not for beginners or useless)
+
+## grants.perlfoundation.org
+### Migration
+http://grants.perlfoundation.org/ => http://127.0.0.1:4000/grants-proposals
+
+All other (a bit less community driven) grants pages are still https://www.perlfoundation.org/grants.html
 
 ## learn.perl.org
 ### Migration
-https://learn.perl.org/ -> /learn
+https://learn.perl.org/ -> /learn (merged with https://perl.org/learn.html)
 https://learn.perl.org/modules/ -> /learn/modules
 https://learn.perl.org/examples/ -> /learn/examples
 https://learn.perl.org/examples/email.html -> /learn/examples#email
