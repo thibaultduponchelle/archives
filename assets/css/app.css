@@ -248,18 +248,12 @@ a.brand {
 .lblue h2 {
     color: black;
 }
-.lblue .cornered {
-    border-color: black;
-}
 .lblue a {
     color: black;
     text-decoration: underline;
 }
 .white {
     color: black;
-}
-.white .cornered {
-    border-color: black;
 }
 .white a {
     color: #2a3439;
@@ -299,7 +293,7 @@ section h2 {
     text-shadow: 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .cornered {
-    border-top: solid 3px white;
+    border-top: solid 3px black;
 }
 footer {
     padding: 30px 0;

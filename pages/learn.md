@@ -16,13 +16,13 @@ permalink: /learn
    left-title="Start with Perl"
    left-image="start.svg"
    left-content='
-* [A brief introduction](https://perldoc.pl/perlintro.html)
-* [PerlMaven](https://perlmaven.com)
-* [Free online Perl books](/books)
-* [Join a community](/community)
+* [perlintro](https://perldoc.pl/perlintro.html) - A brief introduction
+* [PerlMaven](https://perlmaven.com) - Reference website about Perl
+* [Free online Perl books](/books) - Books
+* [Join a community](/community) - List of communities
 * [List of tutorials](http://perl-tutorial.org/)
-* [Examples](/learn/examples)
-* [Books and more](/media)'
+* [Examples](/learn/examples) - Some basic Perl examples
+* [Books and more](/media)' 
    middle-title="CPAN Modules"
    middle-image="modules.svg"
    middle-content='Read our [introduction about modules](/learn/modules). 

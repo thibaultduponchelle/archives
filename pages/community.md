@@ -27,8 +27,10 @@ permalink: /community
    left-title="Community Sites"
    left-content='
 * [Perl.org](http://www.perl.org) - You are here :grin:
+* [Perl reddit](https://www.reddit.com/r/perl/) - Centralized newsfeeds
+* [Perl stackoverflow](https://stackoverflow.com/questions/tagged/perl) - Technical help :wrench:
 * [Perl.com](https://www.perl.com) - News and technical articles
-* [Blogs](blogs.perl.org) - Personal Perl blogs
+* [Blogs](blogs.perl.org) - Personal Perl blogs :speech_balloon:
 * [PerlMonks](http://www.perlmonks.com) - A questions/answers website
 * [Perlsphere](http://perlsphere.net) - Another aggregation of selected Perl blogs'
 
