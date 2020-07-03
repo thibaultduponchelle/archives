@@ -1,13 +1,14 @@
+Links like /learn are also accessible with /learn/ or /learn.html
 
 ## perl.org
 ### Migration
 * https://perl.org/about.html -> /
 * https://perl.org/learn.html -> /learn (merged with http://learn.perl.org)
 * https://www.perl.org/community.html -> /community
+* https://www.perl.org/cpan.html -> /cpan
 
 When possible, link to external websites :
 * Playground => https://perlbanjo.com/
-* CPAN => https://metacpan.org/
 * Foundation => https://www.perlfoundation.org/
 * Version 5.32.0 => https://www.cpan.org/src/README.html
 

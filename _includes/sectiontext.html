@@ -5,6 +5,12 @@
       <h2 class="cornered">{{ include.title }}</h2>
     </header>
     {% endif %}
+    {% if include.description %}
+    <div class="description">
+      {{ include.description | markdownify}}
+    </div>
+    {% endif %}
+
     <div class="f3 f2-l">
       <p>
 	  {{ include.content | markdownify }}
