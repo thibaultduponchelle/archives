@@ -4,10 +4,8 @@
       <h2>{{ include.title }}</h2>
     </header>
     {% if include.description %}
-    <div class="description">
-      <p class="lh-copy f3">
-        {{ include.description }}
-      </p>
+    <div class="description lh-copy f3">
+      {{ include.description | markdownify }}
     </div>
     {% endif %}
     <div class="testimonials">

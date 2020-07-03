@@ -5,6 +5,7 @@ url: "https://thibaultduponchelle.github.io/perldot"
 baseurl: ""
 permalink: /:title/
 description: ""
+latest: 5.32.0
 markdown: kramdown
 webrick:
   headers:

@@ -344,6 +344,12 @@ footer .languages {
     color: #2a3439;
 }
 
+
+.quotes p {
+    font-size: 1.6rem;
+    line-height: 1.5; 
+}
+
 .quotes blockquote {
     font-size: 2em;
     line-height: 1.2em;
@@ -418,41 +424,6 @@ section header {
 }
 section header h2 {
     font-size: 3rem;
-}
-.team {
-    text-align: center;
-    padding: 20px;
-    margin: 20px;
-    position: relative;
-    border: 1px solid white;
-}
-.team .button {
-    position: absolute;
-    bottom: 5px;
-    width: 80%;
-}
-.team h4 {
-    font-size: 1.5em;
-    font-weight: 600;
-}
-.group-member {
-    float: left;
-}
-.group-member .name {
-    display: block;
-    font-weight: 600;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-.subteam {
-    margin: 20px 0;
-    width: 100%;
-    content: "";
-    display: table;
-    clear: both;
-    border: 1px white solid;
-    padding: 20px;
 }
 .testimonial {
     display: flex;

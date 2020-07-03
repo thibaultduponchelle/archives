@@ -27,20 +27,20 @@ permalink: /community
    left-title="Community Sites"
    left-content='
 * [Perl.org](http://www.perl.org) - You are here :grin:
+* [Perl.com](https://www.perl.com) - News and technical articles
 * [Blogs](blogs.perl.org) - Personal Perl blogs
-* [PerlMonks](http://www.perlmonks.com) - A community committed to sharing Perl knowledge
-* [Planet Perl Iron Man](http://ironman.enlightenedperl.org) - Open Perl blogging challenge
+* [PerlMonks](http://www.perlmonks.com) - A questions/answers website
 * [Perlsphere](http://perlsphere.net) - Another aggregation of selected Perl blogs'
 
    middle-title="Chat"
    middle-content='
-* [IRC](http://www.irchelp.org) - Internet Relay Chat enables communities to gather in \'channels\' on-line and chat in real-time. 
+* [IRC](http://www.irc.perl.org/) - Internet Relay Chat enables communities to gather in \'channels\' on-line and chat in real-time. :speech_balloon:
 * [Mastodon](https://discord.gg/perl-lang) - Mastodon Perl channel'
 
    right-title="Organizations"
    right-content='
-* [The Perl Foundation](http://www.perlfoundation.org/) - Dedicated to the advancement of the Perl programming language 
-* [Enlightened Perl Organization](http://www.enlightenedperl.org/) - A membership organization created to support Perl ecosystem 
+* [The Perl Foundation](http://www.perlfoundation.org/) - Help and promote the Perl programming language :post_office:
+* [Enlightened Perl Organization](http://www.enlightenedperl.org/) - A membership organization created to support Perl ecosystem
 * [YAPC::Europe Foundation](http://www.yapceurope.org/) - A non-profit organization which works to promote Perl in Europe primarily through public events'
 
 %}

@@ -1,6 +1,6 @@
 ---
 layout: text
-title: "Read spreadsheet" 
+title: "Spreadsheet" 
 permalink: /learn/example/spreadsheet_read
 ---
 

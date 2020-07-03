@@ -1,6 +1,6 @@
 ---
 layout: text
-title:"DNS" 
+title: "DNS" 
 permalink: /learn/example/dns
 ---
 
