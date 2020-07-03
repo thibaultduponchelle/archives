@@ -17,12 +17,12 @@ permalink: /learn
    left-image="start.svg"
    left-content='
 * [perlintro](https://perldoc.pl/perlintro.html) - A brief introduction
-* [PerlMaven](https://perlmaven.com) - Reference website about Perl
-* [Free online Perl books](/books) - Books
+* [PerlMaven](https://perlmaven.com) - Reference website for Perl :+1:
+* [Free online Perl books](/books) - Books :books:
 * [Join a community](/community) - List of communities
-* [List of tutorials](http://perl-tutorial.org/)
+* [Perl tutorials](http://perl-tutorial.org/) - List of tutorials
 * [Examples](/learn/examples) - Some basic Perl examples
-* [Books and more](/media)' 
+* [Media](/media) - Books and more' 
    middle-title="CPAN Modules"
    middle-image="modules.svg"
    middle-content='Read our [introduction about modules](/learn/modules). 
