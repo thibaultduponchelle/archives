@@ -1,36 +1,40 @@
 @charset "UTF-8";
     @media screen and (max-width: 30em) {
     .flex-20-s {
-    flex: 0 0 20%;
+        flex: 0 0 20%;
+    }
 }
-}
+
 @media screen and (min-width: 30em) and (max-width: 60em) {
     .max-width-half-m {
-    max-width: 50%;
-}
+        max-width: 50%;
+    }
 }
 @media screen and (min-width: 60em) {
     .max-width-quarter-l {
-    max-width: 25%;
+        max-width: 25%;
+    }
+    .mw-50-l {
+        max-width: 50%;
+    }
+    .mw-33-l {
+        max-width: 33%;
+    }
+    .mw-67-l {
+        max-width: 67%;
+    }
 }
-.mw-50-l {
-    max-width: 50%;
-}
-.mw-33-l {
-    max-width: 33%;
-}
-.mw-67-l {
-    max-width: 67%;
-}
-}
+
 html {
     font-size: 62.5%;
 }
+
 @media screen and (min-width: 30em) {
     html {
-    font-size: 75%;
+        font-size: 75%;
+    }
 }
-}
+
 body {
     font-family: "Fira Sans", Helvetica, Arial, sans-serif;
     background-color: white;
@@ -395,23 +399,22 @@ blockquote::before {
     margin: 0 0.2rem;
     border-radius: 4px;
 }
-#language-values span {
-    font-weight: 600;
-}
+
 @media screen and (max-width: 550px) {
     header h1 {
-    font-size: 4rem;
+        font-size: 4rem;
+    }
+    header h2.subtitle {
+        font-size: 2.5rem;
+        line-height: 1.1;
+    }
+    header .button.button-primary.button-download {
+        padding: 5px;
+        font-size: 1.5em;
+        margin-top: 20px;
+    }
 }
-header h2.subtitle {
-    font-size: 2.5rem;
-    line-height: 1.1;
-}
-header .button.button-primary.button-download {
-    padding: 5px;
-    font-size: 1.5em;
-    margin-top: 20px;
-}
-}
+
 section header {
     padding-top: 10px;
     padding-bottom: 30px;
@@ -423,23 +426,17 @@ section header h2 {
     display: flex;
     align-items: center;
 }
+
 @media only screen and (max-width: 545px) {
     .testimonial {
         display: block;
     }
 }
-.flash {
-    width: 100%;
-    font-size: 1em;
-    padding: 0;
-    margin: 0;
-}
-.flash h3 {
-    text-align: center;
-}
+
 .download-link {
     color: black;
 }
+
 #pb4 {
     padding-bottom: 3.8em;
 }
