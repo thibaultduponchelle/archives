@@ -3926,9 +3926,9 @@ img {
 }
 @media screen and (min-width:30em) and (max-width:60em) {
     .aspect-ratio-m {
-    height: 0;
-    position: relative;
-}
+        height: 0;
+        position: relative;
+    }
 .aspect-ratio--16x9-m {
     padding-bottom: 56.25%}
 .aspect-ratio--9x16-m {
@@ -5232,8 +5232,9 @@ img {
 .v-btm-m {
     vertical-align: bottom;
 }
+
 }
-@media screen and (min-width:60em) {
+@media screen and (min-width:80em) {
     .aspect-ratio-l {
     height: 0;
     position: relative;
