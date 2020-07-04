@@ -26,7 +26,7 @@ permalink: /cpan
 * [Glossary](http://neilb.org/2015/09/05/cpan-glossary.html) - Understand CPAN vocabulary'
    right-title="Recommended modules"
    right-content='It\'s very personal but if you are after a list of recommended modules, you can start by looking at these: 
-* [Task::Kensho](https://metacpan.org/pod/Task::Kensho) - Enlightened Perl Modules :crown:
+* [Task::Kensho](https://metacpan.org/pod/Task::Kensho) - Enlightened Perl Modules
 * [MstPAN](http://blog.kablamo.org/2015/09/08/mstpan/) - Curated list of modules
 * [Modules reviews](http://neilb.org/reviews/) - Modules reviews'
 %}
