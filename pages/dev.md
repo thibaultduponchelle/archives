@@ -29,7 +29,7 @@ They add new features, improve perl speed, fix security bugs and port perl to ne
    middle-content='
 * [How to hack on Perl](http://perldoc.pl/perlhack.html)
 * [irc.perl.org](http://irc.perl.org/) #p5p - IRC chat
-* [Mailing lists](/dev/lists) / discussions
+* [Mailing lists](/dev/lists) - Discuss Perl
 * [What needs doing?](http://perldoc.pl/perltodo.html)
 * [Report a security concern](http://perldoc.pl/perlsec.html#SECURITY-VULNERABILITY-CONTACT-INFORMATION)
 '

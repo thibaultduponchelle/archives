@@ -11,7 +11,7 @@ permalink: /get
 {% include sectiontext.html 
    title="Perl runs on over 100 platforms!"
    color="blue"
-   content='This is true, Perl is **UBIQUITOUS!**
+   content='Perl is truly **UBIQUITOUS!**
 
 There are good likehood that Perl is already installed on your system, and therefore you\'re not concerned by what is written on this page.
 
@@ -24,7 +24,7 @@ We recommend that you always run the latest stable version. If you\'re running a
 
 {% include section2.html
    title="Unix"
-   color="blue"
+   color="white"
    description="Running Linux, Solaris, AIX, HPUX, or any other UNIX-like system?"
    left-title="Binaries"
    left-content=':heavy_check_mark: Already Installed
@@ -50,7 +50,7 @@ Or download the Perl source code.'
 
 {% include section2.html
    title="Mac OS X"
-   color="white"
+   color="blue"
    description="Mac OS X enthusiast ?"
    left-title="Binaries"
    left-content=':heavy_check_mark: Already Installed
@@ -76,7 +76,7 @@ Or download the Perl source code.'
 
 {% include section2.html
    title="Windows"
-   color="blue"
+   color="white"
    description="Windows does not have Perl installed by default."
    left-title="ActivePerl"
    left-content='**ActivePerl** - [ActiveState](https://www.activestate.com/) offers both a free community version and a commercially supported binary distribution of Perl for Win32 and Perl for Win64.'
