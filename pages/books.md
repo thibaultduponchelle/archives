@@ -37,7 +37,7 @@ permalink: /books
 [Modern Perl](http://modernperlbooks.com/)'
    middle-title="Learning Perl"
    middle-image="books/learningperl.jpg"
-   middle-content='One of the best Perl tutorial. 
+   middle-content='One of the best Perl tutorial. Maybe the best book to start.
 
 [Learning Perl](https://www.learning-perl.com/)'
 
@@ -74,7 +74,7 @@ permalink: /books
    content='There are literally hundreds of good Perl books. Try to catch the most recent ones on [Perl School](https://perlschool.com/) or the latest editions of classic books. 
 
 
-[Oreilly](https://www.oreilly.com/) published a lot of Perl books and deserve that you check what they offer.
+[Oreilly](https://www.oreilly.com/) published a lot of Perl books and deserves that you check what they offer.
 
 <a class="button button-secondary" href="https://perlschool.com/">Perl School</a>
 <a class="button button-secondary" href="https://www.oreilly.com/">Oreilly</a>
