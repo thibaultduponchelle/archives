@@ -10,7 +10,7 @@ permalink: /events
 
 {% include section3.html
    title="Regular events"
-   color="lblue"
+   color="blue"
    left-title="Local meetings"
    left-image="local.svg"
    left-content='**Over 230** local Perl Monger groups spread over **six continents**. Technical and social meetings.

@@ -12,7 +12,7 @@ permalink: /dev
 
 {% include section3.html
    title='Perl core development'
-   color= "lblue"
+   color= "blue"
    description='Perl core development is a model of successful open source project. Several individuals are dedicated partial or full time to improve Perl.
 They add new features, improve perl speed, fix security bugs and port perl to new platforms (this is why we call them perl *"porters"*).'
 
@@ -40,6 +40,6 @@ They add new features, improve perl speed, fix security bugs and port perl to ne
 
 {% include sectiontext.html
    title="RRROOOOAAAAAAARRRRRR!"
-   color="lblue"
+   color="blue"
    content='![](/assets/img/raptor2.svg)'
 %}

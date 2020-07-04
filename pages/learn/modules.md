@@ -1,7 +1,7 @@
 ---
 layout: text
 title: "Modules" 
-color: "lblue"
+color: "blue"
 permalink: /learn/modules
 ---
 

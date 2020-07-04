@@ -9,7 +9,7 @@ permalink: /learn/docs
 %}
 
 {% include section2.html
-  color="lblue"
+  color="blue"
   title="Docs"
   description='Some reference material. There are also many [Perl books](/learn/books), you may also find these links useful.'
   left-title="Perl Keywords"

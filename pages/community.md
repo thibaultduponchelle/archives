@@ -10,7 +10,7 @@ permalink: /community
 %}
 
 {% include section3.html 
-   color="lblue"
+   color="blue"
    left-title="Local Communities"
    left-image="community.svg"
    left-content='Find your local Perl group from over 230 groups worldwide via [Perl Mongers](http://www.pm.org/)'

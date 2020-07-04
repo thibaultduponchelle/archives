@@ -10,7 +10,7 @@ permalink: /cpan
 %}
 
 {% include section3.html 
-   color="lblue"
+   color="blue"
    left-title="What is CPAN?"
    left-content='The Comprehensive Perl Archive Network (CPAN) is an archive of over 190 000 modules written in Perl, as well as documentation for it. It is searchable [MetaCPAN](http://metacpan.org/) and accessible from everywhere. 
 
@@ -33,7 +33,7 @@ permalink: /cpan
 
 {% include sectiontext.html 
   title="MetaCPAN is your friend"
-  color="lblue"
+  color="blue"
   description='If you don\'t know him, let me present **your new best friend**: [MetaCPAN](http://metacpan.org). As a best friend, he will do all he could to make your life easier and more pleasant. :massage:
 
 [MetaCPAN](http://metacpan.org) is stable, fast and loyal.'

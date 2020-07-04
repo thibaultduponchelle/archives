@@ -1,7 +1,7 @@
 ---
 layout: text
 title: "Mailing Lists"
-color: "lblue"
+color: "blue"
 permalink: /lists
 ---
 

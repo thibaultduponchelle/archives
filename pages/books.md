@@ -10,7 +10,7 @@ permalink: /books
 %}
 
 {% include section3.html 
-   color="lblue"
+   color="blue"
    left-title="Programming Perl"
    left-image="books/programmingperl.jpg"
    left-content='Serious Perl book. Also known as "Camel book".
@@ -49,7 +49,7 @@ permalink: /books
 %}
 
 {% include section3.html 
-   color="lblue"
+   color="blue"
    left-title="Beginning Perl"
    left-image="books/beginningperl.jpg"
    left-content='The Perl tutorial by Curtis Ovid Poe. 

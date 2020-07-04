@@ -10,7 +10,7 @@ permalink: /
 %}
 
 {% include section3.html 
-   color="lblue"
+   color="blue"
    title="About Perl"
    left-title='Powerful and stable'
    left-image="rocket.svg"
@@ -81,7 +81,7 @@ Big players like [Suse](https://www.suse.com), [DuckDuckGo](https://duckduckgo.c
 %}
 
 {% include section2.html 
-   color="lblue"
+   color="blue"
    title="Thanks"
    description="Perl is community driven since forever and would not exist without the generous contributions of time, work, and resources from individuals and companies."
    left-title="Individuals"
