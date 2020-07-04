@@ -13,7 +13,7 @@ permalink: /books
    color="blue"
    left-title="Programming Perl"
    left-image="books/programmingperl.jpg"
-   left-content='Serious Perl book. Also known as "Camel book".
+   left-content='Serious Perl book. Also known as "Camel book". Co-Authored by Larry Wall (the father of Perl).
 
 [Programming Perl](https://www.programmingperl.org/)'
    middle-title="Intermediate Perl"
@@ -32,12 +32,12 @@ permalink: /books
    color="white"
    left-title="Modern Perl"
    left-image="books/modernperl.jpg"
-   left-content='This is a master piece. Fantastic !
+   left-content='This is a master piece. You ~~should~~ must absolutely read this book. Fantastic !
 
 [Modern Perl](http://modernperlbooks.com/)'
    middle-title="Learning Perl"
    middle-image="books/learningperl.jpg"
-   middle-content='One of the best Perl tutorial
+   middle-content='One of the best Perl tutorial. 
 
 [Learning Perl](https://www.learning-perl.com/)'
 
