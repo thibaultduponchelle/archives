@@ -11,7 +11,7 @@ permalink: /learn/docs
 {% include section2.html
   color="blue"
   title="Docs"
-  description='Some reference material. There are also many [Perl books](/learn/books), you may also find these links useful.'
+  description='Some reference material. There are also many [Perl books](/books), you may also find these links useful.'
   left-title="Perl Keywords"
   left-content='
 * [All Perl keywords](/learn/docs/keywords)
