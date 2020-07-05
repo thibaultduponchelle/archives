@@ -14,4 +14,4 @@ plugins:
   - jemoji
   - jekyll-feed
   - jekyll-sitemap
-
+  - jekyll-mentions
