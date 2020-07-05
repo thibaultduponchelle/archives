@@ -18,11 +18,10 @@ They add new features, improve perl speed, fix security bugs and port perl to ne
 
    left-title='Perl'
    left-content='
-* Production-ready
 * [Latest Perl changelog](https://metacpan.org/pod/perldelta) 
 * [Actively maintained](https://github.com/Perl/perl5/commits/blead) 
 * [Official repository](https://github.com/Perl/perl5)
-* Supported by [several volunteers](https://github.com/Perl/perl5/blob/blead/AUTHORS).'
+* Supported by [several volunteers](https://github.com/Perl/perl5/blob/blead/AUTHORS)'
 
 
    middle-title='Get involved'
@@ -35,7 +34,8 @@ They add new features, improve perl speed, fix security bugs and port perl to ne
 '
   right-title='Releases'
   right-content='
-* [All sources](https://www.cpan.org/src/README.html)'
+* [All sources](https://www.cpan.org/src/README.html)
+* [Perl versions history](https://perldoc.pl/perlhist.html#THE-RECORDS)'
 %}
 
 {% include sectiontext.html

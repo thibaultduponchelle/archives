@@ -3,6 +3,8 @@ Links like /learn are also accessible with /learn/ or /learn.html
 ## New
 * Sitemap /sitemap.xml (VERY important for SEO)
 * RSS feed /feed.xml 
+* SEO tags (structured data for Google, Open Graph for facebook, Twitter cards)
+* More favicons 
 
 ## perl.org
 ### Migration
