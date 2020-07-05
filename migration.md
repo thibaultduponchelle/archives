@@ -1,10 +1,11 @@
 Links like /learn are also accessible with /learn/ or /learn.html
 
-## New
+## Improvements
 * Sitemap /sitemap.xml (VERY important for SEO)
 * RSS feed /feed.xml 
 * SEO tags (structured data for Google, Open Graph for facebook, Twitter cards)
 * More favicons 
+* SEO Subfolders probably better than subdomains
 
 ## perl.org
 ### Migration
