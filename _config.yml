@@ -12,4 +12,6 @@ latest: 5.32.0
 github: "thibaultduponchelle/perldot"
 plugins:
   - jemoji
+  - jekyll-feed
+  - jekyll-sitemap
 

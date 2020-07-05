@@ -1,5 +1,9 @@
 Links like /learn are also accessible with /learn/ or /learn.html
 
+## New
+* Sitemap /sitemap.xml (VERY important for SEO)
+* RSS feed /feed.xml 
+
 ## perl.org
 ### Migration
 * https://perl.org/about.html -> /
