@@ -8,7 +8,7 @@
     {% if include.description %}
     <div class="description">
       <p class="lh-copy f2">
-        {{ include.description }}
+        {{ include.description | markdownify}}
       </p>
     </div>
     {% endif %}
