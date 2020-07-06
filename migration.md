@@ -45,12 +45,12 @@ All other (a bit less community driven) grants pages are still https://www.perlf
 * https://learn.perl.org/examples/configuration_files.html -> /learn/examples#configuration-files
 * https://learn.perl.org/examples/static_server.html -> /learn/examples#static-server
 * https://learn.perl.org/examples/dns.html -> /learn/examples#dns
-* https://learn.perl.org/docs/ -> /learn/docs (WIP)
-* https://learn.perl.org/books/ -> /books
+* https://learn.perl.org/books/ -> /books (merged with perl.org/books/library.html)
 * https://learn.perl.org/installing/ -> /get
 
 ### Deleted
 * https://learn.perl.org/first_steps/ -> ??
+* https://learn.perl.org/docs/
 
 ## news.perlfoundation.org
 ### Migration
@@ -86,3 +86,8 @@ All other (a bit less community driven) grants pages are still https://www.perlf
 * https://dev.perl.org/ -> /dev
 * https://dev.perl.org/perl5/lists.html -> /list/perl5-changes and list/perl5-porters
 
+
+## Other
+* What is https://codepen.io/davepvm/full/dPeGqa ?
+* Current blog posts are already partially broken (e.g. https://news.perlfoundation.org/post/grant_complete_learnperlorg)
+* SEO: missing alt

@@ -13,27 +13,27 @@
     </div>
     {% endif %}
 
-    <div class="flex-none flex-l">
-      <section class="w-100 pv2 pv0-l mt4">
+    <div class="flex-none flex-l flex-row-l">
+      <section class="w-100 pv2 pv0-l mt4 justify-between-l">
 	{% if include.left-title %}
 	<h3 class="f2 f1-l">{{ include.left-title }}</h3>
 	{% endif %}
         {% if include.left-image %}
-	<div class="v-top tc-l">
-		<img src="/assets/img/{{ include.left-image }}" class="mw4 mw5-ns"/>
+	<div class="v-top tc-l self-center justify-center">
+	  <img src="/assets/img/{{ include.left-image }}" class="mw4 mw5-ns"/>
         </div>
 	{% endif %}
         <p class="f3 lh-copy">
 	  {{ include.left-content | markdownify }}
         </p>
       </section>
-      <section class="w-100 pv2 pv0-l mt4">
+      <section class="w-100 pv2 pv0-l mt4 justify-between-l">
         {% if include.middle-title %}
 	<h3 class="f2 f1-l">{{ include.middle-title }}</h3>
 	{% endif %}
         {% if include.middle-image %}
 	<div class="v-top tc-l">
-		<img src="/assets/img/{{ include.middle-image }}" class="mw4 mw5-ns"/>
+	  <img src="/assets/img/{{ include.middle-image }}" class="mw4 mw5-ns"/>
         </div>
 	{% endif %}
         <p class="f3 lh-copy">
@@ -41,13 +41,13 @@
         </p>
 
       </section>
-      <section class="w-100 pv2 pv0-l mt4">
+      <section class="w-100 pv2 pv0-l mt4 justify-between-l">
         {% if include.right-title %}
 	<h3 class="f2 f1-l">{{ include.right-title }}</h3>
 	{% endif %}
 	{% if include.right-image %}
 	<div class="v-top tc-l">
-		<img src="/assets/img/{{ include.right-image }}" class="mw4 mw5-ns"/>
+	  <img src="/assets/img/{{ include.right-image }}" class="mw4 mw5-ns"/>
         </div>
 	{% endif %}
         <p class="f3 lh-copy">
