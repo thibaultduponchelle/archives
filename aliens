@@ -141,6 +141,7 @@ Alien::LibMagic
 Alien::UDUNITS2
 Alien::Taco
 Alien::GSL
+Alien::Libevent
 Alien::HDF4 libhdf4-dev
 Alien::IUP libgtk2.0-dev
 Alien::LibJIT libtool-bin flex bison texinfo
@@ -179,7 +180,6 @@ Alien::mpg123
 Alien::FontForge
 Alien::FreeImage
 Alien::LibBigWig
-Alien::Libevent
 Alien::Libgcrypt
 Alien::sispmctl
 Alien::ProtoBuf
