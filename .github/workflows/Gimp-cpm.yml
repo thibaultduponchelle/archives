@@ -16,4 +16,4 @@ jobs:
       - name: Install non alienazed dependencies
         run: sudo apt-get install libgimp2.0-dev
       - name: Install alien
-        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure --test Alien::Gimp
+        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure --test --configure-timeout=1920 Alien::Gimp

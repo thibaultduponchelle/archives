@@ -14,4 +14,4 @@ jobs:
       - name: perl -V
         run: perl -V
       - name: Install alien
-        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure --test Alien::automake
+        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure --test --configure-timeout=1920 Alien::automake

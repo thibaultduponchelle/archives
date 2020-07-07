@@ -16,4 +16,4 @@ jobs:
       - name: Install non alienazed dependencies
         run: sudo apt-get install xorg-dev libglu1-mesa-dev libvulkan-dev
       - name: Install alien
-        run: curl -L https://cpanmin.us | perl - --configure-timeout=480 Alien::raylib
+        run: curl -L https://cpanmin.us | perl - --configure-timeout=1920 Alien::raylib

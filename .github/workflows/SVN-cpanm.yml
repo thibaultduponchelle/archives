@@ -16,4 +16,4 @@ jobs:
       - name: Install non alienazed dependencies
         run: sudo apt-get install libaprutil1-dev libsqlite3-dev libgettextpo-dev
       - name: Install alien
-        run: curl -L https://cpanmin.us | perl - --configure-timeout=480 Alien::SVN
+        run: curl -L https://cpanmin.us | perl - --configure-timeout=1920 Alien::SVN

@@ -14,4 +14,4 @@ jobs:
       - name: perl -V
         run: perl -V
       - name: Install alien
-        run: curl -L https://cpanmin.us | perl - --configure-timeout=480 Alien::ImageMagick
+        run: curl -L https://cpanmin.us | perl - --configure-timeout=1920 Alien::ImageMagick
