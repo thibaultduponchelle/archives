@@ -97,4 +97,4 @@ Could not resolve -lpreloadable_libintl at -e line 1.
 - :heavy_check_mark: ~Alien::gputils -> flex -> we should use Alien::flex~ 
 - :heavy_check_mark: ~Alien::AntTweakBar -> Can't link/include C library 'X11/cursorfont.h', 'GL/glx.h', 'GL/gl.h', aborting. -> insall non alienazed big deps~
 - :heavy_check_mark: ~Alien::TALib -> compilation/build problem -> tiemout~
-- :construction: ~Alien::Libevent -> syntax error -> removed inc/Devel/ChecLib and use cpan version, no github (removed) -> Fixed on my [REPO](https://github.com/thibaultduponchelle/Alien-Libevent) -> [RT ticket](https://rt.cpan.org/Ticket/Display.html?id=98058#txn-1896610) 5 may 2020 -> Johannes Plunien confirmed -> TO ADOPT -> I asked to adopt it -> Adoption OK -> new CPAN release~
+- :heavy_check_mark: ~Alien::Libevent -> syntax error -> removed inc/Devel/ChecLib and use cpan version, no github (removed) -> Fixed on my [REPO](https://github.com/thibaultduponchelle/Alien-Libevent) -> [RT ticket](https://rt.cpan.org/Ticket/Display.html?id=98058#txn-1896610) 5 may 2020 -> Johannes Plunien confirmed -> TO ADOPT -> I asked to adopt it -> Adoption OK -> new CPAN release~
