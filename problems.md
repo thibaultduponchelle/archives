@@ -48,10 +48,6 @@ Could not resolve -lpreloadable_libintl at -e line 1.
 - :construction: Alien-ActiveMQ -> Can't locate Test/Exception.pm in @INC -> [PR](https://github.com/bobtfish/alien-apachemq/pull/7) by me 27 may 2020 
 - ~Alien::SVN -> need libaprutil1-dev and libsqlite3-dev ?~ 
 
-### PLU 
-- :construction: Alien::Gearman -> depends on Alien::Libevent that fails -> removed inc/Devel/ChecLib and use cpan version, no github (removed) -> Need ALien::libuuid -> fixed on my [REPO](https://github.com/thibaultduponchelle/Alien-Gearman)  -> [RT ticket](https://rt.cpan.org/Ticket/Display.html?id=132505) 5 may 2020 -> Johannes Plunien confirmed -> TO ADOPT -> I asked to adopt it
-- :construction: Alien::Libevent -> syntax error -> removed inc/Devel/ChecLib and use cpan version, no github (removed) -> Fixed on my [REPO](https://github.com/thibaultduponchelle/Alien-Libevent) -> [RT ticket](https://rt.cpan.org/Ticket/Display.html?id=98058#txn-1896610) 5 may 2020 -> Johannes Plunien confirmed -> TO ADOPT -> I asked to adopt it
-
 ### ATHREEF
 - :construction: Alien::HIDAPI -> depends on LibUSB that failed
 - :construction: Alien::LibUSB -> Can't locate Alien/libudev.pm in @INC (you may need to install the Alien::libudev module) prereq missing -> Alien::libudev is not a prereq because not available on all platforms, I need to investigate. Conditional use, very tricky -> Fixed with [PR](https://github.com/athreef/Alien-LibUSB/pull/3) MERGED from plicease -> need cpan release
@@ -98,3 +94,6 @@ Could not resolve -lpreloadable_libintl at -e line 1.
 - :heavy_check_mark: ~Alien::gputils -> flex -> we should use Alien::flex~ 
 - :heavy_check_mark: ~Alien::AntTweakBar -> Can't link/include C library 'X11/cursorfont.h', 'GL/glx.h', 'GL/gl.h', aborting. -> insall non alienazed big deps~
 - :heavy_check_mark: ~Alien::TALib -> compilation/build problem -> tiemout~
+- :heavy_check_mark: ~Alien::Libevent -> syntax error -> removed inc/Devel/ChecLib and use cpan version, no github (removed) -> Fixed on my [REPO](https://github.com/thibaultduponchelle/Alien-Libevent) -> [RT ticket](https://rt.cpan.org/Ticket/Display.html?id=98058#txn-1896610) 5 may 2020 -> Johannes Plunien confirmed -> TO ADOPT -> I asked to adopt it -> Adoption OK -> new CPAN release~
+### PLU 
+- :heavy_check_mark: ~Alien::Gearman -> depends on Alien::Libevent that fails -> removed inc/Devel/ChecLib and use cpan version, no github (removed) -> Need ALien::libuuid -> fixed on my [REPO](https://github.com/thibaultduponchelle/Alien-Gearman)  -> [RT ticket](https://rt.cpan.org/Ticket/Display.html?id=132505) 5 may 2020 -> Johannes Plunien confirmed -> TO ADOPT -> I asked to adopt it -> pAdoption OK -> b with C++ static compilation for recent versions~
