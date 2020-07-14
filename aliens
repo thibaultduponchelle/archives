@@ -132,6 +132,8 @@ Alien::Editline libncurses5-dev
 Alien::libtermkey libtool-bin
 Alien::libtickit libtool-bin
 Alien::unibilium libtool-bin
+Alien::SDL
+Alien::Gearman
 Alien::gputils flex
 Alien::libnewrelic
 Alien::WFDB
@@ -158,14 +160,12 @@ Alien::Lua
 Alien::LuaJIT
 Alien::NSS
 Alien::ROOT libx11-dev libxpm-dev
-Alien::SDL
 Alien::SFML
 Alien::qd
 Alien::HIDAPI
 Alien::LibANN
 Alien::LibUSB
 Alien::MeCab
-Alien::Gearman
 Alien::Gnuplot
 Alien::KentSrc
 Alien::LibUSBx libudev-dev
