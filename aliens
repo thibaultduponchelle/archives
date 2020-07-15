@@ -41,6 +41,7 @@ Alien::gmake
 Alien::gperf
 Alien::libuv
 Alien::patch
+Alien::uPB
 Alien::unzip
 Alien::FFCall
 Alien::GCrypt
