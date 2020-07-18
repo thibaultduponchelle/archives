@@ -9,8 +9,8 @@ Links like /learn are also accessible with /learn/ or /learn.html
 
 ## perl.org
 ### Migration
-* https://perl.org/about.html -> /
-* https://perl.org/learn.html -> /learn (merged with http://learn.perl.org)
+* https://www.perl.org/about.html -> /
+* https://www.perl.org/learn.html -> /learn (merged with http://learn.perl.org)
 * https://www.perl.org/community.html -> /community
 * https://www.perl.org/cpan.html -> /cpan
 * https://www.perl.org/books/library.html -> /books
@@ -22,7 +22,7 @@ When possible, link to external websites :
 * Version 5.32.0 => https://www.cpan.org/src/README.html
 
 ### Removal
-* https://perl.org/ -> redundant (a menu actually)
+* https://www.perl.org/ -> redundant (a menu actually)
 * https://www.perl.org/docs.html -> redundant (link perldoc in menu)
 * https://www.perl.org/media.html -> outdated (perlcast 2010, books amazon is just a "search perl" on amazon, slideshare is "tag perl on slideshare, $foo seems great but german, perl.com/perlsphere/perl iron man already mentionned)
 
@@ -85,6 +85,8 @@ All other (a bit less community driven) grants pages are still https://www.perlf
 ### Migartion
 * https://dev.perl.org/ -> /dev
 * https://dev.perl.org/perl5/lists.html -> /list/perl5-changes and list/perl5-porters
+
+## qa.perl.org
 
 
 ## Other
