@@ -48,7 +48,10 @@ while(<>) {
 		open(my $fh, '>', $filename) or die "Could not open file '$filename' $!";
 		print $fh "name : $alienm\n\n";
 		print $fh $startyml;
+
 		if(@debs) {
+			print $fh "      - name: apt-get update\n";
+			print $fh "        run: sudo apt-get update\n";
 			print $fh "      - name: Install non alienazed dependencies\n";
 			print $fh "        run: sudo apt-get install @debs\n";
 		}
