@@ -152,7 +152,6 @@ Alien::AntTweakBar libgl1-mesa-dev libglu1-mesa-dev
 Alien::libtiff
 Alien::TALib
 Alien::SDL2
-Alien::DBD::SQLite::BundledExtensions
 Alien::Plotly::Orca
 Alien::CImg
 Alien::GEOS
