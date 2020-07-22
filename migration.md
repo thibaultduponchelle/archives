@@ -82,12 +82,13 @@ All other (a bit less community driven) grants pages are still https://www.perlf
 * https://lists.perl.org/siteinfo.html
 
 ## dev.perl.org
-### Migartion
+### Migration
 * https://dev.perl.org/ -> /dev
 * https://dev.perl.org/perl5/lists.html -> /list/perl5-changes and list/perl5-porters
 
 ## qa.perl.org
 
+## cpanratings.perl.org
 
 ## Other
 * What is https://codepen.io/davepvm/full/dPeGqa ?
