@@ -206,3 +206,4 @@ Alien::Electron
 Alien::ActiveMQ
 Alien::SNMP
 Alien::Gimp libgimp2.0-dev
+Alien::Boost
