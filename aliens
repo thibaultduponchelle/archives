@@ -121,12 +121,14 @@ Alien::Web::ExtJS::V3
 Acme::Alien::DontPanic
 Alien::Debian::Apt::PM
 Alien::OpenSSL::Static
+Alien::Boost
 Alien::Web::HalBrowser
 Acme::Alien::DontPanic2
 Alien::VideoLAN::LibVLC
 Alien::Base::ModuleBuild
 Alien::Prototype::Carousel
 Dist::Zilla::Plugin::Alien
+Alien::Sodium
 AI::PredictionClient::Alien::TensorFlowServingProtos
 Alt::Alien::ZMQ::Alien::ZMQ::latest
 Alien::Editline libncurses5-dev
@@ -173,7 +175,6 @@ Alien::MUSCLE
 Alien::RRDtool
 Alien::QtSmoke
 Alien::SmokeQt
-Alien::Sodium
 Alien::ffmpeg
 Alien::gettext
 Alien::mpg123
@@ -206,4 +207,3 @@ Alien::Electron
 Alien::ActiveMQ
 Alien::SNMP
 Alien::Gimp libgimp2.0-dev
-Alien::Boost
