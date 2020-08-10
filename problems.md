@@ -1,7 +1,6 @@
 # Aliens problems
 
 ## Can't locate Alien/Base/ModuleBuild.pm
-- :construction: Alien::Sodium -> [PR](https://github.com/ajgb/alien-sodium/pull/4) from plicease 2016 + waiting adoption from genio
 - :construction: Alien::SFML -> [PR](https://github.com/jakeanq/perl-alien-sfml/pull/2) MERGED from plicease 2016 -> need cpan release ([issue](https://github.com/jakeanq/perl-alien-sfml/issues) from me 30 april 2020)
 - :construction: Alien::NSS -> Fixed by plicease [PR](https://github.com/0xxon/alien-nss/pull/4) in 2016 -> need cpan release
 - :construction: Alien::LibUSBx -> [PR](https://github.com/henrikbrixandersen/Alien-LibUSBx/pull/1) from plicease not merged 2016 -> [PR](https://github.com/henrikbrixandersen/Alien-LibUSBx/pull/3) from me 8 may 2020
@@ -95,5 +94,5 @@ Could not resolve -lpreloadable_libintl at -e line 1.
 - :heavy_check_mark: ~Alien::AntTweakBar -> Can't link/include C library 'X11/cursorfont.h', 'GL/glx.h', 'GL/gl.h', aborting. -> insall non alienazed big deps~
 - :heavy_check_mark: ~Alien::TALib -> compilation/build problem -> tiemout~
 - :heavy_check_mark: ~Alien::Libevent -> syntax error -> removed inc/Devel/ChecLib and use cpan version, no github (removed) -> Fixed on my [REPO](https://github.com/thibaultduponchelle/Alien-Libevent) -> [RT ticket](https://rt.cpan.org/Ticket/Display.html?id=98058#txn-1896610) 5 may 2020 -> Johannes Plunien confirmed -> TO ADOPT -> I asked to adopt it -> Adoption OK -> new CPAN release~
-### PLU 
+- :heavy_check_mark: ~Alien::Sodium -> [PR](https://github.com/ajgb/alien-sodium/pull/4) from plicease 2016 + waiting adoption from genio -> fixed~
 - :heavy_check_mark: ~Alien::Gearman -> depends on Alien::Libevent that fails -> removed inc/Devel/ChecLib and use cpan version, no github (removed) -> Need ALien::libuuid -> fixed on my [REPO](https://github.com/thibaultduponchelle/Alien-Gearman)  -> [RT ticket](https://rt.cpan.org/Ticket/Display.html?id=132505) 5 may 2020 -> Johannes Plunien confirmed -> TO ADOPT -> I asked to adopt it -> pAdoption OK -> b with C++ static compilation for recent versions~
