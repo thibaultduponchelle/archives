@@ -41,7 +41,6 @@ Alien::gmake
 Alien::gperf
 Alien::libuv
 Alien::patch
-Alien::uPB
 Alien::unzip
 Alien::FFCall
 Alien::GCrypt
@@ -207,3 +206,4 @@ Alien::Electron
 Alien::ActiveMQ
 Alien::SNMP
 Alien::Gimp libgimp2.0-dev
+Alien::uPB
