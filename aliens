@@ -1,3 +1,9 @@
+Alien::librdkafka
+Alien::libavro_c
+Alien::libsnappy
+Alien::libjansson
+Alien::libzookeeper
+Alien::libgraphqlparser
 Alien::V8
 Alien::Z3
 Alien::m4
