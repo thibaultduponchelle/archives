@@ -7,8 +7,15 @@ Links like /learn are also accessible with /learn/ or /learn.html
 * More favicons 
 * SEO Subfolders probably better than subdomains
 
+## What I would like 
+* stop with subdomains
+* up to date infos
+* improved style
+* responsiveness
+* people can report errors and fix with PR
+
 ## perl.org
-### Migration
+### Moved
 * https://www.perl.org/about.html -> /
 * https://www.perl.org/learn.html -> /learn (merged with http://learn.perl.org)
 * https://www.perl.org/community.html -> /community
@@ -27,13 +34,13 @@ When possible, link to external websites :
 * https://www.perl.org/media.html -> outdated (perlcast 2010, books amazon is just a "search perl" on amazon, slideshare is "tag perl on slideshare, $foo seems great but german, perl.com/perlsphere/perl iron man already mentionned)
 
 ## grants.perlfoundation.org
-### Migration
-* http://grants.perlfoundation.org/ => http://127.0.0.1:4000/grants-proposals
+### Moved
+* http://grants.perlfoundation.org/ => /grants-proposals
 
 All other (a bit less community driven) grants pages are still https://www.perlfoundation.org/grants.html
 
 ## learn.perl.org
-### Migration
+### Moved
 * https://learn.perl.org/ -> /learn (merged with https://perl.org/learn.html)
 * https://learn.perl.org/modules/ -> /learn/modules
 * https://learn.perl.org/examples/ -> /learn/examples
@@ -53,7 +60,7 @@ All other (a bit less community driven) grants pages are still https://www.perlf
 * https://learn.perl.org/docs/
 
 ## news.perlfoundation.org
-### Migration
+### Moved
 * https://news.perlfoundation.org/ -> /blog
 * https://news.perlfoundation.org/post/* -> /blog/*
 
@@ -67,7 +74,7 @@ All other (a bit less community driven) grants pages are still https://www.perlf
 * https://learn.perl.org/docs/keywords.html -> ?? (link to perldoc instead?)
 
 ## lists.perl.org
-### Migration
+### Moved
 * https://lists.perl.org/ -> /lists
 * https://lists.perl.org/all.html -> /lists
 * https://lists.perl.org/lists/* -> /list/* (WIP) 
@@ -82,7 +89,7 @@ All other (a bit less community driven) grants pages are still https://www.perlf
 * https://lists.perl.org/siteinfo.html
 
 ## dev.perl.org
-### Migration
+### Moved
 * https://dev.perl.org/ -> /dev
 * https://dev.perl.org/perl5/lists.html -> /list/perl5-changes and list/perl5-porters
 
