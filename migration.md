@@ -8,11 +8,10 @@ Links like /learn are also accessible with /learn/ or /learn.html
 * SEO Subfolders probably better than subdomains
 
 ## What I would like 
-* stop with subdomains
-* up to date infos
-* improved style
-* responsiveness
-* people can report errors and fix with PR
+* Up to date infos
+* Improved visual design
+* Responsiveness
+* Partialy community powered (everyone can report issues and do PR)
 
 ## perl.org
 ### Moved
