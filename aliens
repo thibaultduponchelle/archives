@@ -1,6 +1,3 @@
-Alien::librdkafka
-Alien::libavro_c
-Alien::libsnappy
 Alien::libjansson
 Alien::libzookeeper
 Alien::libgraphqlparser
@@ -25,19 +22,23 @@ Alien::LMDB
 Alien::Moot
 Alien::caca
 Alien::curl
+Alien::TinyCC
 Alien::flex
 Alien::gdal
 Alien::gzip
 Alien::nasm
+Alien::KentSrc
 Alien::proj
 Alien::BWIPP
 Alien::Box2D
+Alien::LibUSB
 Alien::CMake
 Alien::Ditaa
 Alien::Expat
 Alien::Iconv
 Alien::MuPDF
 Alien::Pluto
+Alien::Plotly::Orca
 Alien::Saxon
 Alien::Tidyp
 Alien::UnRTF
@@ -68,14 +69,12 @@ Alien::Libxml2
 Alien::OpenSSL
 Alien::Poppler
 Alien::Texinfo
-Alien::TinyCCx
 Alien::WhiteDB
 Alien::hiredis
 Alien::libgeos
 Alien::libtool
 Alien::libudev
 Alien::libuuid
-Alien::nragent
 Alien::pkgconf
 Alien::Capstone
 Alien::Chipmunk
@@ -159,7 +158,6 @@ Alien::AntTweakBar libgl1-mesa-dev libglu1-mesa-dev
 Alien::libtiff
 Alien::TALib
 Alien::SDL2
-Alien::Plotly::Orca
 Alien::CImg
 Alien::GEOS
 Alien::Hush
@@ -171,10 +169,8 @@ Alien::SFML
 Alien::qd
 Alien::HIDAPI
 Alien::LibANN
-Alien::LibUSB
 Alien::MeCab
 Alien::Gnuplot
-Alien::KentSrc
 Alien::LibUSBx libudev-dev
 Alien::MUSCLE
 Alien::RRDtool
@@ -199,7 +195,6 @@ Alien::libsndfile
 Alien::pdf2htmlEX
 Alien::spatialite
 Alien::Judy
-Alien::TinyCC
 Alien::XPA
 Alien::PCRE2
 Alien::Zcash
@@ -213,3 +208,8 @@ Alien::ActiveMQ
 Alien::SNMP
 Alien::Gimp libgimp2.0-dev
 Alien::uPB
+Alien::nragent
+Alien::librdkafka
+Alien::libavro_c
+Alien::libsnappy
+Alien::TinyCCx
