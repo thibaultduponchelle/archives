@@ -98,7 +98,6 @@ Alien::Doxyparse
 Alien::GvaScript
 Alien::Leptonica
 Alien::Prototype
-Alien::SLOCCount
 Alien::SwaggerUI
 Alien::TidyHTML5
 Alien::Libarchive
@@ -106,7 +105,6 @@ Alien::Libasyncns
 Alien::Librdkafka
 Alien::SeleniumRC
 Alien::libdeflate
-Alien::ImageMagick
 Alien::chromaprint
 Alien::libcmark_gfm
 Alien::LibCIAORegion
@@ -213,3 +211,5 @@ Alien::libgraphqlparser
 Alien::V8
 Alien::GCrypt
 Alien::OTR
+Alien::ImageMagick
+Alien::SLOCCount
