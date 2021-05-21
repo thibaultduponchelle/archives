@@ -9,6 +9,7 @@
 ### SMUELLER
 - :construction: Alien::Lua -> [PR](https://github.com/tsee/p5-Alien-Lua/pull/1) from plicease 2016 -> [commented](https://github.com/tsee/p5-Alien-Lua/pull/1#issuecomment-623946352) 5 may 2020
 - :construction: Alien::LuaJIT -> [PR](https://github.com/tsee/p5-Alien-LuaJIT/pull/1) MERGED from plicease 2016 -> need a CPAN release -> New [issue](https://github.com/tsee/p5-Alien-LuaJIT/issues/2) from me 9 may 2020
+- :construction: Alien::LibJIT -> Need to update submodule -> [PR](https://github.com/tsee/p5-Alien-LibJIT/pull/1) by me 21 may 2021
 
 ### Alranel AAR
 - :construction: Alien::qd -> [PR](https://github.com/alranel/Alien-qd/pull/2) from plicease MERGED 17 april 2016 -> need only 0.02 release I guess -> commented 30 april 2020 
@@ -31,7 +32,6 @@ Could not resolve -lpreloadable_libintl at -e line 1.
 - :construction: Alien::CImg -> [PR](https://github.com/gugod/Alien-CImg/pull/1) from me 30 april 2020
 - :construction: Alien::libsndfile -> [PR](https://github.com/gugod/Alien-libsndfile/pull/1) from me 30 april 2020
 
-
 ## Something else
 - :construction: Alien::Plotly::Orca prereq Fil::Copy::Recursive not reproducible locally -> [PR](https://github.com/stphnlyd/perl5-Alien-Plotly-Orca/pull/4) from me
 - :construction: Alien::DBD::SQLite::BundledExtensions Can't locate File/ShareDir.pm in @INC not reproduced locally -> Alien/Base/PkgConfig not in @INC -> fix on my [REPO](https://github.com/thibaultduponchelle/Alien-DBD-SQLite-BundledExtensions/commit/e4736bba119ab2ab1653a83670412c11b2515be2)
@@ -46,7 +46,6 @@ Could not resolve -lpreloadable_libintl at -e line 1.
 - Alien::Judy
 - :construction: Alien-ActiveMQ -> Can't locate Test/Exception.pm in @INC -> [PR](https://github.com/bobtfish/alien-apachemq/pull/7) by me 27 may 2020 
 - ~Alien::SVN -> need libaprutil1-dev and libsqlite3-dev ?~ 
-- :construction: Alien::LibJIT -> Need to update submodule -> [PR](https://github.com/tsee/p5-Alien-LibJIT/pull/1) by me 21 may 2021
 
 ### ATHREEF
 - :construction: Alien::HIDAPI -> depends on LibUSB that failed
