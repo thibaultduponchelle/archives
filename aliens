@@ -113,17 +113,13 @@ Alien::scriptaculous
 Alien::geos::af
 Alien::Build::MB
 Test::Alien::CPP
-Alien::GPG::Error
 Alien::ZMQ::latest
-Alien::Google::GRPC
 Alien::zlib::Static
 Alien::Web::ExtJS::V3
-Acme::Alien::DontPanic
 Alien::Debian::Apt::PM
 Alien::OpenSSL::Static
 Alien::Boost
 Alien::Web::HalBrowser
-Acme::Alien::DontPanic2
 Alien::VideoLAN::LibVLC
 Alien::Base::ModuleBuild
 Alien::Prototype::Carousel
@@ -135,7 +131,6 @@ Alien::Editline libncurses5-dev
 Alien::libtermkey libtool-bin
 Alien::libtickit libtool-bin
 Alien::unibilium libtool-bin
-Alien::SDL
 Alien::Gearman
 Alien::gputils flex
 Alien::libnewrelic
@@ -203,6 +198,7 @@ Alien::ActiveMQ
 Alien::SNMP
 Alien::Gimp libgimp2.0-dev
 Alien::uPB
+Alien::uPB::Core
 Alien::nragent
 Alien::librdkafka
 Alien::libavro_c
@@ -214,3 +210,8 @@ Alien::OTR
 Alien::ImageMagick
 Alien::SLOCCount
 Alien::libsdl2
+Alien::Google::GRPC
+Acme::Alien::DontPanic
+Acme::Alien::DontPanic2
+Alien::GPG::Error
+Alien::SDL
