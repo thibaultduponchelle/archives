@@ -9,7 +9,6 @@ Alien::GMP
 Alien::IE7
 Alien::LZO
 Alien::bz2
-Alien::OTR
 Alien::PNG
 Alien::SVN libaprutil1-dev libsqlite3-dev libgettextpo-dev
 Alien::ZMQ
@@ -50,7 +49,6 @@ Alien::libuv
 Alien::patch
 Alien::unzip
 Alien::FFCall
-Alien::GCrypt
 Alien::GfsmXL
 Alien::LIBSVM
 Alien::LibXML
@@ -213,3 +211,5 @@ Alien::libavro_c
 Alien::libsnappy
 Alien::libgraphqlparser
 Alien::V8
+Alien::GCrypt
+Alien::OTR
