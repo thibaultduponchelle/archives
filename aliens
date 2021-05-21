@@ -1,7 +1,5 @@
 Alien::libjansson
 Alien::libzookeeper
-Alien::libgraphqlparser
-Alien::V8
 Alien::Z3
 Alien::m4
 Alien::xz
@@ -44,6 +42,8 @@ Alien::Tidyp
 Alien::UnRTF
 Alien::bison
 Alien::cmark
+Alien::XPA
+Alien::TinyCCx
 Alien::gmake
 Alien::gperf
 Alien::libuv
@@ -195,7 +195,6 @@ Alien::libsndfile
 Alien::pdf2htmlEX
 Alien::spatialite
 Alien::Judy
-Alien::XPA
 Alien::PCRE2
 Alien::Zcash
 Alien::Proj4
@@ -212,4 +211,5 @@ Alien::nragent
 Alien::librdkafka
 Alien::libavro_c
 Alien::libsnappy
-Alien::TinyCCx
+Alien::libgraphqlparser
+Alien::V8
