@@ -108,7 +108,6 @@ Alien::libdeflate
 Alien::chromaprint
 Alien::libcmark_gfm
 Alien::LibCIAORegion
-Alien::UnicornEngine
 Alien::scriptaculous
 Alien::geos::af
 Alien::Build::MB
@@ -125,7 +124,6 @@ Alien::Base::ModuleBuild
 Alien::Prototype::Carousel
 Dist::Zilla::Plugin::Alien
 Alien::Sodium
-AI::PredictionClient::Alien::TensorFlowServingProtos
 Alt::Alien::ZMQ::Alien::ZMQ::latest
 Alien::Editline libncurses5-dev
 Alien::libtermkey libtool-bin
@@ -138,13 +136,11 @@ Alien::WFDB
 Alien::raylib xorg-dev libglu1-mesa-dev libvulkan-dev
 Alien::libpcre
 Alien::LibMagic
-Alien::UDUNITS2
 Alien::Taco
 Alien::GSL
 Alien::Libevent
 Alien::HDF4 libhdf4-dev
 Alien::IUP libgtk2.0-dev
-Alien::LibJIT libtool-bin flex bison texinfo
 Alien::AntTweakBar libgl1-mesa-dev libglu1-mesa-dev
 Alien::libtiff
 Alien::TALib
@@ -215,3 +211,7 @@ Acme::Alien::DontPanic
 Acme::Alien::DontPanic2
 Alien::GPG::Error
 Alien::SDL
+Alien::UnicornEngine
+Alien::UDUNITS2
+AI::PredictionClient::Alien::TensorFlowServingProtos
+Alien::LibJIT libtool-bin flex bison texinfo
