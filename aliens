@@ -213,3 +213,4 @@ Alien::GCrypt
 Alien::OTR
 Alien::ImageMagick
 Alien::SLOCCount
+Alien::libsdl2
