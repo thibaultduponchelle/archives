@@ -46,6 +46,7 @@ Could not resolve -lpreloadable_libintl at -e line 1.
 - Alien::Judy
 - :construction: Alien-ActiveMQ -> Can't locate Test/Exception.pm in @INC -> [PR](https://github.com/bobtfish/alien-apachemq/pull/7) by me 27 may 2020 
 - ~Alien::SVN -> need libaprutil1-dev and libsqlite3-dev ?~ 
+- :construction: Alien::LibJIT -> Need to update submodule -> [PR](https://github.com/tsee/p5-Alien-LibJIT/pull/1) by me 21 may 2021
 
 ### ATHREEF
 - :construction: Alien::HIDAPI -> depends on LibUSB that failed
