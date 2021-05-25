@@ -18,4 +18,4 @@ jobs:
       - name: Install non alienazed dependencies
         run: sudo apt-get install libaprutil1-dev libsqlite3-dev libgettextpo-dev
       - name: Install alien
-        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure --test --configure-timeout=1920 Alien::SVN
+        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure --test --configure-timeout=1920 --no-retry Alien::SVN

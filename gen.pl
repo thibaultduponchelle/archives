@@ -60,7 +60,7 @@ while(<>) {
 			print $fh "        run: curl -L https://cpanmin.us | perl - --configure-timeout=1920 ";
 			print "| [![$alienm](https://github.com/thibaultduponchelle/aliens-ci/workflows/$alienm/badge.svg)](https://github.com/thibaultduponchelle/aliens-ci/actions?query=workflow%3A$alienm) ";
 		} elsif($mode eq "cpm") {
-			print $fh "        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure --test --configure-timeout=1920 ";
+			print $fh "        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure --test --configure-timeout=1920 --no-retry ";
 			print "[![$alienm](https://github.com/thibaultduponchelle/aliens-ci/workflows/$alienm/badge.svg)](https://github.com/thibaultduponchelle/aliens-ci/actions?query=workflow%3A$alienm) ";
 			$cells ++;
 		}

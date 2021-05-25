@@ -1,4 +1,5 @@
 Alien::libjansson
+Alien::UDUNITS2
 Alien::libzookeeper
 Alien::Z3
 Alien::m4
@@ -212,6 +213,11 @@ Acme::Alien::DontPanic2
 Alien::GPG::Error
 Alien::SDL
 Alien::UnicornEngine
-Alien::UDUNITS2
 AI::PredictionClient::Alien::TensorFlowServingProtos
 Alien::LibJIT libtool-bin flex bison texinfo
+Alien::OpenMP
+Alien::WCSLIB
+Alien::Kiwisolver
+Alien::FFTW3
+Alien::Plotly::Kaleido
+Alien::LibJQ
