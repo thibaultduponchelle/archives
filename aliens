@@ -104,13 +104,17 @@ Alien::TidyHTML5
 Alien::Libarchive
 Alien::Libasyncns
 Alien::Librdkafka
+Alien::OpenMP
 Alien::SeleniumRC
+Alien::Plotly::Kaleido
+Alien::LibJQ
 Alien::libdeflate
 Alien::chromaprint
 Alien::libcmark_gfm
 Alien::LibCIAORegion
 Alien::scriptaculous
 Alien::geos::af
+Alien::Kiwisolver
 Alien::Build::MB
 Test::Alien::CPP
 Alien::ZMQ::latest
@@ -139,6 +143,7 @@ Alien::libpcre
 Alien::LibMagic
 Alien::Taco
 Alien::GSL
+Alien::libsdl2
 Alien::Libevent
 Alien::HDF4 libhdf4-dev
 Alien::IUP libgtk2.0-dev
@@ -206,7 +211,6 @@ Alien::GCrypt
 Alien::OTR
 Alien::ImageMagick
 Alien::SLOCCount
-Alien::libsdl2
 Alien::Google::GRPC
 Acme::Alien::DontPanic
 Acme::Alien::DontPanic2
@@ -215,9 +219,5 @@ Alien::SDL
 Alien::UnicornEngine
 AI::PredictionClient::Alien::TensorFlowServingProtos
 Alien::LibJIT libtool-bin flex bison texinfo
-Alien::OpenMP
 Alien::WCSLIB
-Alien::Kiwisolver
 Alien::FFTW3
-Alien::Plotly::Kaleido
-Alien::LibJQ
