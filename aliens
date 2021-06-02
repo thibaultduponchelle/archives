@@ -104,6 +104,9 @@ Alien::TidyHTML5
 Alien::Libarchive
 Alien::Libasyncns
 Alien::Librdkafka
+Alien::Graphene
+Alien::Libarchive
+Alien::Libarchive3
 Alien::OpenMP
 Alien::SeleniumRC
 Alien::Plotly::Kaleido
