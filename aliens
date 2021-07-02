@@ -224,3 +224,4 @@ AI::PredictionClient::Alien::TensorFlowServingProtos
 Alien::LibJIT libtool-bin flex bison texinfo
 Alien::WCSLIB
 Alien::FFTW3
+Alien::Wslay
