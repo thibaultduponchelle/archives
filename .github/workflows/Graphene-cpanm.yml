@@ -16,6 +16,6 @@ jobs:
       - name: apt-get update
         run: sudo apt-get update
       - name: Install non alienazed dependencies
-        run: sudo apt-get install meson gobject-introspection
+        run: sudo apt-get install meson gobject-introspection libgirepository1.0-dev
       - name: Install alien
         run: curl -L https://cpanmin.us | perl - --configure-timeout=1920 Alien::Graphene
