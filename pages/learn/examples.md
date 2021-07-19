@@ -5,18 +5,18 @@ permalink: /learn/examples
 ---
 
 ## Mails
-* [Sending an email](/learn/examples#email)
-* [Validate an email](/learn/examples#validate-email)
+* [Sending an email](/perldot/learn/examples#email)
+* [Validate an email](/perldot/learn/examples#validate-email)
 
 ## Files
-* [List content of a directory](/learn/examples#directory-list)
-* [Read/Write to file](/learn/examples#read-and-write-file)
-* [Read a spreadsheet](/learn/examples#spreadsheet)
-* [Processing configuration files](/learn/examples#configuration-files)
+* [List content of a directory](/perldot/learn/examples#directory-list)
+* [Read/Write to file](/perldot/learn/examples#read-and-write-file)
+* [Read a spreadsheet](/perldot/learn/examples#spreadsheet)
+* [Processing configuration files](/perldot/learn/examples#configuration-files)
 
 ## Various
-* [Setting up a local static web server](/learn/examples#static-webserver)
-* [Resolving DNS](/learn/examples#dns)
+* [Setting up a local static web server](/perldot/learn/examples#static-webserver)
+* [Resolving DNS](/perldot/learn/examples#dns)
 
 --------
 

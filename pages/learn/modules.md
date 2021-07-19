@@ -18,7 +18,7 @@ There are a lot of modules (around 200 000 currently) and for basically everythi
 
 Most modules are written in Perl (they are "pure-perl"). Some use [XS](https://perldoc.pl/perlxs.html) or [FFI](https://metacpan.org/pod/FFI) to interface to another programming language (often [C](https://en.wikipedia.org/wiki/C_(programming_language))) and can require some tooling to build like a [C compiler](https://en.wikipedia.org/wiki/Compiler).
 
-If you followed the [installing](/learn/installing) instructions you already have one. 
+If you followed the [installing](/perldot/learn/installing) instructions you already have one. 
 
 Modules may have dependencies on other modules (almost always on [CPAN](http://www.cpan.org/)) and cannot be installed without them (or without a specific version of them). Many modules on CPAN now require a recent version of Perl.
 
@@ -34,7 +34,7 @@ Modules may have dependencies on other modules (almost always on [CPAN](http://w
 
 [MetaCPAN](https://metacpan.org) has user ratings, also have a look at [Task::Kensho](https://metacpan.org/release/Task-Kensho/). 
 
-The [examples](/learn/examples) section and [FAQ](/learn/faq) also have some recommendations, but you could also ask the Perl community.
+The [examples](/perldot/learn/examples) section and [FAQ](/perldot/learn/faq) also have some recommendations, but you could also ask the Perl community.
 
    
 ## How do I install a module?

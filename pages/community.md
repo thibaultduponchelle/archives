@@ -16,10 +16,10 @@ permalink: /community
    left-content='Find your local Perl group from over 230 groups worldwide via [Perl Mongers](http://www.pm.org/)'
    middle-title="Events"
    middle-image="events.svg"
-   middle-content='Our vibrant community is organizing [conferences, hackathons and workshops](/events) all around the world.'
+   middle-content='Our vibrant community is organizing [conferences, hackathons and workshops](/perldot/events) all around the world.'
    right-title="Mailing Lists"
    right-image="mailing.svg"
-   right-content='There are several [mailing lists](/lists) you can suscribe. If you\'re just starting, you probably want to join [perl-beginners](/list/beginners).'
+   right-content='There are several [mailing lists](/lists) you can suscribe. If you\'re just starting, you probably want to join [perl-beginners](/perldot/list/beginners).'
 %}
 
 {% include section3.html 

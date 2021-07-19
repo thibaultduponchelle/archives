@@ -19,12 +19,12 @@ permalink: /learn
 * [perlintro](https://perldoc.pl/perlintro.html) - A brief introduction
 * [PerlMaven](https://perlmaven.com) - Reference website for Perl :+1:
 * [Free online Perl books](/books) - Books :books:
-* [Join a community](/community) - List of communities
+* [Join a community](/perldot/community) - List of communities
 * [Perl tutorials](http://perl-tutorial.org/) - List of tutorials
-* [Examples](/learn/examples) - Some basic Perl examples'
+* [Examples](/perldot/learn/examples) - Some basic Perl examples'
    middle-title="CPAN Modules"
    middle-image="modules.svg"
-   middle-content='Read our [introduction about modules](/learn/modules). 
+   middle-content='Read our [introduction about modules](/perldot/learn/modules). 
 
 If you are looking for a list of recommended modules for many day-to-day tasks, you can look at [Task::Kensho](https://metacpan.org/module/Task::Kensho) :heart:'
    right-title="The Perl FAQ"
