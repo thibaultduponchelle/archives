@@ -69,10 +69,10 @@ Big players like [Suse](https://www.suse.com), [DuckDuckGo](https://duckduckgo.c
   quote-1="I do not always use Perl language for coding, but when I don't, I write it in Perl."
   author-1="John Doe, Engineer at cpanel, Inc"
   link-1="https://www.cpanel.net/"
-  image-1="/assets/img/cpanel.png"
+  image-1="/perldot/assets/img/cpanel.png"
   
   link-2="https://www.youtube.com/watch"
-  image-2="/assets/img/booking.png"
+  image-2="/perldot/assets/img/booking.png"
   quote-2="The World Wide Web was invented just as a showcase of what Perl can achieve."
   author-2="Chuck Norris, Infrastructure Engineer"
 
