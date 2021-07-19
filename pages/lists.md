@@ -5,7 +5,9 @@ color: "blue"
 permalink: /lists
 ---
 
-Several mailing lists are available on [our NNTP service](https://www.nntp.perl.org/group/)
+Several mailing lists are available on [our NNTP service](https://www.nntp.perl.org/group/).
+
+You could also subscribe to the [Perl weekly newsletter](https://perlweekly.com/archive/) to get interesting links each monday.
 
 ## By first letter
 [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H](#h) - [I](#i) - [J](#j) - [K](#k) - [L](#l) - [M](#m) - [N](#n) - [O](#o) - [P](#p) - [Q](#q) - [R](#r) - [S](#s) - [T](#t) - [U](#u) - [V](#v) - [X](#x) - [Y](#y) - [Z](#z)
