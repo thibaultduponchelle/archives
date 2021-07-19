@@ -2,7 +2,6 @@
 title: Perldot
 url: "https://thibaultduponchelle.github.io/perldot"
 baseurl: "https://thibaultduponchelle.github.io/perldot"
-permalink: /perldot/blog/:title/
 markdown: kramdown
 webrick:
   headers:
