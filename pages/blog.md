@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Blog"
-permalink: /blog
+permalink: /perldot/blog
 ---
 
 {% include header.html 
