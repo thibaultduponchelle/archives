@@ -107,17 +107,17 @@ Github is experimenting/putting in place the code navigation.
 
 Below the alert to introduce this new feature to developers :
 
-![Code navigation alert]({{ site.url }}{% link /perldot/assets/img/grants/codenavalert.png %})
+![Code navigation alert]({{ site.url }}{% link /assets/img/grants/codenavalert.png %})
 
 And next a real life working example : 
 
-![Code navigation example]({{ site.url }}{% link /perldot/assets/img/grants/codenavexample.png %})
+![Code navigation example]({{ site.url }}{% link /assets/img/grants/codenavexample.png %})
 
 It is available since november 2019 (see the [annoucement](https://github.blog/changelog/2019-11-13-code-navigation-is-now-available-for-all-go-python-and-ruby-repositories/)) and I guess it will grow as this feature is just a "must have" for developers (we have multiple code browsers in my company : bitbucket native, grok and woboq !).
 
 The [doc of github](https://help.github.com/en/github/managing-files-in-a-repository/navigating-code-on-github) says that it is based on [semantic](https://github.com/github/semantic) which does not support Perl as of today.
 
-![Code navigation language support]({{ site.url }}{% link /perldot/assets/img/grants/codenavlanguagesupport.png %})
+![Code navigation language support]({{ site.url }}{% link /assets/img/grants/codenavlanguagesupport.png %})
 
 
 The purpose of this grant would be to :
