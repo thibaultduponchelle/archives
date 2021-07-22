@@ -107,6 +107,7 @@ Alien::Librdkafka
 Alien::Graphene meson gobject-introspection libgirepository1.0-dev
 Alien::Libarchive
 Alien::Libarchive3
+Alien::Wslay
 Alien::OpenMP
 Alien::SeleniumRC
 Alien::Plotly::Kaleido
@@ -224,4 +225,3 @@ AI::PredictionClient::Alien::TensorFlowServingProtos
 Alien::LibJIT libtool-bin flex bison texinfo
 Alien::WCSLIB
 Alien::FFTW3
-Alien::Wslay
