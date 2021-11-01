@@ -21,6 +21,7 @@ Alien::Moot
 Alien::caca
 Alien::curl
 Alien::TinyCC
+Alien::PLplot
 Alien::flex
 Alien::gdal
 Alien::gzip
