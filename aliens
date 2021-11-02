@@ -35,6 +35,7 @@ Alien::CMake
 Alien::Ditaa
 Alien::Expat
 Alien::Iconv
+Alien::libvterm
 Alien::MuPDF
 Alien::Pluto
 Alien::Plotly::Orca
