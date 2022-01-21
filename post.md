@@ -31,6 +31,7 @@ Rust rewrote 3 times [its website](https://www.rust-lang.org/) in less than 10 y
 Don't look at this other [bad student](https://www.php.net/)
 
 # Content
+The informations on the website 
 
 # SEO
 
