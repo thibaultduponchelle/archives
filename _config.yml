@@ -1,6 +1,6 @@
 ## Settings
 title: Perldot
-url: ""
+url: "/perldot"
 baseurl: "/blog"
 markdown: kramdown
 webrick:
