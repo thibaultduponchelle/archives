@@ -10,7 +10,7 @@ I'm mainly not happy with 3 things:
 I don't want to be harsh since I know current maintainers are doing their best with their very reduced spare time.
 (the usual people doing a thankless job for years!)
 
-But hey, I think we can do better.
+__But hey, I think we can do better.__
 
 The perl.org website is the "entry point" of Perl, that's why according to me it deserves a lot of care.
 To well sell the language it has to be 
