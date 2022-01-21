@@ -11,7 +11,7 @@ Links like /learn are also accessible with /learn/ or /learn.html
 * Up to date infos
 * Improved visual design
 * Responsiveness
-* Partialy community powered (everyone can report issues and do PR)
+* More and more community powered (everyone can report issues and do PR). Already the case but not working very well
 
 ## perl.org
 ### Moved
