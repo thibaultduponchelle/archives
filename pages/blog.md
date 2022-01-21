@@ -7,7 +7,6 @@ permalink: /blog
 {% include header.html 
    title="Blog" 
 %}
-# Blog
 
 <section id="posts" class="green">
    <div class="w-100 mw-none ph3 mw8-m mw9-l center f3">
