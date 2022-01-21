@@ -1,7 +1,7 @@
 ## Settings
 title: Perldot
 url: "https://thibaultduponchelle.github.io/perldot"
-baseurl: "https://thibaultduponchelle.github.io/perldot"
+baseurl: "/blog"
 markdown: kramdown
 webrick:
   headers:
