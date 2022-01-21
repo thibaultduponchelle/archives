@@ -1,7 +1,7 @@
 Links like /learn are also accessible with /learn/ or /learn.html
 
 ## Improvements
-* Sitemap /sitemap.xml (VERY important for SEO)
+* Sitemap /sitemap.xml (VERY important for SEO). There is one for perlfoundation.org but not perl.org
 * RSS feed /feed.xml 
 * SEO tags (structured data for Google, Open Graph for facebook, Twitter cards)
 * More favicons 
