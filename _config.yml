@@ -1,8 +1,8 @@
 ## Settings
 title: Perldot
 url: ""
-baseurl: "/blog"
-permalink: /blog/:title
+baseurl: ""
+permalink: /perldot/blog/:title
 markdown: kramdown
 webrick:
   headers:
