@@ -7,7 +7,7 @@ webrick:
   headers:
     Access-Control-Allow-Origin: "*"
 ## Global Variables
-latest: 5.32.0
+latest: 5.34.0
 github: "thibaultduponchelle/perldot"
 plugins:
   - jemoji
