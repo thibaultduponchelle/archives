@@ -7,8 +7,8 @@ I'm mainly not happy with 3 things:
 - outdated and/or questionable content
 - SEO
 
-I don't want to be harsh since I think current maintainers are doing their best with their very reduced spare time.
-(I imagine the usual people doing a thankless job for years!)
+I don't want to be harsh since I know current maintainers are doing their best with their very reduced spare time.
+(the usual people doing a thankless job for years!)
 
 But hey, I think we can do better.
 
