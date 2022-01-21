@@ -18,9 +18,9 @@ permalink: /blog
       <tr>
 	<td class="bn">{{ post.date | date: '%Y-%m-%d' }}</td>
 	{% if post.description %}
-        <td class="bn"><a href="{{post.url}}">{{post.description}}</a></td>
+        <td class="bn"><a href="{{site.url}}{{post.url}}">{{post.description}}</a></td>
 	{% else %}
-        <td class="bn"><a href="{{post.url}}">{{post.title}}</a></td>
+        <td class="bn"><a href="{{site.url}}{{post.url}}">{{post.title}}</a></td>
 	{% endif %}
       </tr>
       {% endfor %}
