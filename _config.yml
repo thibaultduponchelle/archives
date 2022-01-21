@@ -2,6 +2,7 @@
 title: Perldot
 url: "/perldot"
 baseurl: "/blog"
+permalink: "/blog/:title"
 markdown: kramdown
 webrick:
   headers:
