@@ -10,7 +10,7 @@ I'm mainly not happy with 3 things:
 I don't want to be harsh since I know current maintainers are doing their best with their very reduced spare time.
 (the usual people doing a thankless job for years!)
 
-<u>But hey, I think we can do better.</u>
+But hey, I think we can do better.
 
 The perl.org website is the "entry point" of Perl, that's why according to me it deserves a lot of care.
 To well sell the language it has to be 
@@ -29,4 +29,25 @@ FORTRAN with the recent [fortran-lang](https://fortran-lang.org/).
 Rust rewrote 3 times [its website](https://www.rust-lang.org/) in less than 10 years.
 
 Don't look at this other [bad student](https://www.php.net/)
+
+# Content
+
+# SEO
+
+# Visual aspect
+All is a matter of taste
+
+# Trials
+- "quassy" (?) redesigned the [perl.org front page](https://codepen.io/quassy/full/MYGjGm/)
+- Mokoto experimented a [GitHub based perl.org](https://makotots.github.io/)
+
+# Conclusion
+If you asked me *alone* what would be my technical implementation? 
+I would answer you a jekyll/hugo / GitHub hosted / responsive / SEO friendly website.
+
+Before to continue I'm not a web designer, I'm full stack and I wrote and administer some websites (e.g. [tryperl.pl](http://tryperl.pl/)).
+
+I'm not going to sell you my yet another experiment, but maybe convince you that it would be cool to have a brand new perl.org website!
+
+
 
