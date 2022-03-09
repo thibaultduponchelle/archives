@@ -29,6 +29,7 @@ Alien::nasm
 Alien::KentSrc
 Alien::proj
 Alien::BWIPP
+Alien::ffmpeg
 Alien::Box2D
 Alien::LibUSB
 Alien::CMake
@@ -187,7 +188,6 @@ Alien::MUSCLE
 Alien::RRDtool
 Alien::QtSmoke
 Alien::SmokeQt
-Alien::ffmpeg
 Alien::gettext
 Alien::mpg123
 Alien::FontForge
