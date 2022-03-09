@@ -17,7 +17,6 @@
 
 ### GETTY
 - :construction: Alien::mpg123 -> [PR](https://github.com/Getty/p5-alien-mpg123/pull/2) from me 30 april 2020
-- :construction: Alien::ffmpeg -> [PR](https://github.com/Getty/p5-alien-ffmpeg/pull/5) from me 30 april 2020
 - :construction: Alien::sispmctl -> [PR](https://github.com/Getty/p5-alien-sispmctl/pull/2) from me 30 april 2020
 - :construction: Alien::gettext -> [PR](https://github.com/Getty/p5-alien-gettext/pull/2) from me 30 april 2020 and also 
 ```
@@ -96,3 +95,4 @@ Could not resolve -lpreloadable_libintl at -e line 1.
 - :heavy_check_mark: ~Alien::Libevent -> syntax error -> removed inc/Devel/ChecLib and use cpan version, no github (removed) -> Fixed on my [REPO](https://github.com/thibaultduponchelle/Alien-Libevent) -> [RT ticket](https://rt.cpan.org/Ticket/Display.html?id=98058#txn-1896610) 5 may 2020 -> Johannes Plunien confirmed -> TO ADOPT -> I asked to adopt it -> Adoption OK -> new CPAN release~
 - :heavy_check_mark: ~Alien::Sodium -> [PR](https://github.com/ajgb/alien-sodium/pull/4) from plicease 2016 + waiting adoption from genio -> fixed~
 - :heavy_check_mark: ~Alien::Gearman -> depends on Alien::Libevent that fails -> removed inc/Devel/ChecLib and use cpan version, no github (removed) -> Need ALien::libuuid -> fixed on my [REPO](https://github.com/thibaultduponchelle/Alien-Gearman)  -> [RT ticket](https://rt.cpan.org/Ticket/Display.html?id=132505) 5 may 2020 -> Johannes Plunien confirmed -> TO ADOPT -> I asked to adopt it -> pAdoption OK -> b with C++ static compilation for recent versions~
+- :heavy_check_mark:  Alien::ffmpeg -> [PR](https://github.com/Getty/p5-alien-ffmpeg/pull/5) from me 30 april 2020
