@@ -36,7 +36,6 @@ Alien::CMake
 Alien::Ditaa
 Alien::Expat
 Alien::Iconv
-Alien::libvterm
 Alien::MuPDF
 Alien::Pluto
 Alien::Plotly::Orca
@@ -153,6 +152,7 @@ Alien::Editline libncurses5-dev
 Alien::libtermkey libtool-bin
 Alien::libtickit libtool-bin
 Alien::unibilium libtool-bin
+Alien::libvterm libtool-bin
 Alien::Gearman
 Alien::gputils flex
 Alien::libnewrelic
