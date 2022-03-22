@@ -28,6 +28,7 @@ Alien::gzip
 Alien::nasm
 Alien::KentSrc
 Alien::proj
+Alien::7zip
 Alien::BWIPP
 Alien::ffmpeg
 Alien::Box2D
