@@ -29,6 +29,7 @@ Alien::nasm
 Alien::KentSrc
 Alien::proj
 Alien::7zip
+Alien::patchelf
 Alien::BWIPP
 Alien::ffmpeg
 Alien::Box2D
@@ -226,6 +227,7 @@ Alien::libavro_c
 Alien::libsnappy
 Alien::libgraphqlparser
 Alien::V8
+Alien::libmaxminddb
 Alien::GCrypt
 Alien::OTR
 Alien::ImageMagick
