@@ -42,6 +42,7 @@ Alien::MuPDF
 Alien::Pluto
 Alien::Plotly::Orca
 Alien::Saxon
+Alien::DjVuLibre
 Alien::Tidyp
 Alien::UnRTF
 Alien::Meson
