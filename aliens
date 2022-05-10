@@ -48,6 +48,7 @@ Alien::UnRTF
 Alien::Meson
 Alien::Ninja
 Alien::SWIProlog
+Alien::OpenCV
 Alien::libgpiod
 Alien::PLplot
 Alien::PGPLOT
