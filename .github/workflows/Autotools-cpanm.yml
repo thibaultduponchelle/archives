@@ -1,0 +1,17 @@
+name : Autotools-cpanm
+
+on:
+  schedule:
+    - cron: 0 12 * * *
+
+jobs:
+  perl:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: perl -V
+        run: perl -V
+      - name: Install alien
+        run: curl -L https://cpanmin.us | perl - --configure-timeout=1920 Alien::Autotools

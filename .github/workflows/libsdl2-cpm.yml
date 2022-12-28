@@ -1,0 +1,17 @@
+name : libsdl2-cpm
+
+on:
+  schedule:
+    - cron: 0 12 * * *
+
+jobs:
+  perl:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: perl -V
+        run: perl -V
+      - name: Install alien
+        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure --test --configure-timeout=1920 --no-retry Alien::libsdl2

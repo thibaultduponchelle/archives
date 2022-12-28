@@ -1,0 +1,21 @@
+name : LibJIT-cpanm
+
+on:
+  schedule:
+    - cron: 0 12 * * *
+
+jobs:
+  perl:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: perl -V
+        run: perl -V
+      - name: apt-get update
+        run: sudo apt-get update
+      - name: Install non alienazed dependencies
+        run: sudo apt-get install libtool-bin flex bison texinfo
+      - name: Install alien
+        run: curl -L https://cpanmin.us | perl - --configure-timeout=1920 Alien::LibJIT
