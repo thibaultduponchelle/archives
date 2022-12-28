@@ -1,0 +1,30 @@
+requires 'Mojolicious';
+requires 'Catalyst';
+requires 'Dancer2';
+requires 'Amon2';
+requires 'Poet';
+requires 'Gantry';
+requires 'Squatting';
+requires 'Raisin';
+requires 'Web::Simple';
+requires 'Ark';
+requires 'WebNano';
+requires 'RapidApp';
+requires 'Kelp';
+
+# Seems brittle (with recent Perl version)
+# See cpantesters
+# Do not insall on my Ubuntu 18.04
+requires 'Kossy'; 
+requires 'Tatsumaki';
+
+# Broken :
+# requires 'Maypole';
+
+# Not on CPAN :
+# Kamui
+# Shenker
+# Noe
+# Marquee
+# Piggly
+# Angelos
