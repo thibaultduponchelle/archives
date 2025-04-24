@@ -1,0 +1,3 @@
+
+def e():
+  return "e"
