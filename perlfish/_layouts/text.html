@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% include header.html 
+title=page.title 
+%}
+
+{% if page.color %}
+<section class="{{ page.color }}">
+{% else %}
+<section class="white">
+{% endif %}
+  <div class="w-100 mw-none ph3 mw8-m mw9-l center f5">
+    <div class="f3 f2-l">
+      <p>
+        {{ content }}
+      </p>
+    </div>
+  </div>
+</section>
+

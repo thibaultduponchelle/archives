@@ -1,0 +1,17 @@
+## Settings
+title: perl.fish
+url: ""
+baseurl: ""
+permalink: "/annoucements/:title"
+markdown: kramdown
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
+## Global Variables
+  latest: 5.40.0
+github: "thibaultduponchelle/perlfish"
+plugins:
+  - jemoji
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-mentions

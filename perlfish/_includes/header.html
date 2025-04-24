@@ -1,0 +1,22 @@
+<header class="pb0 mt3 mt0-ns mb2-ns w-100 mw-none ph3 mw8-m mw9-l center">
+  <div class="flex flex-column flex-row-l">
+    <div class="w-80-l pl6-l pl3 mw8-l">
+      <h1>{{ include.title }}</h1>
+      {% if include.content %}
+      <h2 class="mt4 f2 f1-ns">
+        {{ include.content }}
+      </h2>
+      {% endif %}
+    </div>
+    {% if include.button == "yes" %}
+    <div class="w-20-l flex-column pl0-l pr0-l pl3 pr3">
+      <a class="button button-download ph4 mt0 w-100" href="/learn">
+        Start hacking!
+      </a>
+      <p class="tc f3 f2-l mt3">
+      <a href="https://www.cpan.org/src/README.html" class="download-link">Download {{site.latest}}</a>
+      </p>
+    </div>
+    {% endif %}
+  </div>
+</header>

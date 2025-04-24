@@ -1,0 +1,6 @@
+gem 'jemoji'
+gem 'jekyll-feed'
+gem 'jekyll-sitemap'
+gem 'jekyll-mentions'
+gem 'kramdown-parser-gfm'
+gem 'webrick'

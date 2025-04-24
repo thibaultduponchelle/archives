@@ -1,0 +1,39 @@
+<section class="{{ include.color }}">
+  <div class="w-100 mw-none ph3 mw8-m mw9-l center f3">
+    <header class="cornered">
+      <h2>
+	{{ include.title }}
+      </h2>
+    </header>
+    {% if include.description %}
+    <div class="description">
+      {{ include.description | markdownify}}
+    </div>
+    {% endif %}
+
+    <div class="flex-none flex-l flex-row-l">
+      <section class="w-100 pv2 pv0-l mt4 pr2">
+	{% if include.left-title %}
+	<h3 class="f2 f1-l">{{ include.left-title }}</h3>
+	{% endif %}
+        <p class="f3 lh-copy">
+	  {{ include.left-content | markdownify }}
+        </p>
+	{% if include.left-button-text %}
+	<a href="{{ include.left-button-link }}" class="button button-secondary">{{ include.left-button-text }}</a>
+	{% endif %}
+      </section>
+      <section class="w-100 pv2 pv0-l mt4 pl2">
+	{% if include.right-title %}
+	<h3 class="f2 f1-l">{{ include.right-title }}</h3>
+	{% endif %}
+        <p class="f3 lh-copy">
+	  {{ include.right-content | markdownify }}
+        </p>
+	{% if include.right-button-text %}
+	<a href="{{ include.right-button-link }}" class="button button-secondary">{{ include.right-button-text }}</a>
+	{% endif %}
+      </section>
+    </div>
+  </div>
+</section>

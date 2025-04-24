@@ -1,0 +1,19 @@
+<section class="{{ include.color }}">
+  <div class="w-100 mw-none ph3 mw8-m mw9-l center f3">
+    {% if include.title %}
+    <header>
+      <h2 class="cornered">{{ include.title }}</h2>
+    </header>
+    {% endif %}
+    {% if include.description %}
+    <div class="description">
+      {{ include.description | markdownify}}
+    </div>
+    {% endif %}
+
+    <p class="f7 lh-copy">
+      {{ include.content | markdownify }}
+    </p>
+  </div>
+</section>
+
