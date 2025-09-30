@@ -1,7 +1,7 @@
 # CPANSec Patch Tooling POC
 1. Patches distributed in seperate distribution [patches](CPANSec-Patches/lib/patches/)
 2. Use (existent) patch tooling [CPAN::Patches](https://metacpan.org/pod/CPAN::Patches) from CPAN
-3. Opt in apply in cpm (`--with-security-fixes`) - [patch applied after fetch](https://github.com/thibaultduponchelle/archives/cpansec-patch-tooling-poc/blob/main/cpm/lib/App/cpm/Worker/Installer.pm#L216-L225)
+3. Opt in apply in cpm (`--with-security-fixes`) - [patch applied after fetch](https://github.com/thibaultduponchelle/archives/blob/main/cpansec-patch-tooling-poc/cpm/lib/App/cpm/Worker/Installer.pm#L216-L225)
 
 Notes:
 - Non-POC version should use [CPAN::Distroprefs](https://metacpan.org/pod/CPAN::Distroprefs) (not implemented)
