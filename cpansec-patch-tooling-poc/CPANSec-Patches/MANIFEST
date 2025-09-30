@@ -1,0 +1,15 @@
+Changes
+ignore.txt
+lib/CPANSec/Patches.pm
+lib/patches/acme-lsd/patches/Acme-LSD-0.04-TIB-01.patch
+lib/patches/acme-lsd/patches/series
+lib/patches/type-tiny/patches/dummy.patch
+lib/patches/type-tiny/patches/series
+Makefile.PL
+MANIFEST			This list of files
+README
+t/00-load.t
+t/manifest.t
+t/pod-coverage.t
+t/pod.t
+xt/boilerplate.t
