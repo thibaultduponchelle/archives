@@ -1,0 +1,26 @@
+FROM ubuntu:18.04
+
+RUN apt-get update \
+    && apt-get -y install wget unzip build-essential curl git \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN curl -L https://cpanmin.us | perl - System::Info Capture::Tiny CGI::Util LWP::UserAgent
+
+WORKDIR /home
+
+RUN useradd tib
+RUN chown tib:tib -R /home
+USER tib
+
+RUN git clone https://github.com/Perl-Toolchain-Gang/Test-Smoke.git
+
+
+WORKDIR /home/Test-Smoke/bin
+
+COPY configs_tib/* ./
+USER root
+RUN chmod +x smokecurrent.sh
+USER tib
+
+CMD ["./smokecurrent.sh"]
